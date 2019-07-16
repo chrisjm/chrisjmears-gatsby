@@ -6,7 +6,8 @@ function Footer() {
       <div className="container mx-auto p-5 md:p-10">
         <div className="content">
           <div className="text-center">
-            &copy; 2019 <a className="text-white" href="https://wanderingleafstudios.com/" target="_blank" rel="noopener noreferrer">
+            &copy; {new Date().getFullYear()}
+            &nbsp;<a className="text-white" href="https://wanderingleafstudios.com/" target="_blank" rel="noopener noreferrer">
               Wandering Leaf Studios LLC
             </a>
           </div>
