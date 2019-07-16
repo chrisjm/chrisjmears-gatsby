@@ -15,9 +15,18 @@ function BlogPostTemplate(props) {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <h1>{post.frontmatter.title}</h1>
-      <p>{post.frontmatter.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <section>
+        <div className="container mx-auto max-w-3xl py-12 px-10">
+          <div className="content">
+            <div className="post-header mb-5">
+              <h1 className="post-title text-3xl mb-3">{post.frontmatter.title}</h1>
+              <p className="post-date">{post.frontmatter.date}</p>
+            </div>
+            <div className="post-content mb-12" dangerouslySetInnerHTML={{ __html: post.html }} />
+          </div>
+        </div>
+      </section>
+
       <hr />
       <ul>
         <li>

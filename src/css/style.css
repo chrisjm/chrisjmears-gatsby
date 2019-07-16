@@ -60,3 +60,98 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+.lead-magnet-content p,
+.lead-magnet-content li {
+  font-size: 1.25rem;
+}
+
+.lead-magnet-content p,
+.lead-magnet-content figure,
+.lead-magnet-content ul,
+.lead-magnet-content ol,
+.lead-magnet-content dl {
+  margin-bottom: 1rem;
+}
+
+.lead-magnet-content h1 {
+  margin-bottom: 2rem;
+}
+
+.lead-magnet-content h2 {
+  margin-bottom: 1.25rem;
+}
+
+.lead-magnet-content h3 {
+  margin-bottom: 1rem;
+}
+
+.post-content p,
+.post-content li {
+  font-size: 1.25rem;
+}
+
+.post-content p,
+.post-content figure,
+.post-content ul,
+.post-content ol,
+.post-content dl {
+  margin-bottom: 1rem;
+}
+
+.post-content h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.post-content h2 {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.post-content h3 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('/img/svg/rain.svg');
+  background-repeat: repeat;
+}
+
+#about a,
+.signature a,
+.post-content a,
+.post-excerpt a {
+  color: #4299E1;
+}
+
+#about a:hover,
+.signature a:hover,
+.post-content a:hover,
+.post-excerpt a:hover {
+  color: #2A4365;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  line-height: 1.5rem;
+}

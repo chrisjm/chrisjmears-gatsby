@@ -8,7 +8,7 @@ function Header({ bgColor = 'bg-blue-500', linkColor = 'text-white' }) {
   return (
     <div>
       <header className={bgColor}>
-        <div className="container mx-auto py-5 md:py-12 px-10">
+        <div className="container mx-auto p-5 md:p-10">
           <div className="content">
             <div className="flex flex-col md:flex-row justify-center content-center">
               <div className="branding flex-1">
