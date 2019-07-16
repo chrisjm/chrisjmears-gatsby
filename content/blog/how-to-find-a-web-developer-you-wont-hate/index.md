@@ -70,7 +70,7 @@ Some final thoughts:
 * Even with excellent communication and specific goals, there will typically be unknown unknowns (i.e., the unfathomable things). These will decrease the longer you work with a developer you trust.
 * If you have an emergency, expect to pay higher prices. 🤷‍♂️
 
-<div class="text-center mt-10 border bg-grey-lightest p-6">
+<div class="text-center mt-10 border bg-gray-100 p-6">
   <p>
     <strong class="text-2xl">Having trouble finding reliable website help?</strong>
   </p>
@@ -78,7 +78,7 @@ Some final thoughts:
     Click on the button below to go to my Calendly page and select a time which works for you.
   </p>
   <p>
-    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-dark border-2 border-white hover:bg-green font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
+    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-700 border-2 border-white hover:bg-green-500 font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
       <span class="text-white">Schedule a FREE Consult</span>
     </a>
   </p>

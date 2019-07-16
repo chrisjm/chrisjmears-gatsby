@@ -27,7 +27,7 @@ Enjoy the imperfections. 😁
 </div>
 
 
-<div class="text-center mt-10 border bg-grey-lightest p-6">
+<div class="text-center mt-10 border bg-gray-100 p-6">
   <p>
     <strong class="text-2xl">Is your Lighthouse audit score high? Let's chat about solutions!</strong>
   </p>
@@ -35,7 +35,7 @@ Enjoy the imperfections. 😁
     Click on the button below to go to my Calendly page and select a time which works for you.
   </p>
   <p>
-    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-dark border-2 border-white hover:bg-green font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
+    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-700 border-2 border-white hover:bg-green-500 font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
       <span class="text-white">Schedule FREE Consult</span>
     </a>
   </p>

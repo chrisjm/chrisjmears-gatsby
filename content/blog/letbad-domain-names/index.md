@@ -101,7 +101,7 @@ I hope this helped you to become almost dangerous with domains. There is a ton o
 - [List of Internet top-level domains - Wikipedia](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
 - [G Suite MX record values - G Suite Admin Help](https://support.google.com/a/answer/174125?hl=en)
 
-<div class="text-center mt-10 border bg-grey-lightest p-6">
+<div class="text-center mt-10 border bg-gray-100 p-6">
   <p>
     <strong class="text-2xl">Need help moving or setting up your domain name?</strong>
   </p>
@@ -112,7 +112,7 @@ I hope this helped you to become almost dangerous with domains. There is a ton o
     Click on the button below to go to my Calendly page and select a time which works for you.
   </p>
   <p>
-    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-dark border-2 border-white hover:bg-green font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
+    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-700 border-2 border-white hover:bg-green-500 font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
       <span class="text-white">Schedule a chat</span>
     </a>
   </p>

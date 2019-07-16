@@ -88,7 +88,7 @@ Then you can save some money and hassle by sticking with free SSL/TLS certificat
 *  **SSL or Secure Socket Layer** - You might be surprised to know that SSL is actually old and busted. However, we still use it conversationally when we actually mean TLS.
 * **TLS or Transport Layer Security** - The new version of security that essentially replaces SSL. However, note that TLS v1.0 is BAD. TLS v1.1 and above are GREAT!
 
-<div class="text-center mt-10 border bg-grey-lightest p-6">
+<div class="text-center mt-10 border bg-gray-100 p-6">
   <p>
     <strong class="text-2xl">Need assistance with your SSL/TLS headache?</strong>
   </p>
@@ -99,7 +99,7 @@ Then you can save some money and hassle by sticking with free SSL/TLS certificat
     Click on the button below to go to my Calendly page and select a time which works for you.
   </p>
   <p>
-    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-dark border-2 border-white hover:bg-green font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
+    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-700 border-2 border-white hover:bg-green-500 font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
       <span class="text-white">Schedule an Intro</span>
     </a>
   </p>

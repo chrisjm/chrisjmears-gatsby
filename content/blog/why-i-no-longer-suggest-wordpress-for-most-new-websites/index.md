@@ -96,7 +96,7 @@ If you have a WordPress site that's causing you too many headaches, either look 
 
 If you're unsure of what to do, contact your friendly neighborhood (or remote) tech person to guide you.
 
-<div class="text-center mt-10 border bg-grey-lightest p-6">
+<div class="text-center mt-10 border bg-gray-100 p-6">
   <p>
     <strong class="text-2xl">Overwhelmed and stressed by your website options?</strong>
   </p>
@@ -107,7 +107,7 @@ If you're unsure of what to do, contact your friendly neighborhood (or remote) t
     Click on the button below to go to my Calendly page and select a time which works for you.
   </p>
   <p>
-    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-dark border-2 border-white hover:bg-green font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
+    <a href="https://calendly.com/chrisjmears/website-woes-intro" class="js-event-track bg-green-700 border-2 border-white hover:bg-green-500 font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline">
       <span class="text-white">Schedule a chat</span>
     </a>
   </p>
