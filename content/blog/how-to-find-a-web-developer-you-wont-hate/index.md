@@ -12,7 +12,7 @@ header:
 
 ![two person's hands shaking](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1543340510/chrisjmears.com/blog/rawpixel-699806-unsplash.jpg)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by rawpixel on Unsplash</em>
 </div>
 

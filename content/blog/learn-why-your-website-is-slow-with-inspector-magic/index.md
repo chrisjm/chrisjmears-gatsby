@@ -12,7 +12,7 @@ header:
 
 ![lighthouse near body of water](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1542138192/chrisjmears.com/blog/paulius-dragunas-615325-unsplash.jpg)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by Paulius Dragunas on Unsplash</em>
 </div>
 

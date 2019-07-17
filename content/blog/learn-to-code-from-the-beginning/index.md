@@ -12,7 +12,7 @@ header:
 
 ![program script digital wallpaper](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1540916002/chrisjmears.com/blog/maik-jonietz-535261-unsplash.jpg)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by Maik Jonietz on Unsplash</em>
 </div>
 

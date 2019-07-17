@@ -12,11 +12,9 @@ header:
 
 ![padlocks in steel cable](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1543511037/chrisjmears.com/blog/marcos-mayer-735961-unsplash.jpg)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by marcos mayer on Unsplash</em>
 </div>
-
-# Don't Get Caught With Your Security Pants Down! 👖 Web Security Made Easy! 🔐
 
 Shopping on the Internet is like wandering around a crowded bazaar or farmer's market. With any marketplace, there can be a general unease about who to trust. If there isn't a sign of security, then customers may shop elsewhere.
 

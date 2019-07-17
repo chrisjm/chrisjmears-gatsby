@@ -12,11 +12,9 @@ header:
 
 ![white and black One Way-printed road signages](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1551383569/chrisjmears.com/blog/brendan-church-182747-unsplash.jpg)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by Brendan Church on Unsplash</em>
 </div>
-
-# LETBAD: Domain Names
 
 I’m sure you’ve heard the terms domain name, DNS, and domain registrars before. Or maybe not?
 
@@ -30,7 +28,7 @@ I know it's confusing, which is why this picture is worth a thousand words:
 
 ![Anatomy of a Domain Name diagram](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1551383712/chrisjmears.com/blog/domain-anatomy.png)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Credit: whatinfo.net</em>
 </div>
 
@@ -56,7 +54,7 @@ Here's another diagram to represent this:
 
 ![How DNS Works diagram](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1551383712/chrisjmears.com/blog/how-dns-works.jpg)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Credit: stantonstreet.com</em>
 </div>
 

@@ -12,7 +12,7 @@ header:
 
 ![laptop phone and bullet calendar](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1539098563/chrisjmears.com/blog/rawpixel-645294-unsplash.jpg)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by rawpixel on Unsplash</em>
 </div>
 

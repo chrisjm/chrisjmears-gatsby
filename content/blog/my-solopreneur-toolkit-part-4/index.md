@@ -12,7 +12,7 @@ header:
 
 ![man writing on whiteboard](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1539711141/chrisjmears.com/blog/campaign-creators-771711-unsplash.jpg)
 
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by Campaign Creators on Unsplash</em>
 </div>
 

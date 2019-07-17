@@ -11,7 +11,7 @@ header:
 ---
 
 ![printed sticky notes glued on board](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1537890988/chrisjmears.com/blog/daria-nepriakhina-474036-unsplash.jpg)
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by Daria Nepriakhina on Unsplash</em>
 </div>
 

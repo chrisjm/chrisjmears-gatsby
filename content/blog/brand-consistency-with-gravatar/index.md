@@ -11,7 +11,7 @@ header:
 ---
 
 ![dinosaur skull artifact](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1540323223/chrisjmears.com/blog/brett-meliti-784109-unsplash.jpg)
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by Brett Meliti on Unsplash</em>
 </div>
 

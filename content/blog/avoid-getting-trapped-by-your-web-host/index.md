@@ -11,7 +11,7 @@ header:
 ---
 
 ![three birds flying in the sky](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1539969073/chrisjmears.com/blog/erik-kossakowski-666859-unsplash.jpg)
-<div class="text-right text-grey text-sm mb-6">
+<div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by Erik Kossakowski on Unsplash</em>
 </div>
 

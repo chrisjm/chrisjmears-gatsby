@@ -16,27 +16,27 @@ function BlogPostTemplate(props) {
         description={post.frontmatter.description || post.excerpt}
       />
       <section>
-        <div className="container mx-auto max-w-3xl py-12 px-10">
+        <div className="container mx-auto max-w-3xl">
           <div className="content">
             <div className="post-header mb-5">
-              <h1 className="post-title text-3xl mb-3">{post.frontmatter.title}</h1>
-              <p className="post-date">{post.frontmatter.date}</p>
+              <h1 className="post-title text-3xl mb-1">{post.frontmatter.title}</h1>
+              <p className="post-date text-gray-600">{post.frontmatter.date}</p>
             </div>
-            <div className="post-content mb-12" dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div className="post-content mb-10" dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
         </div>
       </section>
 
       <hr />
-      <ul>
-        <li>
+      <ul className="flex flex-col md:flex-row">
+        <li class="flex-1">
           {previous && (
             <Link to={previous.fields.slug} rel="prev">
               ← {previous.frontmatter.title}
             </Link>
           )}
         </li>
-        <li>
+        <li class="flex-1 text-right">
           {next && (
             <Link to={next.fields.slug} rel="next">
               {next.frontmatter.title} →
