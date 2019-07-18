@@ -1,11 +1,10 @@
 ---
 layout: post
-date: "2018-11-06"
+date: '2018-11-06'
 title: 'Learn why your site is slow with some Inspector Magic ✨'
-description: "I made a 4-minute video describing a method you can use to determine if and why a website is slow using Google Chrome, Lighthouse, and a little Inspector Magic ✨."
-categories:
-  - technology
-tags: [coding, tools]
+description: 'I made a 4-minute video describing a method you can use to determine if and why a website is slow using Google Chrome, Lighthouse, and a little Inspector Magic ✨.'
+categories: technology
+tags: ['coding', 'tools']
 header:
   teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/paulius-dragunas-615325-unsplash.jpg'
 ---
@@ -25,7 +24,6 @@ Enjoy the imperfections. 😁
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/2kX28-DmfE8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
 
 <div class="text-center mt-10 border bg-gray-100 p-6">
   <p>

@@ -1,11 +1,10 @@
 ---
 layout: post
-date: "2018-11-27"
+date: '2018-11-27'
 title: "How to find a web developer you won't hate 😅"
 description: "Looking for web site help, we often find ourselves in the same predicament as someone who is inexperienced with cars searching for a new mechanic. Here are some tips you can use to find a web developer you won't hate."
-categories:
-  - technology
-tags: [hiring]
+categories: technology
+tags: ['hiring']
 header:
   teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/rawpixel-699806-unsplash.jpg'
 ---
@@ -27,29 +26,32 @@ Given the stereotype of the socially awkward web developer and the overwhelming 
 Here are some tips you can use to find a web developer you won't hate.
 
 ## Communication is critical.
+
 It's always a good idea to have an initial conversation before a project begins.
 
 No matter how small the project, the point of the initial conversation is to ensure you understand each other. If your intended developer speaks in confusing language when you start the conversation, that’s unlikely to change.
 
 A few things to consider:
 
-* Are they able to communicate effectively via phone and email?
-* Can they answer your questions in an understandable and relatable way?
-* Do they have any testimonials? (not a deal-breaker, but it's helpful)
+- Are they able to communicate effectively via phone and email?
+- Can they answer your questions in an understandable and relatable way?
+- Do they have any testimonials? (not a deal-breaker, but it's helpful)
 
 ## Trust is also a big deal.
+
 Similar to hiring a car mechanic, there needs to be a certain amount of assurance before entrusting your revenue- or lead-generating site into the hands of a stranger.
 
 While you can't test anyone's reliability and integrity after only one meeting, the goal is to elicit some openness and honesty during your conversation.
 
-Have specific questions about your situation ready to give the developer an opportunity to gain your trust.  Be as specific to the intended project as possible. Some examples:
+Have specific questions about your situation ready to give the developer an opportunity to gain your trust. Be as specific to the intended project as possible. Some examples:
 
-* “Tell me about a time when you handled implementing WooCommerce into WordPress.”
-* “Can you briefly describe the steps you took last time you transferred a website?”
-* "You mentioned in your initial proposal that you don't have much experience with Shopify. Do you have other eCommerce experience?"
+- “Tell me about a time when you handled implementing WooCommerce into WordPress.”
+- “Can you briefly describe the steps you took last time you transferred a website?”
+- "You mentioned in your initial proposal that you don't have much experience with Shopify. Do you have other eCommerce experience?"
 
 ## Have specific goals in mind.
-Breaking down your project into *measurable goals* will go an incredibly long way and help with your web developer's ability to give you an accurate quote.
+
+Breaking down your project into _measurable goals_ will go an incredibly long way and help with your web developer's ability to give you an accurate quote.
 
 If you're still apprehensive after the initial conversation but not quite ready to call things off, start off with something small and work from there.
 
@@ -57,18 +59,19 @@ Writing a simple list of your goals will go a long way. Save the list as a Googl
 
 Several examples of measurable and goal-specific tasks:
 
-* Fix button on home page. Instead of "Submit," it should say "Send Message."
-* Can't add item "eBook" to cart. However, I can add "Course #2."
-* Complete site security audit of my WordPress and WooCommerce site and send me a report of actionable items.
-* Move website from BlueHost to SquareSpace hosting.
-* Increase site visitors by 200%.
+- Fix button on home page. Instead of "Submit," it should say "Send Message."
+- Can't add item "eBook" to cart. However, I can add "Course #2."
+- Complete site security audit of my WordPress and WooCommerce site and send me a report of actionable items.
+- Move website from BlueHost to SquareSpace hosting.
+- Increase site visitors by 200%.
 
 ## Other considerations
+
 Some final thoughts:
 
-* Definitely ask about past website examples. However, be aware that some projects web developers do are proprietary and might not be shareable (e.g., admin dashboards and other internal tools).
-* Even with excellent communication and specific goals, there will typically be unknown unknowns (i.e., the unfathomable things). These will decrease the longer you work with a developer you trust.
-* If you have an emergency, expect to pay higher prices. 🤷‍♂️
+- Definitely ask about past website examples. However, be aware that some projects web developers do are proprietary and might not be shareable (e.g., admin dashboards and other internal tools).
+- Even with excellent communication and specific goals, there will typically be unknown unknowns (i.e., the unfathomable things). These will decrease the longer you work with a developer you trust.
+- If you have an emergency, expect to pay higher prices. 🤷‍♂️
 
 <div class="text-center mt-10 border bg-gray-100 p-6">
   <p>

@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Avoid getting trapped by your web host"
-description: "One of the more intimidating choices for non-technical small business owners is the overwhelming number of options for creating and hosting your website and registering domains. The following is a list of 10 tips about web hosts and domain registrars every entrepreneur should know."
-categories:
-- technology
-tags: [ web hosting ]
-date: "2018-10-19"
+title: 'Avoid getting trapped by your web host'
+description: 'One of the more intimidating choices for non-technical small business owners is the overwhelming number of options for creating and hosting your website and registering domains. The following is a list of 10 tips about web hosts and domain registrars every entrepreneur should know.'
+categories: technology
+tags: ['web hosting']
+date: '2018-10-19'
 header:
-  teaser: "https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/erik-kossakowski-666859-unsplash.jpg"
+  teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/erik-kossakowski-666859-unsplash.jpg'
 ---
 
 ![three birds flying in the sky](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1539969073/chrisjmears.com/blog/erik-kossakowski-666859-unsplash.jpg)
+
 <div class="text-right text-gray-500 text-sm mb-6">
   <em>Photo by Erik Kossakowski on Unsplash</em>
 </div>
@@ -27,7 +27,7 @@ If you only need a landing page with information on how to get in touch with you
 
 Several web hosts will serve a simple, static website for free. My favorite hosts among these are [Github Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/).
 
-Going this route currently requires minimal web development skills (required: HTML and CSS; optional: JavaScript and Git), so may not be an immediate option for some business owners.  This is why WordPress is often used.
+Going this route currently requires minimal web development skills (required: HTML and CSS; optional: JavaScript and Git), so may not be an immediate option for some business owners. This is why WordPress is often used.
 
 The benefit of WordPress is that it's user-friendly and is highly dynamic. It's able to install plugins on the fly and do snazzy things without needing to "compile" or "build" the site again. This makes it a perfect choice for business owners who don't want to pay too much in maintenance fees and want to make updates without too much hassle. However, the expensive bits are the initial setup and monthly/yearly hosting.
 
@@ -55,11 +55,11 @@ The way your website is built determines what you need to serve it. WordPress we
 
 Be sure to use a [password manager](https://en.wikipedia.org/wiki/Password_manager) to keep track of the following important information (some may be optional depending on your website):
 
-* Web host administration (a.k.a., cPanel)
-* Domain registrar (i.e., where you bought your domain name)
-* FTP/SFTP account
-* Database admin (a.k.a., phpMyAdmin, cPanel, MySQL, PostgreSQL)
-* WordPress admin account
+- Web host administration (a.k.a., cPanel)
+- Domain registrar (i.e., where you bought your domain name)
+- FTP/SFTP account
+- Database admin (a.k.a., phpMyAdmin, cPanel, MySQL, PostgreSQL)
+- WordPress admin account
 
 ## 6. Value customer service over cost
 
@@ -89,7 +89,7 @@ And the best part, most CDNs have a free tier! Examples of CDNs are [Cloudflare]
 
 An SSL/TLS certificate is necessary to secure your website with the HTTPS protocol. In fact, if your site doesn't support HTTPS, [Chrome will specifically call it out](https://blog.chromium.org/2018/02/a-secure-web-is-here-to-stay.html), and [Google will reduce your site ranking](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
 
-Ever since [Let's Encrypt](https://letsencrypt.org/) launched in the spring of 2016, there's never been a reason to buy SSL/TLS certificates (which were/are typically ~$9/year). And even less of a reason this past spring when they launched wildcard support.
+Ever since [Let's Encrypt](https://letsencrypt.org/) launched in the spring of 2016, there's never been a reason to buy SSL/TLS certificates (which were/are typically ~\$9/year). And even less of a reason this past spring when they launched wildcard support.
 
 Most good web hosts have incorporated the process into their service offerings. But some may need to be set up manually.
 
