@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Signature from '../components/signature';
 
 function BlogPostTemplate(props) {
   const post = props.data.markdownRemark;
@@ -27,7 +28,8 @@ function BlogPostTemplate(props) {
         </div>
       </section>
 
-      <hr />
+      <Signature />
+
       <ul className="flex flex-col md:flex-row">
         <li class="flex-1">
           {previous && (
