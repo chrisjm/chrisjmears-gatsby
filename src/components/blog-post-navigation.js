@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import Section from './section';
 
@@ -24,5 +25,10 @@ function BlogPostNavigation({ previous, next }) {
     </Section>
   );
 }
+
+BlogPostNavigation.propTypes = {
+  previous: PropTypes.object,
+  next: PropTypes.object,
+};
 
 export default BlogPostNavigation;
