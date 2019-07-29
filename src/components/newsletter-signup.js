@@ -1,7 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Section from './section';
 
 function NewsletterSignup() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [honeypot, setHoneypot] = useState('');
+
+  const handleNameChange = event => {
+    setName(event.currentTarget.value);
+  };
+
+  const handleEmailChange = event => {
+    setEmail(event.currentTarget.value);
+  };
+
+  const handleHoneypotChange = event => {
+    setHoneypot(event.currentTarget.value);
+  };
+
   return (
     <Section backgroundColor="bg-blue-900" textColor="text-white">
       <div className="content">
@@ -28,6 +44,8 @@ function NewsletterSignup() {
                   type="text"
                   name="FNAME"
                   placeholder="First Name"
+                  onChange={handleNameChange}
+                  value={name}
                 />
               </div>
               <div className="flex-1 mr-5">
@@ -37,6 +55,8 @@ function NewsletterSignup() {
                   type="email"
                   name="EMAIL"
                   placeholder="you@email.com"
+                  onChange={handleEmailChange}
+                  value={email}
                 />
               </div>
               <div className="flex-0 mr-5">
@@ -53,7 +73,8 @@ function NewsletterSignup() {
                 type="text"
                 name="b_94e0dca41551038d6ef6f68bd_1c278b28af"
                 tabIndex="-1"
-                value=""
+                onChange={handleHoneypotChange}
+                value={honeypot}
               />
             </div>
           </form>
