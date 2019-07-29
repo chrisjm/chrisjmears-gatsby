@@ -1,9 +1,12 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Signature from '../components/signature';
+import BlogPostNavigation from '../components/blog-post-navigation';
+import NewsletterSignup from '../components/newsletter-signup';
+import Section from '../components/section';
 
 function BlogPostTemplate(props) {
   const post = props.data.markdownRemark;
@@ -16,36 +19,22 @@ function BlogPostTemplate(props) {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <section>
-        <div className="container mx-auto max-w-3xl">
-          <div className="content">
-            <div className="post-header mb-5">
-              <h1 className="post-title text-3xl mb-1">{post.frontmatter.title}</h1>
-              <p className="post-date text-gray-600">{post.frontmatter.date}</p>
-            </div>
-            <div className="post-content mb-10" dangerouslySetInnerHTML={{ __html: post.html }} />
+
+      <Section wrapperClasses="container mx-auto max-w-3xl p-5 md:pt-10">
+        <div className="content">
+          <div className="post-header mb-5">
+            <h1 className="post-title text-3xl mb-1">{post.frontmatter.title}</h1>
+            <p className="post-date text-gray-600">{post.frontmatter.date}</p>
           </div>
+          <div className="post-content mb-10" dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
-      </section>
 
-      <Signature />
+        <Signature />
+      </Section>
 
-      <ul className="flex flex-col md:flex-row">
-        <li class="flex-1">
-          {previous && (
-            <Link to={previous.fields.slug} rel="prev">
-              ← {previous.frontmatter.title}
-            </Link>
-          )}
-        </li>
-        <li class="flex-1 text-right">
-          {next && (
-            <Link to={next.fields.slug} rel="next">
-              {next.frontmatter.title} →
-            </Link>
-          )}
-        </li>
-      </ul>
+      <BlogPostNavigation previous={previous} next={next} />
+
+      <NewsletterSignup />
     </Layout>
   );
 }

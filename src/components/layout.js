@@ -21,7 +21,7 @@ function Layout({ children }) {
         <div className="flex flex-col min-h-screen text-gray-900">
           <Header siteTitle={data.site.siteMetadata.title} />
 
-          <main className="flex flex-col flex-1 md:justify-center container mx-auto p-5 md:p-10">
+          <main className="flex flex-col flex-1 md:justify-center">
             {children}
           </main>
 

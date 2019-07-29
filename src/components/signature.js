@@ -2,7 +2,7 @@ import React from 'react';
 
 function Signature() {
   return (
-    <div class="signature text-base border rounded p-6 mb-10 mx-auto max-w-3xl">
+    <div className="signature text-base border rounded p-6 mb-10 mx-auto max-w-3xl">
       <span>
         Hi! I'm Chris J Mears.&nbsp;
         <span aria-label="wave" role="img">
