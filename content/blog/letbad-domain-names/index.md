@@ -2,7 +2,7 @@
 layout: post
 date: '2019-02-28'
 title: 'LETBAD: Domain Names'
-description: 'if you’re a small business owner and run an online business (or even a website), as annoying as it is, you should learn enough to be almost dangerous (L.E.T.B.A.D.) about domain names and how they work.'
+description: 'If you’re a small business owner and run an online business (or even a website), as annoying as it is, you should learn enough to be almost dangerous (L.E.T.B.A.D.) about domain names and how they work.'
 categories: technology
 tags: ['domain name', 'dns', 'email']
 header:
