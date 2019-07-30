@@ -20,7 +20,7 @@ function BlogPostTemplate(props) {
         description={post.frontmatter.description || post.excerpt}
       />
 
-      <Section wrapperClasses="container mx-auto max-w-3xl p-5 md:pt-10">
+      <Section containerClasses="container mx-auto max-w-3xl p-5 md:pt-10">
         <div className="content">
           <div className="post-header mb-5">
             <h1 className="post-title text-3xl mb-1">{post.frontmatter.title}</h1>

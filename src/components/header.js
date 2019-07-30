@@ -2,17 +2,17 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-function Header({ bgColor = 'bg-blue-500', linkColor = 'text-white' }) {
+function Header({ headerClasses }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className={bgColor}>
-      <div className="container mx-auto p-5 md:p-10">
+    <header className={headerClasses}>
+      <div className="container mx-auto p-8 md:px-16">
         <div className="content">
           <div className="flex flex-col md:flex-row justify-center content-center">
             <div className="branding flex-1">
               <div className="text-3xl md:text-4xl font-black mb-1 md:mb-0">
-                <Link to="/" className={`${linkColor} no-underline antialiased`}>
+                <Link to="/" className="no-underline antialiased">
                   Chris J Mears
                 </Link>
               </div>
@@ -41,12 +41,12 @@ function Header({ bgColor = 'bg-blue-500', linkColor = 'text-white' }) {
                   >
                     <ul className="list-reset mt-5 inline-block">
                       <li className="inline-block mr-5 mb-5">
-                        <Link className={`${linkColor} no-underline antialiased`} to="/blog">
+                        <Link className="no-underline antialiased" to="/blog">
                           Blog
                         </Link>
                       </li>
                       <li className="inline-block mr-5 mb-5">
-                        <Link className={`${linkColor} no-underline antialiased`} to="/#newsletter">
+                        <Link className="no-underline antialiased" to="/#newsletter">
                           Newsletter
                         </Link>
                       </li>
@@ -63,11 +63,13 @@ function Header({ bgColor = 'bg-blue-500', linkColor = 'text-white' }) {
 }
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  headerClasses: PropTypes.string,
+  headerLinkClasses: PropTypes.string,
 };
 
 Header.defaultProps = {
-  siteTitle: ``,
+  headerClasses: 'bg-blue-500 text-white',
+  headerLinkClasses: '',
 };
 
 export default Header;

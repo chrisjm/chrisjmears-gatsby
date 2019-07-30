@@ -1,11 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { StaticQuery, graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Header from "./header";
-import Footer from "./footer";
+import Header from './header';
+import Footer from './footer';
 
-function Layout({ children }) {
+function Layout({ children, headerClasses, headerLinkClasses }) {
   return (
     <StaticQuery
       query={graphql`
@@ -19,11 +19,9 @@ function Layout({ children }) {
       `}
       render={data => (
         <div className="flex flex-col min-h-screen text-gray-900">
-          <Header siteTitle={data.site.siteMetadata.title} />
+          <Header headerClasses={headerClasses} headerLinkClasses={headerLinkClasses} siteTitle={data.site.siteMetadata.title} />
 
-          <main className="flex flex-col flex-1 md:justify-center">
-            {children}
-          </main>
+          <main className="flex flex-col flex-1 md:justify-center">{children}</main>
 
           <Footer />
         </div>
@@ -33,7 +31,9 @@ function Layout({ children }) {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  headerClasses: PropTypes.string,
+  headerLinkClasses: PropTypes.string
 };
 
 export default Layout;

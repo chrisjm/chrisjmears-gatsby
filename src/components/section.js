@@ -1,25 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Section({ backgroundColor, textColor, wrapperClasses, children }) {
+function Section({ sectionClasses, containerClasses, children,  }) {
   return (
-    <section className={`${backgroundColor} ${textColor}`}>
-      <div className={wrapperClasses}>{children}</div>
+    <section className={`${sectionClasses}`}>
+      <div className={containerClasses}>{children}</div>
     </section>
   );
 }
 
 Section.propTypes = {
-  backgroundColor: PropTypes.string,
-  textColor: PropTypes.string,
-  wrapperClasses: PropTypes.string,
+  sectionClasses: PropTypes.string,
+  containerClasses: PropTypes.string,
   children: PropTypes.node.isRequired
 }
 
 Section.defaultProps = {
-  backgroundColor: 'bg-white',
-  textColor: 'text-black',
-  wrapperClasses: 'container mx-auto p-5 md:p-10'
+  sectionClasses: 'bg-white text-black',
+  containerClasses: 'container mx-auto p-8 md:p-16'
 }
 
 export default Section;
