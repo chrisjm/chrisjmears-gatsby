@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Chris J Mears`,
+    description: `I help solopreneurs & small business owners take control of their web technology and get back to their passion.`,
+    author: `@chrisjm`,
   },
   plugins: [
     {
@@ -35,13 +35,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `Chris J Mears GatsbyJS Blog`,
+        short_name: `Chris J Mears`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
+        background_color: `#2b6cb0`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        icon: `src/images/favicon-32x32.png`,
       },
     },
     `gatsby-plugin-postcss`,
