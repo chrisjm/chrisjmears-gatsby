@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import NewsletterSignup from '../components/newsletter-signup';
 import Hero from '../components/hero';
+import AllTheWoes from '../components/all-the-woes';
 
 function IndexPage() {
   return (
@@ -11,6 +12,7 @@ function IndexPage() {
       <SEO title="Home" keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]} />
       <Hero />
       <NewsletterSignup />
+      <AllTheWoes />
     </Layout>
   );
 }
