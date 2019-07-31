@@ -22,7 +22,7 @@ function NewsletterSignup() {
     <Section sectionClasses="bg-blue-900 text-white">
       <div className="content">
         <div className="mb-6 text-center">
-          <h2 className="text-4xl">I have solutions for your web tech woes.</h2>
+          <h2 className="text-4xl font-bold">I have solutions for your web tech woes.</h2>
         </div>
         <div className="md:max-w-2xl md:mx-auto">
           <form
