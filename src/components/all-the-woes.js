@@ -7,7 +7,7 @@ function AllTheWoes() {
       <div className="mb-8">
         <h2 className="text-4xl font-bold">What kind of Website Woes do you have?</h2>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center items-stretch">
+      <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="flex flex-col items-center max-w-lg mb-8 bg-gray-100 border rounded-lg p-5">
           <div className="mb-8">
             <h2 className="mb-4 text-center text-4xl font-bold">Minor Woes</h2>
@@ -129,7 +129,7 @@ function AllTheWoes() {
           <p className="font-bold text-lg mb-2">Do you have any of these Website Woes?</p>
           <a
             href="https://calendly.com/chrisjmears/website-woes-intro"
-            className="js-event-track bg-green-600 border-2 border-white hover:bg-green-500 text-white font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline mb-2"
+            className="button bg-green-600 border-2 border-white hover:bg-green-500 text-white font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline mb-2"
           >
             Schedule a FREE intro
           </a>

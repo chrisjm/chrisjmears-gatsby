@@ -163,7 +163,7 @@ a {
   color: #2A4365;
 }
 
-section.bg-white a {
+section.bg-white a:not(.button) {
   color: #4299E1;
 }
 
