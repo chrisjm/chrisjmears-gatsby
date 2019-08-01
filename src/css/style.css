@@ -61,6 +61,10 @@
  * @import "utilities/skew-transforms";
  */
 
+a {
+  text-decoration: underline;
+}
+
 .lead-magnet-content p,
 .lead-magnet-content li {
   font-size: 1.25rem;
@@ -157,6 +161,10 @@
 .post-content a:hover,
 .post-excerpt a:hover {
   color: #2A4365;
+}
+
+section.bg-white a {
+  color: #4299E1;
 }
 
 .video-container {

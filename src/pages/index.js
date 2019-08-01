@@ -7,6 +7,7 @@ import Hero from '../components/hero';
 import AllTheWoes from '../components/all-the-woes';
 import WhyWorkWithMe from '../components/why-work-with-me';
 import Testimonials from '../components/testimonials';
+import AboutMe from '../components/about-me';
 
 function IndexPage() {
   return (
@@ -17,6 +18,7 @@ function IndexPage() {
       <AllTheWoes />
       <WhyWorkWithMe />
       <Testimonials />
+      <AboutMe />
     </Layout>
   );
 }
