@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Header from './header';
 import Footer from './footer';
 
-function Layout({ children, headerClasses, headerLinkClasses }) {
+function Layout({ children, headerClasses, menuColor }) {
   return (
     <StaticQuery
       query={graphql`
@@ -19,7 +19,7 @@ function Layout({ children, headerClasses, headerLinkClasses }) {
       `}
       render={data => (
         <div className="flex flex-col min-h-screen text-gray-900">
-          <Header headerClasses={headerClasses} headerLinkClasses={headerLinkClasses} siteTitle={data.site.siteMetadata.title} />
+          <Header headerClasses={headerClasses} menuColor={menuColor} siteTitle={data.site.siteMetadata.title} />
 
           <main className="flex flex-col flex-1 md:justify-center">{children}</main>
 
@@ -33,7 +33,7 @@ function Layout({ children, headerClasses, headerLinkClasses }) {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   headerClasses: PropTypes.string,
-  headerLinkClasses: PropTypes.string
+  menuColor: PropTypes.string
 };
 
 export default Layout;

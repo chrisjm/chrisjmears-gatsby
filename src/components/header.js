@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-function Header({ headerClasses }) {
+function Header({ headerClasses, menuColor }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
@@ -21,7 +21,7 @@ function Header({ headerClasses }) {
               <nav>
                 <div className="flex flex-wrap items-center justify-end">
                   <button
-                    className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
+                    className={`block md:hidden border flex items-center px-3 py-2 rounded border-${menuColor} text-${menuColor}`}
                     onClick={() => toggleExpansion(!isExpanded)}
                   >
                     <svg
@@ -64,12 +64,12 @@ function Header({ headerClasses }) {
 
 Header.propTypes = {
   headerClasses: PropTypes.string,
-  headerLinkClasses: PropTypes.string,
+  menuColor: PropTypes.string
 };
 
 Header.defaultProps = {
   headerClasses: 'bg-blue-500 text-white',
-  headerLinkClasses: '',
+  menuColor: 'white',
 };
 
 export default Header;
