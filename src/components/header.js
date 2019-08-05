@@ -37,14 +37,14 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
                   : `hidden`
               } md:block md:flex md:items-center md:w-auto`}
             >
-              <ul className="list-none flex flex-col p-4 shadow md:inline-block md:shadow-none md:p-0 border font-black rounded border-gray-200 md:border-none">
-                <li className="inline-block mr-5 mb-0">
-                  <Link className="no-underline antialiased p-2 block" to="/blog">
+              <ul className="list-none flex flex-col shadow md:inline-block md:shadow-none md:p-0 font-black">
+                <li className="md:inline-block md:mr-5 mb-0">
+                  <Link className="no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent" to="/blog">
                     Blog
                   </Link>
                 </li>
-                <li className="inline-block mr-5 mb-0">
-                  <Link className="no-underline antialiased p-2 block" to="/#newsletter">
+                <li className="md:inline-block md:mr-5 mb-0">
+                  <Link className="no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent" to="/#newsletter">
                     Newsletter
                   </Link>
                 </li>
