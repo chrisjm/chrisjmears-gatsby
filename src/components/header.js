@@ -2,58 +2,53 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-function Header({ headerClasses, menuColor }) {
+function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className={headerClasses}>
+    <header className={`bg-${backgroundColor} text-${textColor}`}>
       <div className="container mx-auto p-8 md:px-16">
-        <div className="content">
-          <div className="flex flex-col md:flex-row justify-center content-center">
-            <div className="branding flex-1">
-              <div className="text-3xl md:text-4xl font-black mb-1 md:mb-0">
-                <Link to="/" className="no-underline antialiased">
-                  Chris J Mears
-                </Link>
-              </div>
+        <div className="flex flex-row justify-between items-center">
+          <div className="flex-1 text-3xl md:text-4xl font-black">
+            <Link to="/" className="no-underline antialiased">
+              Chris J Mears
+            </Link>
+          </div>
+          <div className="md:text-right">
+            <div className="flex flex-wrap items-center justify-end">
+              <button
+                className={`block md:hidden border flex items-center px-3 py-2 rounded border-${textColor} text-${textColor}`}
+                onClick={() => toggleExpansion(!isExpanded)}
+              >
+                <svg
+                  className="fill-current h-3 w-3"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Menu</title>
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+              </button>
             </div>
-            <div className="menu flex-1 md:text-right">
-              <nav>
-                <div className="flex flex-wrap items-center justify-end">
-                  <button
-                    className={`block md:hidden border flex items-center px-3 py-2 rounded border-${menuColor} text-${menuColor}`}
-                    onClick={() => toggleExpansion(!isExpanded)}
-                  >
-                    <svg
-                      className="fill-current h-3 w-3"
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <title>Menu</title>
-                      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                    </svg>
-                  </button>
-
-                  <div
-                    className={`${
-                      isExpanded ? `block` : `hidden`
-                    } md:block md:flex md:items-center w-full md:w-auto`}
-                  >
-                    <ul className="list-reset mt-5 inline-block">
-                      <li className="inline-block mr-5 mb-5">
-                        <Link className="no-underline antialiased" to="/blog">
-                          Blog
-                        </Link>
-                      </li>
-                      <li className="inline-block mr-5 mb-5">
-                        <Link className="no-underline antialiased" to="/#newsletter">
-                          Newsletter
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+            <div
+              className={`${
+                isExpanded
+                  ? `bg-white absolute right-0 mr-5 mt-2 text-${mobileMenuTextColor}`
+                  : `hidden`
+              } md:block md:flex md:items-center md:w-auto`}
+            >
+              <ul className="list-none flex flex-col p-4 shadow md:inline-block md:shadow-none md:p-0 border font-black rounded border-gray-200 md:border-none">
+                <li className="inline-block mr-5 mb-0">
+                  <Link className="no-underline antialiased p-2 block" to="/blog">
+                    Blog
+                  </Link>
+                </li>
+                <li className="inline-block mr-5 mb-0">
+                  <Link className="no-underline antialiased p-2 block" to="/#newsletter">
+                    Newsletter
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -63,13 +58,15 @@ function Header({ headerClasses, menuColor }) {
 }
 
 Header.propTypes = {
-  headerClasses: PropTypes.string,
-  menuColor: PropTypes.string
+  backgroundColor: PropTypes.string,
+  mobileMenuTextColor: PropTypes.string,
+  textColor: PropTypes.string,
 };
 
 Header.defaultProps = {
-  headerClasses: 'bg-blue-500 text-white',
-  menuColor: 'white',
+  backgroundColor: 'blue-500',
+  mobileMenuTextColor: 'blue-500',
+  textColor: 'white',
 };
 
 export default Header;

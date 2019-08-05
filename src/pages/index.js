@@ -11,7 +11,7 @@ import AboutMe from '../components/about-me';
 
 function IndexPage() {
   return (
-    <Layout headerClasses="bg-white text-black" menuColor="blue-700">
+    <Layout headerBackgroundColor="white" headerTextColor="black" headerMobileMenuTextColor="blue-700">
       <SEO title="Home" keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]} />
       <Hero />
       <NewsletterSignup />
