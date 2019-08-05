@@ -6,17 +6,11 @@ const typography = new Typography({
   googleFonts: [
     {
       name: 'Montserrat',
-      styles: [
-        '300',
-        '300i',
-        '700',
-      ],
+      styles: ['300', '300i', '700'],
     },
     {
       name: 'Roboto Slab',
-      styles: [
-        '700'
-      ],
+      styles: ['700'],
     },
   ],
   headerFontFamily: ['Roboto Slab', 'serif'],
