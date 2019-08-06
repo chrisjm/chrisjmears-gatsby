@@ -16,7 +16,10 @@ function IndexPage() {
       headerTextColor="black"
       headerMobileMenuTextColor="blue-700"
     >
-      <SEO title="Home" keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]} />
+      <SEO
+        title="Home"
+        keywords={[`solopreneurs`, `small business owners`, `independent`, `website`, `developer`]}
+      />
       <Hero />
       <NewsletterSignup />
       <AllTheWoes />
