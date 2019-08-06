@@ -14,11 +14,11 @@ Of course, a blog or two and the [HAML google group](http://groups.google.com/gr
 
 An example:
 
-{% highlight haml %}
+```haml
 :javascript
 $(function() {
     $("#tabs").tabs();
 });
-{% endhighlight %}
+```
 
 **Update:** Since the writing of this blog post, the [official HAML](http://haml.info/docs/yardoc/file.REFERENCE.html) Documentation has been updated to better list out the [filters](http://haml.info/docs/yardoc/file.REFERENCE.html#filters).
