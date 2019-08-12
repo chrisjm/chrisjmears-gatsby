@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from './section';
+import OutsideLink from './outside-link';
 
 function AboutMe() {
   return (
@@ -29,53 +30,27 @@ function AboutMe() {
               <li className="mb-4 leading-tight">
                 <strong>Work</strong> - Over the years, I have worked with and for several
                 outstanding people and companies including{' '}
-                <a href="https://www.almanacbeer.com/" target="_blank" rel="noopener noreferrer">
-                  Almanac Brewing Co.
-                </a>
-                ,{' '}
-                <a href="https://www.amazon.com/" target="_blank"  rel="noopener noreferrer">
-                  Amazon
-                </a>
-                ,{' '}
-                <a href="https://www.cisco.com/" target="_blank"  rel="noopener noreferrer">
-                  Cisco Systems
-                </a>
-                ,{' '}
-                <a href="https://curio-craft.com" target="_blank"  rel="noopener noreferrer">
-                  Curio
-                </a>
-                ,{' '}
-                <a href="https://www.exactdrive.com" target="_blank"  rel="noopener noreferrer">
-                  ExactDrive
-                </a>
-                ,{' '}
-                <a href="https://www.goodreads.com" target="_blank"  rel="noopener noreferrer">
-                  Goodreads
-                </a>
-                ,{' '}
-                <a href="https://www.patientwisdom.com" target="_blank"  rel="noopener noreferrer">
-                  PatientWisdom
-                </a>
-                ,{' '}
-                <a href="https://www.wineinstitute.org" target="_blank"  rel="noopener noreferrer">
-                  Wine Institute
-                </a>
-                .
+                <OutsideLink to="https://www.almanacbeer.com/" name="Almanac Brewing Co." />,{' '}
+                <OutsideLink to="https://www.amazon.com/" name="Amazon" />,{' '}
+                <OutsideLink to="https://www.cisco.com/" name="Cisco Systems" />,{' '}
+                <OutsideLink to="https://curiomodern.com" name="CURIO" />,{' '}
+                <OutsideLink to="https://www.exactdrive.com" name="ExactDrive" />,{' '}
+                <OutsideLink to="https://www.goodreads.com" name="Goodreads" />,{' '}
+                <OutsideLink to="https://www.patientwisdom.com" name="PatientWisdom" />,{' '}
+                <OutsideLink to="https://www.wineinstitute.org" name="Wine Institute" />.
               </li>
               <li className="mb-4 leading-tight">
                 <strong>Projects</strong> -{' '}
-                <a href="https://www.openbrewerydb.org/" target="_blank"  rel="noopener noreferrer">
-                  Open Brewery DB
-                </a>
-                .
+                <OutsideLink to="https://www.openbrewerydb.org/" name="Open Brewery DB" />.
               </li>
               <li className="mb-4 leading-tight">
-                <strong>I Have a Cute Dog</strong> - Seriously. Look at him!
+                <strong>I Have a Cute Dog</strong>- Seriously. Look at him!
               </li>
               <li className="mb-4 leading-tight">
-                <strong>Social Media</strong> - <a href="https://twitter.com/chrisjm" target="_blank" rel="noopener noreferrer">Twitter</a>,{' '}
-                <a href="https://instagram.com/chrisjm" target="_blank" rel="noopener noreferrer">Instagram</a>,{' '}
-                <a href="https://github.com/chrisjm" target="_blank" rel="noopener noreferrer">Github</a>
+                <strong>Social Media</strong> -{' '}
+                <OutsideLink to="https://twitter.com/chrisjm" name="Twitter" />,{' '}
+                <OutsideLink to="https://instagram.com/chrisjm" name="Instagram" />,{' '}
+                <OutsideLink to="https://github.com/chrisjm" name="Github" />
               </li>
             </ul>
           </div>
