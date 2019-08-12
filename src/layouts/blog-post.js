@@ -7,6 +7,7 @@ import Signature from '../components/signature';
 import BlogPostNavigation from '../components/blog-post-navigation';
 import NewsletterSignup from '../components/newsletter-signup';
 import Section from '../components/section';
+import PostContent from '../components/post-content';
 
 function BlogPostTemplate(props) {
   const post = props.data.markdownRemark;
@@ -21,14 +22,7 @@ function BlogPostTemplate(props) {
       />
 
       <Section containerClasses="container mx-auto max-w-3xl p-5 md:pt-10">
-        <div className="content">
-          <div className="post-header mb-5">
-            <h1 className="post-title text-3xl mb-1">{post.frontmatter.title}</h1>
-            <p className="post-date text-gray-600">{post.frontmatter.date}</p>
-          </div>
-          <div className="post-content mb-10" dangerouslySetInnerHTML={{ __html: post.html }} />
-        </div>
-
+        <PostContent post={post} />
         <Signature />
       </Section>
 
