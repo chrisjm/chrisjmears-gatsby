@@ -1,12 +1,11 @@
 import React from 'react';
 import Section from './section';
+import Heading2 from './heading2';
 
 function AllTheWoes() {
   return (
     <Section>
-      <div className="mb-8">
-        <h2 className="text-4xl font-bold">What kind of Website Woes do you have?</h2>
-      </div>
+      <Heading2 title="What kind of Website Woes do you have?" />
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="flex flex-col items-center max-w-lg mb-8 bg-gray-100 border rounded-lg p-5">
           <div className="mb-8">
@@ -16,8 +15,8 @@ function AllTheWoes() {
           <div className="flex-1 mb-5 md:mr-5 py-5">
             <div className="w-16 mx-auto mb-6">
               <svg
-                className="fill-current h-16"
-                enable-background="new 0 0 24 24"
+                className="fill-current h-16 w-16"
+                enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -34,7 +33,7 @@ function AllTheWoes() {
             <div className="w-16 mx-auto mb-6">
               <svg
                 className="fill-current h-16"
-                enable-background="new 0 0 24 24"
+                enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -51,7 +50,7 @@ function AllTheWoes() {
             <div className="w-16 mx-auto mb-6">
               <svg
                 className="fill-current h-16"
-                enable-background="new 0 0 24 24"
+                enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -75,7 +74,7 @@ function AllTheWoes() {
             <div className="w-16 mx-auto mb-6">
               <svg
                 className="fill-current h-16"
-                enable-background="new 0 0 24 24"
+                enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -92,7 +91,7 @@ function AllTheWoes() {
             <div className="w-16 mx-auto mb-6">
               <svg
                 className="fill-current h-16"
-                enable-background="new 0 0 24 24"
+                enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -109,7 +108,7 @@ function AllTheWoes() {
             <div className="w-16 mx-auto mb-6">
               <svg
                 className="fill-current h-16"
-                enable-background="new 0 0 24 24"
+                enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >

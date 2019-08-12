@@ -1,13 +1,12 @@
 import React from 'react';
 import Section from './section';
 import OutsideLink from './outside-link';
+import Heading2 from './heading2';
 
 function AboutMe() {
   return (
     <Section>
-      <div className="mb-10">
-        <h2 className="text-4xl font-bold">About Me</h2>
-      </div>
+      <Heading2 title="About Me" />
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 mb-5 md:mr-5 text-center">
           <img
