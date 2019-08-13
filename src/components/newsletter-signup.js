@@ -20,7 +20,7 @@ function NewsletterSignup() {
 
   return (
     <Section sectionClasses="bg-blue-900 text-white">
-      <div className="content">
+      <div className="content" id="newsletter">
         <div className="mb-6 text-center">
           <h2 className="text-4xl font-bold">I have solutions for your web tech woes.</h2>
         </div>
