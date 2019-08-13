@@ -13,9 +13,9 @@ function AllTheWoes() {
             <p>Simple-ish tasks which can be solved in one or two 30-60 minute 1-on-1 sessions.</p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
-            <div className="w-16 mx-auto mb-6">
+            <div className="w-24 mx-auto mb-6">
               <svg
-                className="fill-current h-16 w-16"
+                className="fill-current h-24 w-24"
                 enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,9 +30,9 @@ function AllTheWoes() {
             </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
-            <div className="w-16 mx-auto mb-6">
+            <div className="w-24 mx-auto mb-6">
               <svg
-                className="fill-current h-16"
+                className="fill-current h-24"
                 enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,9 +47,9 @@ function AllTheWoes() {
             </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
-            <div className="w-16 mx-auto mb-6">
+            <div className="w-24 mx-auto mb-6">
               <svg
-                className="fill-current h-16"
+                className="fill-current h-24"
                 enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -64,16 +64,16 @@ function AllTheWoes() {
             </p>
           </div>
         </div>
-        <div className="w-16"></div>
+        <div className="w-24"></div>
         <div className="flex flex-col items-center max-w-lg mb-8 bg-blue-700 border text-white rounded-lg p-5">
           <div className="mb-8">
             <h2 className="mb-4 text-center text-4xl font-bold">Major Woes</h2>
             <p>Complex projects which require a bit more attention and can last weeks or months.</p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
-            <div className="w-16 mx-auto mb-6">
+            <div className="w-24 mx-auto mb-6">
               <svg
-                className="fill-current h-16"
+                className="fill-current h-24"
                 enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,9 +88,9 @@ function AllTheWoes() {
             </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
-            <div className="w-16 mx-auto mb-6">
+            <div className="w-24 mx-auto mb-6">
               <svg
-                className="fill-current h-16"
+                className="fill-current h-24"
                 enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,9 +105,9 @@ function AllTheWoes() {
             </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
-            <div className="w-16 mx-auto mb-6">
+            <div className="w-24 mx-auto mb-6">
               <svg
-                className="fill-current h-16"
+                className="fill-current h-24"
                 enableBackground="new 0 0 24 24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
