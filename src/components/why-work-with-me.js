@@ -9,9 +9,9 @@ function WhyWorkWithMe() {
       </div>
       <div className="flex flex-col md:flex-row items-start">
         <div className="flex-1 mb-5 md:mr-5 py-5">
-          <div className="w-16 mx-auto mb-6">
+          <div className="w-24 mx-auto mb-6">
             <svg
-              className="fill-current h-16"
+              className="fill-current h-24"
               enableBackground="new 0 0 24 24"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -26,9 +26,9 @@ function WhyWorkWithMe() {
           </p>
         </div>
         <div className="flex-1 mb-5 md:mr-5 py-5">
-          <div className="w-16 mx-auto mb-6">
+          <div className="w-24 mx-auto mb-6">
             <svg
-              className="fill-current h-16"
+              className="fill-current h-24"
               enableBackground="new 0 0 24 24"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +44,9 @@ function WhyWorkWithMe() {
           </p>
         </div>
         <div className="flex-1 mb-5 md:mr-5 py-5">
-          <div className="w-16 mx-auto mb-6">
+          <div className="w-24 mx-auto mb-6">
             <svg
-              className="fill-current h-16"
+              className="fill-current h-24"
               enableBackground="new 0 0 24 24"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -63,9 +63,9 @@ function WhyWorkWithMe() {
       </div>
       <div className="flex flex-col md:flex-row items-start">
         <div className="flex-1 mb-5 md:mr-5 py-5">
-          <div className="w-16 mx-auto mb-6">
+          <div className="w-24 mx-auto mb-6">
             <svg
-              className="fill-current h-16"
+              className="fill-current h-24"
               enableBackground="new 0 0 24 24"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -80,9 +80,9 @@ function WhyWorkWithMe() {
           </p>
         </div>
         <div className="flex-1 mb-5 md:mr-5 py-5">
-          <div className="w-16 mx-auto mb-6">
+          <div className="w-24 mx-auto mb-6">
             <svg
-              className="fill-current h-16"
+              className="fill-current h-24"
               enableBackground="new 0 0 24 24"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -97,9 +97,9 @@ function WhyWorkWithMe() {
           </p>
         </div>
         <div className="flex-1 mb-5 md:mr-5 py-5">
-          <div className="w-16 mx-auto mb-6">
+          <div className="w-24 mx-auto mb-6">
             <svg
-              className="fill-current h-16"
+              className="fill-current h-24"
               enableBackground="new 0 0 24 24"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
