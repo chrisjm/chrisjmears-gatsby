@@ -19,6 +19,10 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                date(formatString: "MMMM DD, YYYY")
+                header {
+                  teaser
+                }
               }
             }
           }
