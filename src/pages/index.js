@@ -1,15 +1,15 @@
 import React from 'react';
-
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import NewsletterSignup from '../components/newsletter-signup';
 import Hero from '../components/hero';
-import AllTheWoes from '../components/all-the-woes';
-import WhyWorkWithMe from '../components/why-work-with-me';
-import Testimonials from '../components/testimonials';
 import AboutMe from '../components/about-me';
+import MostRecentBlogPosts from '../components/most-recent-blog-posts';
 
-function IndexPage() {
+function IndexPage(props) {
+  const posts = props.data.allMarkdownRemark.nodes;
+
   return (
     <Layout
       headerBackgroundColor="white"
@@ -22,12 +22,30 @@ function IndexPage() {
       />
       <Hero />
       <NewsletterSignup />
-      <AllTheWoes />
-      <WhyWorkWithMe />
-      <Testimonials />
       <AboutMe />
+      <MostRecentBlogPosts posts={posts} />
     </Layout>
   );
 }
 
 export default IndexPage;
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark(limit: 2, sort: { fields: [frontmatter___date], order: DESC }) {
+      nodes {
+        id
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          header {
+            teaser
+          }
+          date(formatString: "MMMM DD, YYYY")
+        }
+      }
+    }
+  }
+`;
