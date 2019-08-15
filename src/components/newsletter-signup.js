@@ -37,9 +37,9 @@ function NewsletterSignup() {
               English. All value. No spam. Guaranteed dog photos.
             </p>
             <div className="flex justify-between flex-col md:flex-row">
-              <div className="flex-1 mr-5">
+              <div className="flex-1 md:mr-5">
                 <input
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow appearance-none border-2 border-white rounded w-full py-2 px-3 text-gray-700 mb-3 md:mb-0 leading-tight focus:outline-none focus:shadow-outline"
                   id="mce-FNAME"
                   type="text"
                   name="FNAME"
@@ -48,9 +48,9 @@ function NewsletterSignup() {
                   value={name}
                 />
               </div>
-              <div className="flex-1 mr-5">
+              <div className="flex-1 md:mr-5">
                 <input
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                  className="shadow appearance-none border-2 border-white rounded w-full py-2 px-3 text-gray-700 mb-3 md:mb-0 leading-tight focus:outline-none focus:shadow-outline"
                   id="mce-EMAIL"
                   type="email"
                   name="EMAIL"
@@ -59,9 +59,9 @@ function NewsletterSignup() {
                   value={email}
                 />
               </div>
-              <div className="flex-0 mr-5">
+              <div className="flex-0">
                 <button
-                  className="shadow bg-green-700 hover:bg-green-500 text-white font-bold py-2 px-4 rounded border-2 border-white focus:outline-none focus:shadow-outline"
+                  className="shadow bg-green-700 hover:bg-green-500 text-white font-bold leading-tight py-2 px-4 rounded border-2 border-white focus:outline-none focus:shadow-outline"
                   type="submit"
                 >
                   Subscribe
