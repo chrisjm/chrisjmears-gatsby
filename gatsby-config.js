@@ -69,5 +69,11 @@ module.exports = {
         purgeOnly: ['src/css/style.css'],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-5219383-1',
+      },
+    },
   ],
 };
