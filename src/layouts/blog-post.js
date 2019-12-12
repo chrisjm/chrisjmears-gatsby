@@ -13,12 +13,15 @@ function BlogPostTemplate(props) {
   const post = props.data.markdownRemark;
   const siteTitle = props.data.site.siteMetadata.title;
   const { previous, next } = props.pageContext;
+  const { header } = post.frontmatter
+  const ogImagePath = header && header.teaser
 
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        image={ogImagePath}
       />
 
       <Section containerClasses="container mx-auto max-w-3xl p-5 md:pt-10">
