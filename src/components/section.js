@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Section({ sectionClasses, containerClasses, children,  }) {
+function Section({ sectionClasses, containerClasses, children }) {
   return (
     <section className={`${sectionClasses}`}>
       <div className={containerClasses}>{children}</div>
@@ -12,12 +12,12 @@ function Section({ sectionClasses, containerClasses, children,  }) {
 Section.propTypes = {
   sectionClasses: PropTypes.string,
   containerClasses: PropTypes.string,
-  children: PropTypes.node.isRequired
-}
+  children: PropTypes.node.isRequired,
+};
 
 Section.defaultProps = {
   sectionClasses: 'bg-white text-black',
-  containerClasses: 'container mx-auto p-8 md:p-16'
-}
+  containerClasses: 'container mx-auto p-8 md:p-16',
+};
 
 export default Section;
