@@ -21,7 +21,6 @@ function IndexPage(props) {
         keywords={[`solopreneurs`, `small business owners`, `independent`, `website`, `developer`]}
       />
       <Hero />
-      <NewsletterSignup />
       <AboutMe />
       <MostRecentBlogPosts posts={posts} />
     </Layout>
