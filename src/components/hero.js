@@ -8,7 +8,7 @@ function Hero() {
         <div className="mb-5 md:mb-0 md:mr-10">
           <img
             className="w-48 h-48 rounded-full shadow-lg mb-0"
-            src="https://res.cloudinary.com/wanderingleafstudios/image/upload/c_scale,w_512/v1543031975/chrisjmears.com/CJM-profile-square-med.jpg"
+            src="https://res.cloudinary.com/wanderingleafstudios/image/upload/c_scale,w_512/v1543031975/chrisjmears.com/chris-mears-profile-2018.jpg"
             alt="Chris J Mears"
           />
         </div>
