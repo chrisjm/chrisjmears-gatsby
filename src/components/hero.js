@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from './section';
+import OutsideLink from './outside-link';
 
 function Hero() {
   return (
@@ -18,12 +19,12 @@ function Hero() {
             I help solopreneurs & small business owners take control of their web technology and get
             back to their passion.
           </h2>
-          <a
-            href="https://calendly.com/chrisjmears/website-woes-intro"
+          <OutsideLink
+            to="https://calendly.com/chrisjmears/website-woes-intro"
             className="js-event-track bg-blue-900 border-2 border-white hover:bg-blue-500 text-white font-semibold py-3 px-5 rounded shadow-md hover:shadow-none inline-block no-underline text-xl"
           >
-            Schedule FREE 15-Minute Intro
-          </a>
+            Schedule a 15-minute Intro
+          </OutsideLink>
         </div>
       </div>
     </Section>
