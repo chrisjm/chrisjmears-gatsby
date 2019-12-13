@@ -2,8 +2,9 @@ import React from 'react';
 
 function Heading2({ title }) {
   return (
-    <div className="mb-10">
-      <h2 className="text-4xl font-bold">{title}</h2>
+    <div className="mb-10 text-center">
+      <h2 className="text-4xl font-bold mb-2">{title}</h2>
+      <hr className="h-1 bg-blue-600" />
     </div>
   );
 }
