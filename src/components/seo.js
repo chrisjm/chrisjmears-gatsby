@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import defaultOpenGraphImage from '../../content/assets/chrisjmears-opengraph.jpg';
+
+const defaultOpenGraphImage =
+  'https://res.cloudinary.com/wanderingleafstudios/image/upload/v1539971421/chrisjmears.com/cjm-opengraph-20181019.jpg';
 
 function SEO({ description, lang, meta, keywords, title, image }) {
   return (
