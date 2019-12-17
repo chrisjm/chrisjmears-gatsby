@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from './section';
-import OutsideLink from './outside-link';
+import { Link } from 'gatsby';
 
 function Hero() {
   return (
@@ -16,15 +16,18 @@ function Hero() {
         <div className="flex-1 antialiased">
           <h1 className="text-5xl font-bold mb-2">Hi! My name is Chris.</h1>
           <h2 className="text-2xl font-bold text-blue-200 mb-6">
-            I help solopreneurs & small business owners take control of their web technology and get
-            back to their passion.
+            Iʼm a <strong className="text-white">Technical Support Engineer</strong> with over 15
+            years of experience in web development, networking, and telecommunications.
           </h2>
-          <OutsideLink
-            to="https://calendly.com/chrisjmears/website-woes-intro"
+          <h3 className="text-xl font-bold text-white mb-6">
+            Currently looking for new opportunities in Customer Success.
+          </h3>
+          <Link
+            to="/contact"
             className="js-event-track bg-blue-900 border-2 border-white hover:bg-blue-500 text-white font-semibold py-3 px-5 rounded shadow-md hover:shadow-none inline-block no-underline text-xl"
           >
-            Schedule a 15-minute Intro
-          </OutsideLink>
+            Contact Me
+          </Link>
         </div>
       </div>
     </Section>
