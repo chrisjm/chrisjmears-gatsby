@@ -18,12 +18,13 @@ function AboutMe() {
           <div>
             <ul className="text-lg mb-8">
               <li className="mb-4 leading-tight">
-                Iʼm a <strong>Customer Success Engineer</strong> with over 15 years of experience in
-                web development, networking, and telecommunications.
+                Iʼm a <strong>Technical Support Engineer</strong> with over 15 years of experience
+                in web development, networking, and telecommunications.
               </li>
               <li className="mb-4 leading-tight">
-                Iʼve owned and operated my own consulting agency and have worked for companies large
-                and small in different sectors.
+                I currently own and operate a web development and technology consulting agency. I
+                have previously worked for companies large and small in different sectors including
+                Fortune 500, startups, and non-profits.
               </li>
               <li className="mb-4 leading-tight">
                 I strongly believe in customer success through empathy and goal-finding.
