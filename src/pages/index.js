@@ -2,10 +2,10 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import NewsletterSignup from '../components/newsletter-signup';
 import Hero from '../components/hero';
 import AboutMe from '../components/about-me';
 import MostRecentBlogPosts from '../components/most-recent-blog-posts';
+import Projects from '../components/projects';
 
 function IndexPage(props) {
   const posts = props.data.allMarkdownRemark.nodes;
@@ -18,11 +18,17 @@ function IndexPage(props) {
     >
       <SEO
         title="Home"
-        keywords={[`solopreneurs`, `small business owners`, `independent`, `website`, `developer`]}
+        keywords={[
+          `customer success`,
+          `technical support engineer`,
+          `remote working`,
+          `full-stack developer`,
+        ]}
       />
       <Hero />
-      <AboutMe />
+      <Projects />
       <MostRecentBlogPosts posts={posts} />
+      <AboutMe />
     </Layout>
   );
 }
