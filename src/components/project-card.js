@@ -5,7 +5,7 @@ function ProjectCard({ project }) {
   const { title, description, tags, imageUrl, imageAlt, linkUrl } = project;
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-md mx-6 my-6">
+    <div className="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-md mx-8 my-6">
       <OutsideLink to={linkUrl}>
         <img className="w-full" src={imageUrl} alt={imageAlt} />
       </OutsideLink>
