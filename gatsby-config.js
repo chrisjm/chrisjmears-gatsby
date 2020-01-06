@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Chris J Mears`,
-    description: `I help solopreneurs & small business owners take control of their web technology and get back to their passion.`,
+    description: `Empathic Customer Success / Technical Support Engineer for SaaS companies.`,
     author: `@chrisjm`,
   },
   plugins: [
