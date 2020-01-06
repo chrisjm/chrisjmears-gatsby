@@ -39,12 +39,14 @@ function AboutMe() {
               <li className="mb-4 leading-tight">
                 I'm currently seeking full-time opportunities at SaaS (or similar) companies with a healthy distributed philosophy.
 
-                <Link
-                  to="/contact"
-                  className="js-event-track bg-green-700 border-2 border-blue-100 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded shadow-lg hover:shadow-md inline-block no-underline text-xl mt-4"
-                >
-                  <span className="text-white">Contact Me</span>
-                </Link>
+                <div>
+                  <Link
+                    to="/contact"
+                    className="js-event-track bg-green-700 border-2 border-blue-100 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded shadow-lg hover:shadow-md inline-block no-underline text-xl mt-4"
+                  >
+                    <span className="text-white">Contact Me</span>
+                  </Link>
+                </div>
               </li>
             </ul>
           </div>
