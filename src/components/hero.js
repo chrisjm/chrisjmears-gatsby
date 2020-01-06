@@ -16,11 +16,10 @@ function Hero() {
         <div className="flex-1 antialiased">
           <h1 className="text-5xl font-bold mb-2">Hi! My name is Chris.</h1>
           <h2 className="text-2xl font-bold text-blue-200 mb-6">
-            Iʼm a <strong className="text-white">Technical Support Engineer</strong> with over 15
-            years of experience in web development, networking, and telecommunications.
+            Iʼm a <strong className="text-white">Technical Support / Customer Success Engineer</strong> with over 15 years of customer-centric experience in web development and telecommunications. I have a <strong className="text-white">strong focus on empathy, delivery, goal-finding, and mentoring</strong>.
           </h2>
           <h3 className="text-xl font-bold text-white mb-6">
-            Currently looking for new opportunities in Customer Success.
+            Currently looking for new opportunities.
           </h3>
           <Link
             to="/contact"
