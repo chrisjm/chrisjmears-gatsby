@@ -1,6 +1,8 @@
 import React from 'react';
 import Section from './section';
 import Heading2 from './heading2';
+import OutsideLink from './outside-link'
+import { Link } from 'gatsby';
 
 function AboutMe() {
   return (
@@ -18,19 +20,31 @@ function AboutMe() {
           <div>
             <ul className="text-lg mb-8">
               <li className="mb-4 leading-tight">
-                Iʼm a <strong>Customer Success / Technical Support Engineer</strong> with over 15 years of customer-centric experience
-                in web development and telecommunications.
+                Iʼm a Customer Success Manager with over 10 years of technical experience focusing on goal-oriented, empathetic, and strategic customer guidance and happiness.
               </li>
               <li className="mb-4 leading-tight">
-                I currently own and operate a web development and technology consulting agency. I've previously worked for companies large and small in different sectors including
+                I currently own and operate a web development consulting agency and have previously worked for companies large and small in different sectors including
                 Fortune 500, startups, and non-profits.
               </li>
               <li className="mb-4 leading-tight">
                 I strongly believe in customer success through empathy, compassion,  goal-finding, and mentorship.
               </li>
               <li className="mb-4 leading-tight">
-                Iʼm a remote and distributed team evangelist, open-source contributor, and rescue
-                dog owner.
+                Iʼm a remote and distributed team evangelist,{' '}
+                <OutsideLink to='https://www.openbrewerydb.org/'>
+                  open-source contributor
+                </OutsideLink>
+                , and rescue dog owner.
+              </li>
+              <li className="mb-4 leading-tight">
+                I'm currently seeking full-time opportunities at SaaS (or similar) companies with a healthy distributed philosophy.
+
+                <Link
+                  to="/contact"
+                  className="js-event-track bg-green-700 border-2 border-blue-100 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded shadow-lg hover:shadow-md inline-block no-underline text-xl mt-4"
+                >
+                  <span className="text-white">Contact Me</span>
+                </Link>
               </li>
             </ul>
           </div>
