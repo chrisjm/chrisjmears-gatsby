@@ -41,7 +41,7 @@ function AboutMe() {
                 <div>
                   <Link
                     to="/contact"
-                    className="js-event-track bg-green-700 border-2 border-blue-100 hover:bg-green-600 text-white font-semibold py-3 px-5 rounded shadow-lg hover:shadow-md inline-block no-underline text-xl mt-4"
+                    className="js-event-track bg-green-700 border-2 border-blue-100 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded shadow-lg hover:shadow-md inline-block no-underline text-xl mt-4"
                   >
                     <span className="text-white">Contact Me</span>
                   </Link>
