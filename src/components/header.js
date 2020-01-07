@@ -39,6 +39,11 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
             >
               <ul className="list-none flex flex-col shadow md:inline-block md:shadow-none md:p-0 font-black">
                 <li className="md:inline-block md:mr-5 mb-0">
+                  <Link className="no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent" to="/about">
+                    About Me
+                  </Link>
+                </li>
+                <li className="md:inline-block md:mr-5 mb-0">
                   <Link className="no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent" to="/blog">
                     Blog
                   </Link>
