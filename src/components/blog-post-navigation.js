@@ -10,25 +10,8 @@ function BlogPostNavigation({ previous, next }) {
         Additional Posts
       </h2>
       <ul className="flex flex-col md:flex-row justify-center">
-        {previous && (
-          <li className="flex-1 max-w-1/2 md:mr-5">
-            <Link
-              to={previous.fields.slug}
-              rel="prev"
-              className="hover:text-blue-200 hover:no-underline"
-            >
-              {previous.frontmatter.header && (
-                <div className="mb-2">
-                  <img src={previous.frontmatter.header.teaser} alt={`Featured`} />
-                </div>
-              )}
-              <div className="text-lg leading-tight">{previous.frontmatter.title}</div>
-            </Link>
-            <i className="block mt-2">{previous.frontmatter.date}</i>
-          </li>
-        )}
         {next && (
-          <li className="flex-1 max-w-1/2 md:ml-5">
+          <li className="flex-1 max-w-1/2 md:mr-5">
             <Link
               to={next.fields.slug}
               rel="prev"
@@ -42,6 +25,23 @@ function BlogPostNavigation({ previous, next }) {
               <div className="text-lg leading-tight">{next.frontmatter.title}</div>
             </Link>
             <i className="block mt-2">{next.frontmatter.date}</i>
+          </li>
+        )}
+        {previous && (
+          <li className="flex-1 max-w-1/2 md:ml-5">
+            <Link
+              to={previous.fields.slug}
+              rel="prev"
+              className="hover:text-blue-200 hover:no-underline"
+            >
+              {previous.frontmatter.header && (
+                <div className="mb-2">
+                  <img src={previous.frontmatter.header.teaser} alt={`Featured`} />
+                </div>
+              )}
+              <div className="text-lg leading-tight">{previous.frontmatter.title}</div>
+            </Link>
+            <i className="block mt-2">{previous.frontmatter.date}</i>
           </li>
         )}
       </ul>
