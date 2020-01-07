@@ -10,7 +10,7 @@ function BlogPostNavigation({ previous, next }) {
       <Heading2 title="Additional Posts" />
       <ul className="flex flex-col md:flex-row justify-center">
         {next && (
-          <li className="flex-1 max-w-1/2 md:mr-5">
+          <li className="md:flex-1 md:max-w-1/2 md:mr-5">
             <Link
               to={next.fields.slug}
               rel="prev"
@@ -27,7 +27,7 @@ function BlogPostNavigation({ previous, next }) {
           </li>
         )}
         {previous && (
-          <li className="flex-1 max-w-1/2 md:ml-5">
+          <li className="md:flex-1 md:max-w-1/2 md:ml-5">
             <Link
               to={previous.fields.slug}
               rel="prev"

@@ -19,7 +19,7 @@ function Hero() {
             Iʼm a <strong className="text-white">Customer Success Manager</strong> with over 10 years of technical experience focusing on <strong className="text-white">goal-oriented, empathetic, and strategic</strong> customer guidance and happiness.
           </h2>
           <h3 className="text-xl font-bold text-white mb-6">
-            Currently looking for new opportunities.
+            Currently seeking new opportunities.
           </h3>
           <Link
             to="/contact"

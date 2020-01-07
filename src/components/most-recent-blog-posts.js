@@ -11,7 +11,7 @@ function MostRecentBlogPosts({ posts }) {
       <ul className="flex flex-col md:flex-row">
         {posts &&
           posts.map(post => (
-            <li className="flex-1 md:mr-5" key={post.id}>
+            <li className="md:flex-1 md:mr-5" key={post.id}>
               <Link
                 to={post.fields.slug}
                 rel="prev"
