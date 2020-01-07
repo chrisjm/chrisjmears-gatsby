@@ -123,8 +123,6 @@ a {
   padding-left: 0.5rem;
 }
 
-
-
 .post-content h1 {
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -152,19 +150,17 @@ a {
 #about a,
 .signature a,
 .post-content a,
-.post-excerpt a {
-  color: #4299E1;
+.post-excerpt a,
+section.bg-white a:not(.button) {
+  color: #2b6cb0;
 }
 
 #about a:hover,
 .signature a:hover,
 .post-content a:hover,
-.post-excerpt a:hover {
+.post-excerpt a:hover,
+section.bg-white a:not(.button):hover {
   color: #2A4365;
-}
-
-section.bg-white a:not(.button) {
-  color: #4299E1;
 }
 
 .video-container {
