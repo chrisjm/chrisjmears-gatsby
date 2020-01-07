@@ -30,6 +30,11 @@ function BlogList({ posts }) {
               <p className="text-lg">
                 {node.frontmatter.description || node.excerpt}
               </p>
+              <p className="text-body mt-1">
+                <Link to={node.fields.slug}>
+                  Read more.
+                </Link>
+              </p>
             </div>
           </div>
         );
