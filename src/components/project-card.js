@@ -7,7 +7,7 @@ function ProjectCard({ project }) {
   return (
     <div className="max-w-xl lg:max-w-xs rounded overflow-hidden shadow-lg hover:shadow-md mx-8 my-6">
       <OutsideLink to={linkUrl}>
-        <img className="w-full" src={imageUrl} alt={imageAlt} />
+        <img className="w-full h-48 object-cover" src={imageUrl} alt={imageAlt} />
       </OutsideLink>
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>

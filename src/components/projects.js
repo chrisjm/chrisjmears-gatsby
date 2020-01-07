@@ -10,7 +10,7 @@ const projects = [
       'Open Brewery DB is a free API for public information on breweries, cideries, brewpubs, and bottleshops. Currently it is focused to the United States, but future plans are to import world-wide data.',
     tags: ['api', 'ruby-on-rails', 'postgresql', 'aws', 'heroku', 'cloudflare'],
     imageUrl:
-      'https://res.cloudinary.com/wanderingleafstudios/image/upload/v1572317242/openbrewerydb/OpenBreweryDBLogo.png',
+      'https://res.cloudinary.com/wanderingleafstudios/image/upload/v1572317242/openbrewerydb/OpenBreweryDBLogo.jpg',
     imageAlt: 'Open Brewery DB Logo',
     linkUrl: 'https://www.openbrewerydb.org',
   },
