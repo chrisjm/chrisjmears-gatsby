@@ -2,6 +2,7 @@ const resume = {
   personal: {
     name: 'Chris J Mears',
     email: 'chris.mears@gmail.com',
+    objective: 'Iʼm a Customer Success Manager with over 10 years of technical experience focusing on goal-oriented, empathetic, and strategic customer guidance and happiness.',
     interests: [
       'Remote & distributed team evangelist 🏠',
       'Rescue dog owner 🐶',
@@ -40,22 +41,22 @@ const resume = {
       startDate: 'February 2013',
       endDate: 'May 2014',
       accomplishments: [
-        'Developed the ground-up redesign of the cross-browser and cross-device compliant mobile website which had ~17.6 million monthly unique visitors.',
+        'Orchestrated the ground-up redesign of the cross-browser and cross-device compliant mobile website which had ~17.6 million monthly unique visitors.',
         'Mentored co-workers on front-end conventions and best practices.',
         'Assisted Android Kindle product team to integrate a prototype search feature.',
       ],
     },
     {
       company: 'Canned Banners',
-      position: 'Co-founder / Lead Developer',
+      position: 'Technical Co-founder',
       location: 'San Francisco, CA',
       startDate: 'January 2009',
       endDate: 'February 2013',
       accomplishments: [
-        'Designed and built a scalable display ad creation API platform using Ruby on Rails and Amazon Web Services (AWS) cloud computing services (including EC2, RDS, SQS, and S3).',
-        'Developed a scalable and easily deployable PHP-based dynamic display ad framework.',
-        'Created an embeddable display ad editor jQuery plugin, which utilized the ad creation API.',
-        'Performed a variety of roles including software developer, systems administrator, database administrator, software architect, and software technologist.',
+        'Served as the technical co-founder of a bootstrapped adTech business which was acquired in January 2018',
+        'Performed a variety of roles including client success manager, software developer, systems administrator, database administrator, and software architect.',
+        'Advised early clients on implementation of our SaaS products.',
+        'Designed and built a scalable display ad creation API platform using Ruby on Rails and Amazon Web Services (AWS) services (including EC2, RDS, SQS, and S3).'
       ],
     },
     {

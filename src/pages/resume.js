@@ -4,15 +4,27 @@ import Section from '../components/section';
 import SEO from '../components/seo';
 import resume from '../utils/resume';
 import OutsideLink from '../components/outside-link';
+import { Link } from 'gatsby';
 
 function Resume() {
   return (
     <Layout>
       <SEO title="Chris J Mears's Resume" />
       <Section sectionClasses="container mx-auto max-w-4xl">
-        <h1 className="text-4xl text-center mb-6">{resume.personal.name}</h1>
-        <div className="personal-experience mb-6">
-          <h2 className="text-2xl mb-4">Personal Experience</h2>
+        <h1 className="text-5xl text-center">{resume.personal.name}</h1>
+        <div className="mt-10 border-2 rounded p-10 mt-10 border-blue-100 p-10 bg-blue-500 text-white">
+          <h2 className="text-2xl">{resume.personal.objective}</h2>
+          <div className="text-center mt-5">
+            <Link
+              to="/contact"
+              className="js-event-track bg-blue-900 border-2 border-white hover:bg-blue-500 text-white font-semibold py-2 px-3 rounded shadow-md hover:shadow-none inline-block no-underline text-xl"
+            >
+              Let's Chat!
+            </Link>
+          </div>
+        </div>
+        <div className="personal-experience mt-10">
+          <h2 className="text-2xl mb-4">Experience</h2>
           {resume.experience.map(experience => (
             <div className="experience">
               <h3 className="text-xl font-bold">
@@ -43,7 +55,7 @@ function Resume() {
           </ul>
         </div>
         <div className="skills mb-6">
-          <h2 className="text-2xl mb-6">Skills</h2>
+          <h2 className="text-2xl mb-6">Technical Skills</h2>
           <div className="programming-languages mb-6">
             <h3 className="text-xl mb-6">Programming Languages</h3>
             <div className="mb-3">{resume.skills.programmingLanguages.join(', ')}</div>
