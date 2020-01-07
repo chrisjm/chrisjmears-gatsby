@@ -6,7 +6,7 @@ import Header2 from './heading2';
 
 function MostRecentBlogPosts({ posts }) {
   return (
-    <Section sectionClasses="bg-blue-600 text-white">
+    <Section sectionClasses="bg-blue-800 text-white">
       <Header2 title="Most Recent Posts" />
       <ul className="flex flex-col md:flex-row">
         {posts &&

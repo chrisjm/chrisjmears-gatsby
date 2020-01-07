@@ -2,13 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import Section from './section';
+import Heading2 from './heading2';
 
 function BlogPostNavigation({ previous, next }) {
   return (
-    <Section sectionClasses="bg-blue-600 text-white">
-      <h2 className="text-3xl mb-6">
-        Additional Posts
-      </h2>
+    <Section sectionClasses="bg-blue-800 text-white">
+      <Heading2 title="Additional Posts" />
       <ul className="flex flex-col md:flex-row justify-center">
         {next && (
           <li className="flex-1 max-w-1/2 md:mr-5">
