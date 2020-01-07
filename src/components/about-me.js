@@ -30,15 +30,14 @@ function AboutMe() {
                 I strongly believe in customer success through empathy, compassion,  goal-finding, and mentorship.
               </li>
               <li className="mb-4 leading-tight">
-                Iʼm a remote and distributed team evangelist,{' '}
+                Iʼm a distributed team evangelist,{' '}
                 <OutsideLink to='https://www.openbrewerydb.org/'>
                   open-source contributor
                 </OutsideLink>
                 , and rescue dog owner.
               </li>
               <li className="mb-4 leading-tight">
-                I'm currently seeking full-time opportunities at SaaS (or similar) companies with a healthy distributed philosophy.
-
+                I'm currently seeking full-time opportunities at companies with a healthy distributed team philosophy.
                 <div>
                   <Link
                     to="/contact"
