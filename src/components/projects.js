@@ -39,7 +39,7 @@ function Projects() {
   return (
     <Section>
       <Heading2 title="Projects" />
-      <div className="flex md:flex-column flex-wrap md:flex-nowrap justify-center">
+      <div className="flex md:flex-column flex-wrap md:flex-nowrap justify-between">
         {projects.map(project => (
           <ProjectCard project={project} />
         ))}
