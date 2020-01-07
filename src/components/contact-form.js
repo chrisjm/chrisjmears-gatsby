@@ -69,7 +69,7 @@ function ContactForm() {
           </label>
         </p>
         <p>
-          <button className="js-event-track bg-blue-900 border-2 border-white hover:bg-blue-500 text-white font-semibold py-3 px-5 rounded shadow-md hover:shadow-none inline-block no-underline text-xl" type="submit">Send</button>
+          <button className="js-event-track bg-green-700 border-2 border-white hover:bg-green-600 text-white font-semibold py-2 px-4 rounded shadow-md hover:shadow-none inline-block no-underline text-xl" type="submit">Send</button>
         </p>
       </form>
     </div>

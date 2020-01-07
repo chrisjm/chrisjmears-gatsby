@@ -6,12 +6,12 @@ import Header2 from './heading2';
 
 function MostRecentBlogPosts({ posts }) {
   return (
-    <Section sectionClasses="bg-blue-600 text-white">
+    <Section sectionClasses="bg-blue-800 text-white">
       <Header2 title="Most Recent Posts" />
       <ul className="flex flex-col md:flex-row">
         {posts &&
           posts.map(post => (
-            <li className="flex-1 md:mr-5" key={post.id}>
+            <li className="md:flex-1 md:mr-5" key={post.id}>
               <Link
                 to={post.fields.slug}
                 rel="prev"

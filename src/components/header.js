@@ -64,8 +64,8 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  backgroundColor: 'blue-500',
-  mobileMenuTextColor: 'blue-500',
+  backgroundColor: 'blue-700',
+  mobileMenuTextColor: 'blue-700',
   textColor: 'white',
 };
 

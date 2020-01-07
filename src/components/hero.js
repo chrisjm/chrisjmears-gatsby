@@ -19,11 +19,11 @@ function Hero() {
             Iʼm a <strong className="text-white">Customer Success Manager</strong> with over 10 years of technical experience focusing on <strong className="text-white">goal-oriented, empathetic, and strategic</strong> customer guidance and happiness.
           </h2>
           <h3 className="text-xl font-bold text-white mb-6">
-            Currently looking for new opportunities.
+            Currently seeking new opportunities.
           </h3>
           <Link
             to="/contact"
-            className="js-event-track bg-blue-900 border-2 border-white hover:bg-blue-500 text-white font-semibold py-3 px-5 rounded shadow-md hover:shadow-none inline-block no-underline text-xl"
+            className="js-event-track bg-blue-900 border-2 border-white hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded shadow-md hover:shadow-none inline-block no-underline text-xl"
           >
             Contact Me
           </Link>
