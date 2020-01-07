@@ -4,6 +4,8 @@ date: '2009-02-21'
 title: Setting Themes for Terminal in Mac OS X
 categories: tips and tricks
 tags: ['osx', 'terminal']
+header:
+  teaser: ''
 ---
 
 After spending way too long using a plain black and white color scheme in Terminal and being unimpressed with the theme options under Terminal > Preferences... Settings Tab, I decided to do a little bit of searching to remedy the situation.
