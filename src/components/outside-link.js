@@ -1,9 +1,9 @@
 import React from 'react';
 
-function OutsideLink({ to, className, children }) {
+function OutsideLink({ to, className, ariaLabel, children }) {
   return (
     <>
-      <a href={to} className={className} target="_blank" rel="noopener noreferrer">
+      <a href={to} aria-label={ariaLabel} className={className} target="_blank" rel="noopener noreferrer">
         {children}
       </a>
     </>
