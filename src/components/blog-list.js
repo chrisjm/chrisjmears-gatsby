@@ -20,7 +20,7 @@ function BlogList({ posts }) {
               {node.frontmatter.date}
             </div>
             {featuredImageUrl && (
-              <div className="mt-2">
+              <div className="mt-2 shadow-lg">
                 <Link to={node.fields.slug}>
                   <img className="w-full h-48 object-cover" src={featuredImageUrl} alt={`Featured`} />
                 </Link>
