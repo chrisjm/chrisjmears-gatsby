@@ -13,7 +13,7 @@ function ProjectCard({ project }) {
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-gray-700 text-base mb-2">{description}</p>
         <p className="font-bold text-base">
-          <OutsideLink to={linkUrl}>Link</OutsideLink>
+          <OutsideLink to={linkUrl}>Visit Site</OutsideLink>
         </p>
       </div>
       <div className="px-6 py-4">
