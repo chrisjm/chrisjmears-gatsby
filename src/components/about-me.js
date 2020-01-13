@@ -20,14 +20,14 @@ function AboutMe() {
           <div>
             <ul className="text-lg mb-8">
               <li className="mb-4 leading-tight">
-                Iʼm a Customer Success Manager with over 10 years of technical experience focusing on goal-oriented, empathetic, and strategic customer guidance and happiness.
+                Iʼm a Technical Support Engineer with over 10 years of experience focusing on goal-oriented, empathetic, and strategic customer guidance and happiness.
               </li>
               <li className="mb-4 leading-tight">
                 I currently own and operate a web development consulting agency and have previously worked for companies large and small in different sectors including
                 Fortune 500, startups, and non-profits.
               </li>
               <li className="mb-4 leading-tight">
-                I strongly believe in customer success through empathy, compassion,  goal-finding, and mentorship.
+                I strongly believe in customer service through empathy, compassion,  goal-finding, and mentorship.
               </li>
               <li className="mb-4 leading-tight">
                 Iʼm a distributed team evangelist,{' '}

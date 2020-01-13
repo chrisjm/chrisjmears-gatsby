@@ -13,7 +13,7 @@ function Signature() {
       </span>
       <span>
         {' '}
-        I'm a <Link to="/resume">customer success manager</Link>,{' '}
+        I'm a <Link to="/resume">Technical Support Engineer</Link>,{' '}
         <OutsideLink to="https://github.com/chrisjm">full-stack web developer</OutsideLink>,{' '}
         <OutsideLink to="https://www.wanderingleafstudios.com/">consultant</OutsideLink>, and{' '}
         <OutsideLink to="https://website-therapist.com/">Website Therapist</OutsideLink>.{' '}
