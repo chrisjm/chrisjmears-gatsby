@@ -19,7 +19,6 @@ function IndexPage(props) {
       <SEO
         title="Home"
         keywords={[
-          `customer success manager`,
           `technical support engineer`,
           `distributed team`,
           `remote working`,
