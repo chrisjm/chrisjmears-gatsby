@@ -163,6 +163,10 @@ section.bg-white a:not(.button):hover {
   color: #2A4365;
 }
 
+header .expanded a {
+  color: #2A4365;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
