@@ -8,8 +8,8 @@ const projects = [
     id: 'obdb',
     title: 'Open Brewery DB',
     description:
-      'Open Brewery DB is a free API for public information on breweries, cideries, brewpubs, and bottleshops. Currently it is focused to the United States, but future plans are to import world-wide data.',
-    tags: ['api', 'ruby-on-rails', 'postgresql', 'aws', 'heroku', 'cloudflare'],
+      'Open Brewery DB is a free API for public information on breweries, cideries, brewpubs, and bottleshops.',
+    tags: ['data', 'api', 'ruby-on-rails', 'postgresql', 'aws', 'heroku'],
     imageUrl:
       'https://res.cloudinary.com/wanderingleafstudios/image/upload/v1572317242/openbrewerydb/OpenBreweryDBLogo.jpg',
     imageAlt: 'Open Brewery DB Logo',
@@ -19,8 +19,8 @@ const projects = [
     id: 'website-therapist',
     title: 'Website Therapist',
     description:
-      'A passion project to help non-technical solopreneurs and small business owners feel more comfortable with their technology so they can focus on their real business goals and passion.',
-    tags: ['customer-success', 'consulting', 'squarespace'],
+      'A passion project to help non-technical solopreneurs feel more comfortable with their technology options so they can focus on their real passion.',
+    tags: ['customer-service', 'consulting', 'google-analytics'],
     imageUrl:
       'https://images.squarespace-cdn.com/content/v1/5cb8d535e8ba44f36ae56baa/1555983091204-F94YQTDAGZ9SQ4X76IBC/ke17ZwdGBToddI8pDm48kIUn3NNSoNR7UgtxyXSfIfp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuW2-d_MTffR-bSzQ7fk-I35SpC23Zv5D0i2JpZaoBOfKQ/monkey-shouting-cave-asa-rodger-unsplash.jpg',
     imageAlt: 'Frustrated monkey in a zoo',
@@ -29,7 +29,7 @@ const projects = [
   {
     id: 'tea-quiz',
     title: 'Tea Quiz',
-    description: 'A small project to demonstrate a simple web-based ReactJS quiz app.',
+    description: 'A small project to demonstrate a simple web-based ReactJS quiz app to collect data.',
     tags: ['javascript', 'reactjs', 'netlify', 'material-ui'],
     imageUrl:
       'https://res.cloudinary.com/wanderingleafstudios/image/upload/v1576648921/chrisjmears.com/christine-wehrmeier-l4MCijLHc0Q-unsplash.jpg',
