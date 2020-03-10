@@ -13,17 +13,17 @@ function Signature() {
       </span>
       <span>
         {' '}
-        I'm a <Link to="/resume">Technical Support Engineer</Link>,{' '}
-        <OutsideLink to="https://github.com/chrisjm">full-stack web developer</OutsideLink>,{' '}
-        <OutsideLink to="https://www.wanderingleafstudios.com/">consultant</OutsideLink>, and{' '}
-        <OutsideLink to="https://website-therapist.com/">Website Therapist</OutsideLink>.{' '}
+        I'm a{' '}
+        <Link to="/resume">Data Engineer</Link>
+        {' '}and{' '}
+        <OutsideLink to="https://www.wanderingleafstudios.com/">data analytics consultant</OutsideLink>.
         <span aria-label="geek face" role="img">
           🤓
         </span>
       </span>
       <span>
         {' '}
-        My mission is to help others understand and navigate technology through empathy and
+        My mission is to tell stories with data with empathy and
         collaboration.{' '}
         <span aria-label="collaborative handshake" role="img">
           🤝
@@ -39,8 +39,8 @@ function Signature() {
       <span>
         {' '}
         I maintain the{' '}
-        <OutsideLink to="https://www.openbrewerydb.org/">Open Brewery DB</OutsideLink> open-source
-        project.{' '}
+        <OutsideLink to="https://www.openbrewerydb.org/">Open Brewery DB</OutsideLink>
+        {' '}open-source project.{' '}
         <span aria-label="beer cheers" role="img">
           🍻
         </span>

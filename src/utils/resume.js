@@ -2,7 +2,7 @@ const resume = {
   personal: {
     name: 'Chris J Mears',
     email: 'chris.mears@gmail.com',
-    objective: 'Iʼm a Technical Support Engineer with over 10 years of experience focusing on goal-oriented, empathetic, and strategic customer guidance and happiness.',
+    objective: 'Iʼm a Data Engineer with a focus on Google Cloud Platform (GCP) and Amazon Web Services (AWS).',
     interests: [
       'Remote & distributed team evangelist 🏠',
       'Rescue dog owner 🐶',
@@ -29,9 +29,9 @@ const resume = {
       startDate: 'May 2018',
       endDate: 'Present',
       accomplishments: [
-        'Advised clients on web technology strategies which fit their budgets and goals.',
-        'Delivered applications and marketing websites including serverless / cloud function APIs, eCommerce implementations, internal tools, and automation.',
-        'Produced instructional write-ups and videos for customers of varying technical levels.',
+        'Advise clients with varying technical skill on technology strategies which fit their goals and budgets through process-oriented workflows.',
+        'Deliver websites, applications, and cloud infrastructure solutions, including serverless APIs, eCommerce implementations, internal tools, CI/CD, DevOps, and deployment automation.',
+        'Support clients via process-oriented workflows to reproduce, troubleshoot, and solve technology issues by email, screen-sharing, videos, and documentation.',
       ],
     },
     {
@@ -41,9 +41,9 @@ const resume = {
       startDate: 'February 2013',
       endDate: 'May 2014',
       accomplishments: [
-        'Orchestrated the ground-up redesign of the cross-browser and cross-device compliant mobile website which had ~17.6 million monthly unique visitors.',
-        'Mentored co-workers on front-end conventions and best practices.',
-        'Assisted Android Kindle product team to quickly integrate a time-sensitive prototype search feature.',
+        'Developed the ground-up redesign of the cross-browser and cross-device compliant mobile website which had ~17.6 million monthly unique visitors.',
+        'Mentored junior co-workers on front-end (HTML & CSS) conventions and best practices.',
+        'Assisted the Android Kindle product team to quickly integrate a prototype search feature.',
       ],
     },
     {
@@ -53,10 +53,10 @@ const resume = {
       startDate: 'January 2009',
       endDate: 'February 2013',
       accomplishments: [
-        'Served as the technical co-founder of a bootstrapped adTech business which was acquired in January 2018.',
-        'Performed a variety of roles including client success manager, software developer, systems administrator, database administrator, and software architect.',
-        'Advised early clients on implementation of our SaaS products.',
-        'Designed and built a scalable display ad creation API platform using Ruby on Rails and Amazon Web Services (AWS) services (including EC2, RDS, SQS, and S3).'
+        'Designed and built a scalable display ad creation SaaS platform using Ruby on Rails and Amazon Web Services (AWS) cloud services (including EC2, RDS, SQS, and S3).',
+        'Developed a scalable and easily deployable PHP-based dynamic display ad framework.',
+        'Created a JavaScript embeddable display ad editor, which utilized the ad creation API.',
+        'Performed a variety of roles including software developer, systems administrator, database administrator, DevOps, solutions architect, and customer support.'
       ],
     },
     {
@@ -76,7 +76,7 @@ const resume = {
       startDate: 'January 2010',
       endDate: 'August 2010',
       accomplishments: [
-        'Coordinated the front-end internationalization (i18n) effort, which included cataloging more than 300 strings.',
+        'Coordinated the front-end internationalization (i18n) effort, which included documenting more than 300 strings.',
         'Communicated with Java and PHP developers to implement custom text replacement functionality.',
       ],
     },
@@ -87,7 +87,7 @@ const resume = {
       startDate: 'September 2008',
       endDate: 'August 2009',
       accomplishments: [
-        'Controlled standards-driven front-end development on a small team for food social media start-up.',
+        'Led standards-driven front-end development for food social media start-up.',
       ],
     },
     {
@@ -97,8 +97,8 @@ const resume = {
       startDate: 'June 2005',
       endDate: 'September 2008',
       accomplishments: [
-        'Advanced the non-profit organization with a minimal budget in the areas of the website, database, network, device and asset management, security, and organizational presentations.',
-        'Consulted with non-technical co-workers to solve computer and network issues.',
+        'Continuously improved non-profit organization with a minimal budget in the areas of the website, database, network, device and asset management, security, and documentation.',
+        'Triaged and supported non-technical co-workers to solve computer and network issues.',
       ],
     },
     {
@@ -108,7 +108,7 @@ const resume = {
       startDate: 'June 2003',
       endDate: 'March 2005',
       accomplishments: [
-        'Tier 2 network support advisor for all United States remote offices, including daily interaction with phone carriers such as AT&T and MCI Worldcom.',
+        'Provided Tier 2 network support for all United States remote offices, including daily interaction with phone carriers such as AT&T and MCI Worldcom.',
       ],
     },
     {
@@ -128,7 +128,7 @@ const resume = {
       startDate: 'June 2000',
       endDate: 'August 2001',
       accomplishments: [
-        'Worked with a team of corporate web designers to deliver websites using ColdFusion for the U.S. Navy (AEGIS), Defense Energy Support Center (DESC), and corporate inter/intranet.',
+        'Collaborated corporate web team to deliver ColdFusion web applications for the U.S. Navy (AEGIS), Defense Energy Support Center (DESC), and corporate inter/intranet.',
       ],
     },
   ],
@@ -136,18 +136,26 @@ const resume = {
     tools: {
       database: ['GraphQL', 'PostgreSQL', 'MySQL', 'MariaDB', 'DynamoDB', 'MongoDB', 'Redis'],
       ecommerce: ['Stripe', 'Braintree', 'Big Commerce', 'Shopify', 'Squarespace'],
-      services: ['Amazon Web Services', 'Git / Github', 'Heroku', 'Now / Zeit', 'DigitalOcean'],
+      services: ['Amazon Web Services (AWS)', 'Google Cloud Platform (GCP)', 'Git / Github', 'Heroku', 'Now / Zeit', 'DigitalOcean'],
       projectManagement: ['Jira', 'Trello', 'Github Issues', 'Notion'],
     },
-    programmingLanguages: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'PHP'],
+    programmingLanguages: ['JavaScript',  'Ruby', 'PHP', 'Python', 'HTML', 'CSS'],
     frameworks: {
-      javascript: ['NodeJS', 'React', 'Express', 'Serverless', 'jQuery'],
+      javascript: ['Node.js', 'React', 'Express', 'Serverless', 'jQuery'],
       ruby: ['Ruby on Rails', 'Jekyll'],
       php: ['WordPress'],
     },
   },
   supplemental: {
     certifications: [
+      {
+        name: 'Data Engineering, Big Data, and Machine Learning on GCP Specialization (5-Courses)',
+        details: 'https://www.coursera.org/account/accomplishments/specialization/77F6S8V7QERX',
+      },
+      {
+        name: 'Google Analytics IQ',
+        details: 'https://skillshop.exceedlms.com/student/award/45121842',
+      },
       {
         name: 'Professional Scrum Master I',
         details: 'https://www.scrum.org/user/364605',
@@ -159,13 +167,7 @@ const resume = {
         description:
           'A free and open-source API for public information on breweries, cideries, brewpubs, and bottleshops.',
         url: 'https://www.openbrewerydb.org/',
-      },
-      {
-        name: 'Website Therapist',
-        description:
-          'Help solopreneurs understand and navigate their tech to become more self-reliant and able to focus more on the passion which drives their business.',
-        url: 'https://website-therapist.com/',
-      },
+      }
     ],
     publications: [
       {
