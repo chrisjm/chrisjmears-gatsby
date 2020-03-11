@@ -44,6 +44,7 @@ export const pageQuery = graphql`
             description
             header {
               teaser
+              cloudinaryPublicId
             }
           }
         }

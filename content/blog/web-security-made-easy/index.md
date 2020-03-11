@@ -6,6 +6,7 @@ description: "Shopping on the Internet is like wandering around a crowded bazaar
 categories: technology
 tags: ['hiring']
 header:
+  cloudinaryPublicId: chrisjmears.com/blog/marcos-mayer-735961-unsplash.jpg
   teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/marcos-mayer-735961-unsplash.jpg'
 ---
 

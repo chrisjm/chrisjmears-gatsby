@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
+import { Image, Transformation } from 'cloudinary-react';
 
 function BlogList({ posts }) {
   return (
     <div className="blog-list">
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
-        const { teaser: featuredImageUrl } = node.frontmatter.header;
+        const { teaser: featuredImageUrl, cloudinaryPublicId } = node.frontmatter.header;
 
         return (
           <div className="mb-10 leading-normal" key={node.fields.slug}>
@@ -22,7 +23,13 @@ function BlogList({ posts }) {
             {featuredImageUrl && (
               <div className="mt-2 shadow-lg">
                 <Link to={node.fields.slug}>
-                  <img className="w-full h-48 object-cover" src={featuredImageUrl} alt={`Featured`} />
+                  {cloudinaryPublicId ?
+                    <Image className="w-full h-48 object-cover" publicId={cloudinaryPublicId} cloudName="wanderingleafstudios">
+                      <Transformation width="1152" height="192" gravity="auto" crop="fill" />
+                    </Image>
+                    :
+                    <img className="w-full h-48 object-cover" src={featuredImageUrl} alt={`Featured`} />
+                  }
                 </Link>
               </div>
             )}

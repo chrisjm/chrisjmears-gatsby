@@ -1,11 +1,12 @@
 ---
 layout: post
 date: '2019-02-28'
-title: 'LETBAD: Domain Names'
-description: 'If you’re a small business owner and run an online business (or even a website), as annoying as it is, you should learn enough to be almost dangerous (L.E.T.B.A.D.) about domain names and how they work.'
+title: 'Learn Enough To Be Almost Dangerous: Domain Names'
+description: 'If you’re a small business owner and run an online business (or even a website), as annoying as it is, you should learn enough to be almost dangerous about domain names and how they work.'
 categories: technology
-tags: ['domain name', 'dns', 'email']
+tags: ['domain name', 'dns', 'email', 'letbad']
 header:
+  cloudinaryPublicId: 'chrisjmears.com/blog/brendan-church-182747-unsplash.jpg'
   teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/brendan-church-182747-unsplash.jpg'
 ---
 

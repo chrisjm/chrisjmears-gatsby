@@ -6,6 +6,7 @@ description: "After my years of consulting for small businesses and solopreneurs
 categories: technology
 tags: ['wordpress', 'squarespace', 'hosting', 'woocommerce']
 header:
+  cloudinaryPublicId: chrisjmears.com/blog/linh-ha-1170851-unsplash.jpg
   teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/linh-ha-1170851-unsplash.jpg'
 ---
 
