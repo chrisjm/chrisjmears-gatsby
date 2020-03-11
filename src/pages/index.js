@@ -19,10 +19,13 @@ function IndexPage(props) {
       <SEO
         title="Home"
         keywords={[
+          `data engineer`,
+          `data science`,
+          `data analysis`,
           `technical support engineer`,
           `distributed team`,
           `remote working`,
-          `full-stack developer`,
+          `full-stack web developer`,
         ]}
       />
       <Hero />

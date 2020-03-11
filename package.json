@@ -1,8 +1,8 @@
 {
-  "name": "@oddstronaut/gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
-  "version": "3.0.41",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "name": "chrisjmears-gatsby",
+  "description": "Chris J Mears Personal Website & Blog using GatsbyJS",
+  "version": "1.0.0",
+  "author": "Chris J Mears <chris.mears@gmail.com>",
   "dependencies": {
     "cloudinary-react": "^1.3.2",
     "gatsby": "2.13.9",
@@ -59,10 +59,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind"
+    "url": "https://github.com/chrisjm/chrisjmears-gatsby"
   },
   "bugs": {
-    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind/issues"
+    "url": "https://github.com/chrisjm/chrisjmears-gatsby/issues"
   },
   "publishConfig": {
     "access": "public"
