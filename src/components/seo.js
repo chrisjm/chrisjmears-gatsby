@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 const defaultOpenGraphImage =
-  'https://res.cloudinary.com/wanderingleafstudios/image/upload/c_scale,g_center,h_630,q_auto:best,w_1200/v1578354612/chrisjmears.com/cjm-opengraph-20200106.jpg';
+  'https://res.cloudinary.com/wanderingleafstudios/image/upload/v1583880370/chrisjmears.com/cjm-og-20200310.jpg';
 
 function SEO({ description, lang, meta, keywords, title, image }) {
   return (
