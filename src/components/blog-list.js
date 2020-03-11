@@ -24,7 +24,7 @@ function BlogList({ posts }) {
               <div className="mt-2 shadow-lg">
                 <Link to={node.fields.slug}>
                   {cloudinaryPublicId ?
-                    <Image className="w-full h-48 object-cover" publicId={cloudinaryPublicId} cloudName="wanderingleafstudios">
+                    <Image className="w-full h-48 object-cover" publicId={cloudinaryPublicId} cloudName="wanderingleafstudios" secure="true">
                       <Transformation width="1152" height="192" gravity="auto" crop="fill" />
                     </Image>
                     :
