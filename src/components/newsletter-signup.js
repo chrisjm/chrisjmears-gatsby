@@ -22,7 +22,7 @@ function NewsletterSignup() {
     <Section sectionClasses="bg-blue-900 text-white">
       <div className="content" id="newsletter">
         <div className="mb-6 text-center">
-          <h2 className="text-4xl font-bold">I have solutions for your web tech woes.</h2>
+          <h2 className="text-4xl font-bold">Sign up for my data-nerd newletter.</h2>
         </div>
         <div className="md:max-w-2xl md:mx-auto">
           <form
@@ -33,8 +33,7 @@ function NewsletterSignup() {
             name="mc-embedded-subscribe-form"
           >
             <p className="mb-4">
-              Sign up for my weekly newsletter where I break down tough tech topics in plain
-              English. All value. No spam. Guaranteed dog photos.
+              Sign up for my newsletter with fun, currated, data-related articles. All data. No spam. Guaranteed dog photos.
             </p>
             <div className="flex justify-between flex-col md:flex-row">
               <div className="flex-1 md:mr-5">
