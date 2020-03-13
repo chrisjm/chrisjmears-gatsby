@@ -22,7 +22,7 @@ The Prototyping section was the one that resonated with me the most at the time 
 
 I had a shortlist of career paths and roles I was considering, given my strengths and interests. I posted a message on LinkedIn requesting any introductions to those roles and got a good handful of helpful leads.
 
-[image:FB3FDF9A-19B1-4165-9887-72BFA043B58D-984-000064F6AA498A4A/Screenshot 2020-03-03 10.59.04.png]
+![LinkedIn Post Requesting Career Guidance](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1584053270/chrisjmears.com/blog/Interviews_-_LinkedIn_Post.png)
 
 ## What are life design interviews?
 
