@@ -33,7 +33,7 @@ function NewsletterSignup() {
             name="mc-embedded-subscribe-form"
           >
             <p className="mb-4">
-              Sign up for my newsletter with fun, currated, data-related articles. All data. No spam. Guaranteed dog photos.
+              Sign up for my newsletter with fun, interesting, data-related articles. All data. No spam. Guaranteed dog photos.
             </p>
             <div className="flex justify-between flex-col md:flex-row">
               <div className="flex-1 md:mr-5">
