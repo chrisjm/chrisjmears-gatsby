@@ -5,6 +5,7 @@ import SEO from '../components/seo';
 import Hero from '../components/hero';
 import AboutMe from '../components/about-me';
 import MostRecentBlogPosts from '../components/most-recent-blog-posts';
+import NewsletterSignup from '../components/newsletter-signup';
 import Projects from '../components/projects';
 
 function IndexPage(props) {
@@ -29,6 +30,7 @@ function IndexPage(props) {
         ]}
       />
       <Hero />
+      <NewsletterSignup />
       <Projects />
       <MostRecentBlogPosts posts={posts} />
       <AboutMe />
