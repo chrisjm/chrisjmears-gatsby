@@ -1,6 +1,4 @@
-# Chris J Mears [Website](https://chrisjmears.com)
-
-Credit: [Gatsby Starter Tailwind](https://github.com/oddstronaut/gatsby-starter-tailwind)
+# [Chris J Mears Website](https://chrisjmears.com)
 
 ## Get started
 
