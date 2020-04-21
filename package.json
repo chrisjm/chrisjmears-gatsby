@@ -4,10 +4,13 @@
   "version": "1.0.0",
   "author": "Chris J Mears <chris.mears@gmail.com>",
   "dependencies": {
+    "@mdx-js/mdx": "^1.5.7",
+    "@mdx-js/react": "^1.5.7",
     "cloudinary-react": "^1.3.2",
-    "gatsby": "2.13.9",
+    "gatsby": "^2.20.28",
     "gatsby-plugin-google-analytics": "^2.1.7",
     "gatsby-plugin-manifest": "2.2.1",
+    "gatsby-plugin-mdx": "^1.0.82",
     "gatsby-plugin-postcss": "2.1.0",
     "gatsby-plugin-purgecss": "4.0.0",
     "gatsby-plugin-react-helmet": "3.1.0",
@@ -19,7 +22,7 @@
     "graphql": "14.4.2",
     "prismjs": "^1.17.1",
     "prop-types": "15.7.2",
-    "react": "16.8.6",
+    "react": "^16.13.1",
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "react-typography": "^0.16.19",
@@ -46,16 +49,19 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
     "babel-eslint": "10.0.2",
-    "eslint": "5.16.0",
+    "eslint": "^5.16.0",
     "eslint-config-react-app": "4.0.1",
-    "eslint-plugin-flowtype": "3.11.1",
+    "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "2.18.0",
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-react": "7.14.2",
     "eslint-plugin-react-hooks": "1.6.1",
     "prettier": "1.18.2",
-    "tailwindcss": "1.0.4"
+    "tailwindcss": "1.0.4",
+    "typescript": "^3.8.3"
   },
   "repository": {
     "type": "git",
