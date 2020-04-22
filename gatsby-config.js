@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Chris J Mears`,
-    description: `Goal-oriented, empathetic, and strategic Technical Support Engineer for SaaS companies.`,
+    description: `Iʼm a Data Engineer with a focus on Google Cloud Platform (GCP) and Amazon Web Services (AWS).`,
     author: `@chrisjm`,
   },
   plugins: [
@@ -15,8 +15,24 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/pages`,
+        name: `pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          blog: require.resolve("./src/layouts/blog-post.js"),
+          default: require.resolve("./src/layouts/page.js"),
+        },
       },
     },
     {
