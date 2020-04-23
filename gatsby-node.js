@@ -37,7 +37,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const allPosts = markdownResult.data.allMarkdownRemark.edges
 
-  const blogPosts = allPosts.filter((post) =>
+  const blogPosts = allPosts.filter(post =>
     /\/blog/.test(post.node.fields.slug)
   )
 
@@ -58,7 +58,7 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-  const newsletterPosts = allPosts.filter((post) =>
+  const newsletterPosts = allPosts.filter(post =>
     /\/data-nerd-newsletter/.test(post.node.fields.slug)
   )
 
@@ -69,8 +69,6 @@ exports.createPages = async ({ graphql, actions }) => {
         ? null
         : newsletterPosts[index + 1].node
     const next = index === 0 ? null : newsletterPosts[index - 1].node
-
-    console.log(slug)
 
     createPage({
       path: slug,
