@@ -1,15 +1,15 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Hero from '../components/hero';
-import AboutMe from '../components/about-me';
-import MostRecentBlogPosts from '../components/most-recent-blog-posts';
-import NewsletterSignup from '../components/newsletter-signup';
-import Projects from '../components/projects';
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Hero from "../components/hero"
+import AboutMe from "../components/about-me"
+import MostRecentBlogPosts from "../components/most-recent-blog-posts"
+import NewsletterSignup from "../components/newsletter-signup"
+import Projects from "../components/projects"
 
 function IndexPage(props) {
-  const posts = props.data.allMarkdownRemark.nodes;
+  const posts = props.data.allMarkdownRemark.nodes
 
   return (
     <Layout
@@ -38,14 +38,17 @@ function IndexPage(props) {
       <MostRecentBlogPosts posts={posts} />
       <AboutMe />
     </Layout>
-  );
+  )
 }
 
-export default IndexPage;
+export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(limit: 2, sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      limit: 2
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       nodes {
         id
         fields {
@@ -61,4 +64,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

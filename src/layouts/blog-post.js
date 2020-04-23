@@ -1,18 +1,18 @@
-import React from 'react';
-import { graphql } from 'gatsby';
+import React from "react"
+import { graphql } from "gatsby"
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Signature from '../components/signature';
-import BlogPostNavigation from '../components/blog-post-navigation';
-import NewsletterSignup from '../components/newsletter-signup';
-import Section from '../components/section';
-import PostContent from '../components/post-content';
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Signature from "../components/signature"
+import BlogPostNavigation from "../components/blog-post-navigation"
+import NewsletterSignup from "../components/newsletter-signup"
+import Section from "../components/section"
+import PostContent from "../components/post-content"
 
 function BlogPostTemplate(props) {
-  const post = props.data.markdownRemark;
-  const siteTitle = props.data.site.siteMetadata.title;
-  const { previous, next } = props.pageContext;
+  const post = props.data.markdownRemark
+  const siteTitle = props.data.site.siteMetadata.title
+  const { previous, next } = props.pageContext
   const { header } = post.frontmatter
   const ogImagePath = header && header.teaser
 
@@ -33,10 +33,10 @@ function BlogPostTemplate(props) {
 
       <NewsletterSignup />
     </Layout>
-  );
+  )
 }
 
-export default BlogPostTemplate;
+export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -60,4 +60,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

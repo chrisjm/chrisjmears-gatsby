@@ -1,8 +1,8 @@
-import React from 'react';
-import Section from './section';
-import Heading2 from './heading2';
-import OutsideLink from './outside-link'
-import { Link } from 'gatsby';
+import React from "react"
+import Section from "./section"
+import Heading2 from "./heading2"
+import OutsideLink from "./outside-link"
+import { Link } from "gatsby"
 
 function AboutMe() {
   return (
@@ -23,22 +23,24 @@ function AboutMe() {
                 Iʼm a Data Engineer who tells stories through data.
               </li>
               <li className="mb-4 leading-tight">
-                I currently own and operate a{' '}
+                I currently own and operate a{" "}
                 <OutsideLink to="https://www.wanderingleafstudios.com">
                   data analytics consulting business
-                </OutsideLink>
-                {' '}and have previously worked for companies large and small in different sectors including
-                Fortune 500, startups, and non-profits.
+                </OutsideLink>{" "}
+                and have previously worked for companies large and small in
+                different sectors including Fortune 500, startups, and
+                non-profits.
               </li>
               <li className="mb-4 leading-tight">
-                Iʼm a distributed team evangelist,{' '}
-                <OutsideLink to='https://www.openbrewerydb.org/'>
+                Iʼm a distributed team evangelist,{" "}
+                <OutsideLink to="https://www.openbrewerydb.org/">
                   open-source contributor
                 </OutsideLink>
                 , and rescue dog owner.
               </li>
               <li className="mb-4 leading-tight">
-                I'm currently seeking full-time opportunities at companies with a healthy distributed team philosophy.
+                I'm currently seeking full-time opportunities at companies with
+                a healthy distributed team philosophy.
                 <div>
                   <Link
                     to="/contact"
@@ -53,7 +55,7 @@ function AboutMe() {
         </div>
       </div>
     </Section>
-  );
+  )
 }
 
-export default AboutMe;
+export default AboutMe

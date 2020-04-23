@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
-import Section from './section';
-import Heading2 from './heading2';
+import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
+import Section from "./section"
+import Heading2 from "./heading2"
 
 function BlogPostNavigation({ previous, next }) {
   return (
@@ -21,7 +21,9 @@ function BlogPostNavigation({ previous, next }) {
                   <img src={next.frontmatter.header.teaser} alt={`Featured`} />
                 </div>
               )}
-              <div className="text-lg leading-tight">{next.frontmatter.title}</div>
+              <div className="text-lg leading-tight">
+                {next.frontmatter.title}
+              </div>
             </Link>
             <i className="block mt-2">{next.frontmatter.date}</i>
           </li>
@@ -35,22 +37,27 @@ function BlogPostNavigation({ previous, next }) {
             >
               {previous.frontmatter.header && (
                 <div className="mb-2">
-                  <img src={previous.frontmatter.header.teaser} alt={`Featured`} />
+                  <img
+                    src={previous.frontmatter.header.teaser}
+                    alt={`Featured`}
+                  />
                 </div>
               )}
-              <div className="text-lg leading-tight">{previous.frontmatter.title}</div>
+              <div className="text-lg leading-tight">
+                {previous.frontmatter.title}
+              </div>
             </Link>
             <i className="block mt-2">{previous.frontmatter.date}</i>
           </li>
         )}
       </ul>
     </Section>
-  );
+  )
 }
 
 BlogPostNavigation.propTypes = {
   previous: PropTypes.object,
   next: PropTypes.object,
-};
+}
 
-export default BlogPostNavigation;
+export default BlogPostNavigation

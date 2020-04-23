@@ -1,5 +1,5 @@
-import React from 'react';
-import Section from './section';
+import React from "react"
+import Section from "./section"
 
 function WhyWorkWithMe() {
   return (
@@ -21,8 +21,8 @@ function WhyWorkWithMe() {
           </div>
           <h3 className="mb-1 text-2xl font-bold">Collaboration</h3>
           <p className="leading-tight">
-            We work together as a team to define your technology goals, solve issues, and set you on
-            a path for success.
+            We work together as a team to define your technology goals, solve
+            issues, and set you on a path for success.
           </p>
         </div>
         <div className="flex-1 mb-5 md:mr-5 py-5">
@@ -38,9 +38,9 @@ function WhyWorkWithMe() {
           </div>
           <h3 className="mb-1 text-2xl font-bold">Empowerment</h3>
           <p className="leading-tight">
-            I want to empower you to learn the most you want to about your website whether it's a
-            storefront or a marketing page. We'll work together to fill in gaps in your tech
-            knowledge.
+            I want to empower you to learn the most you want to about your
+            website whether it's a storefront or a marketing page. We'll work
+            together to fill in gaps in your tech knowledge.
           </p>
         </div>
         <div className="flex-1 mb-5 md:mr-5 py-5">
@@ -56,8 +56,9 @@ function WhyWorkWithMe() {
           </div>
           <h3 className="mb-1 text-2xl font-bold">Communication</h3>
           <p className="leading-tight">
-            There should never be a time when you don't know what's going on with your website. I
-            provide tools to track progress along with daily or weekly meetings for clarity.
+            There should never be a time when you don't know what's going on
+            with your website. I provide tools to track progress along with
+            daily or weekly meetings for clarity.
           </p>
         </div>
       </div>
@@ -75,8 +76,8 @@ function WhyWorkWithMe() {
           </div>
           <h3 className="mb-1 text-2xl font-bold">Honest Resource</h3>
           <p className="leading-tight">
-            I will be your technology resource when you need it and will help you weigh all of the
-            options depending on your business goals.
+            I will be your technology resource when you need it and will help
+            you weigh all of the options depending on your business goals.
           </p>
         </div>
         <div className="flex-1 mb-5 md:mr-5 py-5">
@@ -92,8 +93,9 @@ function WhyWorkWithMe() {
           </div>
           <h3 className="mb-1 text-2xl font-bold">Goal-Oriented</h3>
           <p className="leading-tight">
-            Rather than focusing on code, I focus on goals. I want to help you stop worrying about
-            your web technology and propel your business forward.
+            Rather than focusing on code, I focus on goals. I want to help you
+            stop worrying about your web technology and propel your business
+            forward.
           </p>
         </div>
         <div className="flex-1 mb-5 md:mr-5 py-5">
@@ -109,13 +111,13 @@ function WhyWorkWithMe() {
           </div>
           <h3 className="mb-1 text-2xl font-bold">Sleep at Night</h3>
           <p className="leading-tight">
-            Backups. Uptime. Deployments. Maintenance. Forget about your website woes and sleep at
-            night.
+            Backups. Uptime. Deployments. Maintenance. Forget about your website
+            woes and sleep at night.
           </p>
         </div>
       </div>
     </Section>
-  );
+  )
 }
 
-export default WhyWorkWithMe;
+export default WhyWorkWithMe

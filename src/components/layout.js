@@ -1,11 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
+import React from "react"
+import PropTypes from "prop-types"
+import { StaticQuery, graphql } from "gatsby"
 
-import Header from './header';
-import Footer from './footer';
+import Header from "./header"
+import Footer from "./footer"
 
-function Layout({ children, headerBackgroundColor, headerTextColor, headerMobileMenuTextColor }) {
+function Layout({
+  children,
+  headerBackgroundColor,
+  headerTextColor,
+  headerMobileMenuTextColor,
+}) {
   return (
     <StaticQuery
       query={graphql`
@@ -17,7 +22,7 @@ function Layout({ children, headerBackgroundColor, headerTextColor, headerMobile
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <div className="flex flex-col min-h-screen text-gray-900">
           <Header
             backgroundColor={headerBackgroundColor}
@@ -26,13 +31,15 @@ function Layout({ children, headerBackgroundColor, headerTextColor, headerMobile
             textColor={headerTextColor}
           />
 
-          <main className="flex flex-col flex-1 md:justify-center">{children}</main>
+          <main className="flex flex-col flex-1 md:justify-center">
+            {children}
+          </main>
 
           <Footer />
         </div>
       )}
     />
-  );
+  )
 }
 
 Layout.propTypes = {
@@ -40,6 +47,6 @@ Layout.propTypes = {
   backgroundColor: PropTypes.string,
   headerTextColor: PropTypes.string,
   mobileMenuTextColor: PropTypes.string,
-};
+}
 
-export default Layout;
+export default Layout

@@ -1,9 +1,9 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import React, { useState } from "react"
 
 function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
-  const [isExpanded, toggleExpansion] = useState(false);
+  const [isExpanded, toggleExpansion] = useState(false)
 
   return (
     <header className={`bg-${backgroundColor} text-${textColor}`}>
@@ -35,21 +35,38 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
                 isExpanded
                   ? `expanded bg-white absolute right-0 mr-5 mt-2 text-${mobileMenuTextColor}`
                   : `hidden`
-                } md:block md:flex md:items-center md:w-auto`}
+              } md:block md:flex md:items-center md:w-auto`}
             >
               <ul className="list-none flex flex-col shadow md:inline-block md:shadow-none md:p-0 font-black">
-                <li className="md:inline-block md:mr-5 mb-0">
-                  <Link className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`} to="/about">
+                <li className="md:inline-block md:mr-2 mb-0">
+                  <Link
+                    className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`}
+                    to="/about"
+                  >
                     About Me
                   </Link>
                 </li>
-                <li className="md:inline-block md:mr-5 mb-0">
-                  <Link className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`} to="/blog">
+                <li className="md:inline-block md:mr-2 mb-0">
+                  <Link
+                    className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`}
+                    to="/blog"
+                  >
                     Blog
                   </Link>
                 </li>
-                <li className="md:inline-block md:mr-5 mb-0">
-                  <Link className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`} to="/contact">
+                <li className="md:inline-block md:mr-2 mb-0">
+                  <Link
+                    className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`}
+                    to="/data-nerd-newsletter"
+                  >
+                    Data Nerd Newsletter
+                  </Link>
+                </li>
+                <li className="md:inline-block md:mr-2 mb-0">
+                  <Link
+                    className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`}
+                    to="/contact"
+                  >
                     Contact
                   </Link>
                 </li>
@@ -59,19 +76,19 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
         </div>
       </div>
     </header>
-  );
+  )
 }
 
 Header.propTypes = {
   backgroundColor: PropTypes.string,
   mobileMenuTextColor: PropTypes.string,
   textColor: PropTypes.string,
-};
+}
 
 Header.defaultProps = {
-  backgroundColor: 'blue-700',
-  mobileMenuTextColor: 'blue-700',
-  textColor: 'white',
-};
+  backgroundColor: "blue-700",
+  mobileMenuTextColor: "blue-700",
+  textColor: "white",
+}
 
-export default Header;
+export default Header

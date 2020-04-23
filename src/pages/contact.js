@@ -1,8 +1,8 @@
-import React from "react";
+import React from "react"
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import ContactForm from "../components/contact-form";
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import ContactForm from "../components/contact-form"
 
 function Thanks() {
   return (
@@ -10,7 +10,7 @@ function Thanks() {
       <SEO title="Contact me" />
       <ContactForm />
     </Layout>
-  );
+  )
 }
 
-export default Thanks;
+export default Thanks

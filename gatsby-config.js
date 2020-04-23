@@ -8,21 +8,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/posts/`,
+        name: `posts`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/pages`,
+        path: `${__dirname}/content/pages/`,
         name: `pages`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${__dirname}/content/assets/`,
         name: `assets`,
       },
     },
@@ -31,7 +31,7 @@ module.exports = {
       options: {
         defaultLayouts: {
           blog: require.resolve("./src/layouts/blog-post.js"),
-          default: require.resolve("./src/layouts/page.js"),
+          default: require.resolve("./src/layouts/mdx-page.js"),
         },
       },
     },
@@ -42,15 +42,15 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: 'language-',
+              classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
               noInlineHighlight: false,
               languageExtensions: [],
               prompt: {
-                user: 'root',
-                host: 'localhost',
+                user: "root",
+                host: "localhost",
                 global: false,
               },
             },
@@ -79,17 +79,17 @@ module.exports = {
     },
     `gatsby-plugin-postcss`,
     {
-      resolve: 'gatsby-plugin-purgecss',
+      resolve: "gatsby-plugin-purgecss",
       options: {
         tailwind: true,
-        purgeOnly: ['src/css/style.css'],
+        purgeOnly: ["src/css/style.css"],
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-5219383-1',
+        trackingId: "UA-5219383-1",
       },
     },
   ],
-};
+}

@@ -1,6 +1,6 @@
-import React from 'react';
-import Section from './section';
-import { Link } from 'gatsby';
+import React from "react"
+import Section from "./section"
+import { Link } from "gatsby"
 
 function Hero() {
   return (
@@ -16,7 +16,11 @@ function Hero() {
         <div className="flex-1 antialiased">
           <h1 className="text-5xl font-bold mb-2">Hi! My name is Chris.</h1>
           <h2 className="text-2xl font-bold text-blue-200 mb-6">
-            Iʼm a <strong className="text-white">Data Engineer</strong> with a focus on <strong className="text-white">Google Cloud Platform (GCP)</strong> and <strong className="text-white">Amazon Web Services (AWS)</strong>.
+            Iʼm a <strong className="text-white">Data Engineer</strong> with a
+            focus on{" "}
+            <strong className="text-white">Google Cloud Platform (GCP)</strong>{" "}
+            and{" "}
+            <strong className="text-white">Amazon Web Services (AWS)</strong>.
           </h2>
           <h3 className="text-xl font-bold text-white mb-6">
             Currently seeking new opportunities.
@@ -30,7 +34,7 @@ function Hero() {
         </div>
       </div>
     </Section>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

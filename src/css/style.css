@@ -143,7 +143,7 @@ a {
 }
 
 .hero {
-  background-image: url('../images/icons/rain.svg');
+  background-image: url("../images/icons/rain.svg");
   background-repeat: repeat;
 }
 
@@ -160,11 +160,11 @@ section.bg-white a:not(.button) {
 .post-content a:hover,
 .post-excerpt a:hover,
 section.bg-white a:not(.button):hover {
-  color: #2A4365;
+  color: #2a4365;
 }
 
 header .expanded a {
-  color: #2A4365;
+  color: #2a4365;
 }
 
 .video-container {
