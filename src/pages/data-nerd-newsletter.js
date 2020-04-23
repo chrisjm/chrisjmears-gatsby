@@ -4,27 +4,29 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Section from "../components/section"
-import BlogList from "../components/blog-list"
+import NewsletterList from "../components/newsletter-list"
+import NewsletterSignup from "../components/newsletter-signup"
 
-function BlogIndex(props) {
+function DataNerdNewsletterIndex(props) {
   const { data } = props
   const siteTitle = data.site.siteMetadata.title
-  const blogPosts = data.allMarkdownRemark.edges.filter(post => {
-    return /^\/blog/.test(post.node.fields.slug)
+  const newsletterPosts = data.allMarkdownRemark.edges.filter(post => {
+    return /^\/data-nerd-newsletter/.test(post.node.fields.slug)
   })
 
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO title="All posts" />
+      <NewsletterSignup />
       <Section>
-        <h1 className="text-4xl mb-6">Blog</h1>
-        <BlogList posts={blogPosts} />
+        <h1 className="text-4xl mb-6">Data Nerd Newsletter Archive</h1>
+        <NewsletterList posts={newsletterPosts} />
       </Section>
     </Layout>
   )
 }
 
-export default BlogIndex
+export default DataNerdNewsletterIndex
 
 export const pageQuery = graphql`
   query {
@@ -43,11 +45,6 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            description
-            header {
-              teaser
-              cloudinaryPublicId
-            }
           }
         }
       }

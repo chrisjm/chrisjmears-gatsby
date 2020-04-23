@@ -2,38 +2,38 @@ module.exports = {
   siteMetadata: {
     title: `Chris J Mears`,
     description: `Iʼm a Data Engineer with a focus on Google Cloud Platform (GCP) and Amazon Web Services (AWS).`,
-    author: `@chrisjm`,
+    author: `@chrisjm`
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
+        path: `${__dirname}/content/posts/`,
+        name: `posts`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/pages`,
-        name: `pages`,
-      },
+        path: `${__dirname}/content/pages/`,
+        name: `pages`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
+        path: `${__dirname}/content/assets/`,
+        name: `assets`
+      }
     },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
           blog: require.resolve("./src/layouts/blog-post.js"),
-          default: require.resolve("./src/layouts/page.js"),
-        },
-      },
+          default: require.resolve("./src/layouts/mdx-page.js")
+        }
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -42,27 +42,27 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: 'language-',
+              classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
               noInlineHighlight: false,
               languageExtensions: [],
               prompt: {
-                user: 'root',
-                host: 'localhost',
-                global: false,
-              },
-            },
-          },
-        ],
-      },
+                user: "root",
+                host: "localhost",
+                global: false
+              }
+            }
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
+        pathToConfigModule: `src/utils/typography`
+      }
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -74,22 +74,22 @@ module.exports = {
         background_color: `#2b6cb0`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/favicon-32x32.png`,
-      },
+        icon: `src/images/favicon-32x32.png`
+      }
     },
     `gatsby-plugin-postcss`,
     {
-      resolve: 'gatsby-plugin-purgecss',
+      resolve: "gatsby-plugin-purgecss",
       options: {
         tailwind: true,
-        purgeOnly: ['src/css/style.css'],
-      },
+        purgeOnly: ["src/css/style.css"]
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-5219383-1',
-      },
-    },
-  ],
-};
+        trackingId: "UA-5219383-1"
+      }
+    }
+  ]
+}
