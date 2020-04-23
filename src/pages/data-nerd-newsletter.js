@@ -10,7 +10,7 @@ import NewsletterSignup from "../components/newsletter-signup"
 function DataNerdNewsletterIndex(props) {
   const { data } = props
   const siteTitle = data.site.siteMetadata.title
-  const newsletterPosts = data.allMarkdownRemark.edges.filter(post => {
+  const newsletterPosts = data.allMarkdownRemark.edges.filter((post) => {
     return /^\/data-nerd-newsletter/.test(post.node.fields.slug)
   })
 

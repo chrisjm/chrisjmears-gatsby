@@ -9,7 +9,7 @@ import BlogList from "../components/blog-list"
 function BlogIndex(props) {
   const { data } = props
   const siteTitle = data.site.siteMetadata.title
-  const blogPosts = data.allMarkdownRemark.edges.filter(post => {
+  const blogPosts = data.allMarkdownRemark.edges.filter((post) => {
     return /^\/blog/.test(post.node.fields.slug)
   })
 

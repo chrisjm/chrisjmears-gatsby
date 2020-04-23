@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 import AboutMe from "../components/about-me"
 
 function About() {
@@ -10,7 +10,7 @@ function About() {
       <SEO title="About Me" />
       <AboutMe />
     </Layout>
-  );
+  )
 }
 
-export default About;
+export default About

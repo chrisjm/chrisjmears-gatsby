@@ -1,6 +1,6 @@
-import React from 'react';
-import Section from './section';
-import Heading2 from './heading2';
+import React from "react"
+import Section from "./section"
+import Heading2 from "./heading2"
 
 function AllTheWoes() {
   return (
@@ -10,7 +10,10 @@ function AllTheWoes() {
         <div className="flex flex-col items-center max-w-lg mb-8 bg-gray-100 border rounded-lg p-5">
           <div className="mb-8">
             <h2 className="mb-4 text-center text-4xl font-bold">Minor Woes</h2>
-            <p>Simple-ish tasks which can be solved in one or two 30-60 minute 1-on-1 sessions.</p>
+            <p>
+              Simple-ish tasks which can be solved in one or two 30-60 minute
+              1-on-1 sessions.
+            </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
             <div className="w-24 mx-auto mb-6">
@@ -25,8 +28,8 @@ function AllTheWoes() {
             </div>
             <h3 className="mb-1 text-2xl font-bold">Fix Bugs & Glitches</h3>
             <p className="leading-tight">
-              Website glitches are a pain in the butt. Don't let bugs stop your customers from
-              interacting and paying you.
+              Website glitches are a pain in the butt. Don't let bugs stop your
+              customers from interacting and paying you.
             </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
@@ -42,8 +45,8 @@ function AllTheWoes() {
             </div>
             <h3 className="mb-1 text-2xl font-bold">Theme Updates</h3>
             <p className="leading-tight">
-              Is your website "coded" and you can't make updates to a page? Let me help you so you
-              can keep your brand up-to-date.
+              Is your website "coded" and you can't make updates to a page? Let
+              me help you so you can keep your brand up-to-date.
             </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
@@ -57,10 +60,12 @@ function AllTheWoes() {
                 <path d="m16 1-9 3-7-3v19l7 3 9-3 8 3v-19zm-13 12c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm4 0c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm4 0c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1zm9.707.793c.391.391.391 1.023 0 1.414-.195.195-.451.293-.707.293s-.512-.098-.707-.293l-1.793-1.793-1.793 1.793c-.195.195-.451.293-.707.293s-.512-.098-.707-.293c-.391-.391-.391-1.023 0-1.414l1.793-1.793-1.793-1.793c-.391-.391-.391-1.023 0-1.414s1.023-.391 1.414 0l1.793 1.793 1.793-1.793c.391-.391 1.023-.391 1.414 0s.391 1.023 0 1.414l-1.793 1.793z" />
               </svg>
             </div>
-            <h3 className="mb-1 text-2xl font-bold">Sanity Check / Code Review</h3>
+            <h3 className="mb-1 text-2xl font-bold">
+              Sanity Check / Code Review
+            </h3>
             <p className="leading-tight">
-              Your agency/designer built a website in WordPress or Drupal or whatever. I'll check it
-              out and get you on the path to success.
+              Your agency/designer built a website in WordPress or Drupal or
+              whatever. I'll check it out and get you on the path to success.
             </p>
           </div>
         </div>
@@ -68,7 +73,10 @@ function AllTheWoes() {
         <div className="flex flex-col items-center max-w-lg mb-8 bg-blue-700 border text-white rounded-lg p-5">
           <div className="mb-8">
             <h2 className="mb-4 text-center text-4xl font-bold">Major Woes</h2>
-            <p>Complex projects which require a bit more attention and can last weeks or months.</p>
+            <p>
+              Complex projects which require a bit more attention and can last
+              weeks or months.
+            </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
             <div className="w-24 mx-auto mb-6">
@@ -83,8 +91,8 @@ function AllTheWoes() {
             </div>
             <h3 className="mb-1 text-2xl">Site Transfer</h3>
             <p className="leading-tight">
-              You need to switch web hosts and/or move your domain name. Let me take care of it so
-              you can care for your business.
+              You need to switch web hosts and/or move your domain name. Let me
+              take care of it so you can care for your business.
             </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
@@ -100,8 +108,8 @@ function AllTheWoes() {
             </div>
             <h3 className="mb-1 text-2xl font-bold">New Features</h3>
             <p className="leading-tight">
-              Get help implementing that fancy new third-party integration which will skyrocket your
-              business's bottom line.
+              Get help implementing that fancy new third-party integration which
+              will skyrocket your business's bottom line.
             </p>
           </div>
           <div className="flex-1 mb-5 md:mr-5 py-5">
@@ -117,15 +125,17 @@ function AllTheWoes() {
             </div>
             <h3 className="mb-1 text-2xl font-bold">Custom Project</h3>
             <p className="leading-tight">
-              Have a web app idea, SEO optimization, security audit, or other custom coding project?
-              Let me help you.
+              Have a web app idea, SEO optimization, security audit, or other
+              custom coding project? Let me help you.
             </p>
           </div>
         </div>
       </div>
       <div>
         <div className="text-center">
-          <p className="font-bold text-lg mb-2">Do you have any of these Website Woes?</p>
+          <p className="font-bold text-lg mb-2">
+            Do you have any of these Website Woes?
+          </p>
           <a
             href="https://calendly.com/chrisjmears/website-woes-intro"
             className="button bg-green-600 border-2 border-white hover:bg-green-500 text-white font-semibold py-3 px-5 rounded shadow-md hover:shadow-none text-2xl inline-block no-underline mb-2"
@@ -138,7 +148,7 @@ function AllTheWoes() {
         </div>
       </div>
     </Section>
-  );
+  )
 }
 
-export default AllTheWoes;
+export default AllTheWoes

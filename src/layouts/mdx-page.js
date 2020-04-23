@@ -1,16 +1,16 @@
-import React from 'react';
-import { graphql } from 'gatsby';
+import React from "react"
+import { graphql } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Section from '../components/section';
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Section from "../components/section"
 
 const shortcodes = { Link }
 
-function PageLayout({ data: { mdx }}) {
+function PageLayout({ data: { mdx } }) {
   const { header, description, title } = mdx.frontmatter
   const ogImagePath = header && header.teaser
 
@@ -30,10 +30,10 @@ function PageLayout({ data: { mdx }}) {
         </MDXProvider>
       </Section>
     </Layout>
-  );
+  )
 }
 
-export default PageLayout;
+export default PageLayout
 
 export const pageQuery = graphql`
   query PageQuery($id: String) {

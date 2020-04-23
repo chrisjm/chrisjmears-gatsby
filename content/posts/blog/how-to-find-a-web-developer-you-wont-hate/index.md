@@ -1,12 +1,12 @@
 ---
 layout: post
-date: '2018-11-27'
+date: "2018-11-27"
 title: "How to find a web developer you won't hate 😅"
 description: "Looking for web site help, we often find ourselves in the same predicament as someone who is inexperienced with cars searching for a new mechanic. Here are some tips you can use to find a web developer you won't hate."
 categories: technology
-tags: ['hiring']
+tags: ["hiring"]
 header:
-  teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/rawpixel-699806-unsplash.jpg'
+  teaser: "https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/rawpixel-699806-unsplash.jpg"
 ---
 
 ![two person's hands shaking](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1543340510/chrisjmears.com/blog/rawpixel-699806-unsplash.jpg)

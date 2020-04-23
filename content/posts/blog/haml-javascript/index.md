@@ -1,11 +1,11 @@
 ---
 layout: post
-date: '2009-10-20'
+date: "2009-10-20"
 title: HAML + Javascript
-categories: 'tips and tricks'
-tags: ['haml', 'javascript']
+categories: "tips and tricks"
+tags: ["haml", "javascript"]
 header:
-  teaser: ''
+  teaser: ""
 ---
 
 I am very meticulous when it comes to server calls. In most of my Rails applications, I make sure to only specify those Javascript files that are deemed absolute necessary for any given view so as to not clutter things with wasted bytes of memory.

@@ -1,33 +1,33 @@
-import React from 'react';
-import { navigate } from 'gatsby-link';
+import React from "react"
+import { navigate } from "gatsby-link"
 
 function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&');
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&")
 }
 
 function ContactForm() {
-  const [state, setState] = React.useState({});
+  const [state, setState] = React.useState({})
 
-  const handleChange = e => {
-    setState({ ...state, [e.target.name]: e.target.value });
-  };
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value })
+  }
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    const form = e.target;
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const form = e.target
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        'form-name': form.getAttribute('name'),
+        "form-name": form.getAttribute("name"),
         ...state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
-      .catch(error => alert(error));
-  };
+      .then(() => navigate(form.getAttribute("action")))
+      .catch((error) => alert(error))
+  }
 
   return (
     <div className="contact-form w-full mx-auto my-6 max-w-lg p-3">
@@ -44,36 +44,56 @@ function ContactForm() {
         <input type="hidden" name="form-name" value="contact" />
         <p hidden>
           <label>
-            Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+            Don’t fill this out:{" "}
+            <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
         <p className="mb-6">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Your name:
             <br />
-            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="name" onChange={handleChange} />
+            <input
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              type="text"
+              name="name"
+              onChange={handleChange}
+            />
           </label>
         </p>
         <p className="mb-6">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Your email:
             <br />
-            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email" onChange={handleChange} />
+            <input
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              type="email"
+              name="email"
+              onChange={handleChange}
+            />
           </label>
         </p>
         <p className="mb-6">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Message:
             <br />
-            <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="message" onChange={handleChange} />
+            <textarea
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              name="message"
+              onChange={handleChange}
+            />
           </label>
         </p>
         <p>
-          <button className="js-event-track bg-green-700 border-2 border-white hover:bg-green-600 text-white font-semibold py-2 px-4 rounded shadow-md hover:shadow-none inline-block no-underline text-xl" type="submit">Send</button>
+          <button
+            className="js-event-track bg-green-700 border-2 border-white hover:bg-green-600 text-white font-semibold py-2 px-4 rounded shadow-md hover:shadow-none inline-block no-underline text-xl"
+            type="submit"
+          >
+            Send
+          </button>
         </p>
       </form>
     </div>
-  );
+  )
 }
 
-export default ContactForm;
+export default ContactForm

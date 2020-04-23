@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 function Thanks() {
   return (
@@ -13,7 +13,7 @@ function Thanks() {
         </h2>
       </div>
     </Layout>
-  );
+  )
 }
 
-export default Thanks;
+export default Thanks

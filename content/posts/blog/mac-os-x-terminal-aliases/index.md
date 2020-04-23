@@ -1,11 +1,11 @@
 ---
 layout: post
-date: '2009-05-21'
+date: "2009-05-21"
 title: Mac OS X Terminal Aliases
 categories: tips and tricks
-tags: ['osx', 'terminal']
+tags: ["osx", "terminal"]
 header:
-  teaser: ''
+  teaser: ""
 ---
 
 Partly because I wanted to post more and partly because I transfer computers a lot and I figure a blog is as good place as any to share my thoughts with, well, myself.

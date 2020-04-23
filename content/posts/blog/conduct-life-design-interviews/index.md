@@ -1,13 +1,13 @@
 ---
 layout: post
-date: '2020-03-12'
+date: "2020-03-12"
 title: 'Conduct life design interviews to answer the question, "What should I do with my life?"'
 description: "Do you love cooking shows but are tired of the repetitive television formulas? I took a deep-dive into the alternative cooking world of YouTube to find the best channels and shows."
 categories: personal
-tags: ['youtube', 'cooking', 'recommendation']
+tags: ["youtube", "cooking", "recommendation"]
 header:
-  cloudinaryPublicId: 'chrisjmears.com/blog/Interviews_-_Phone_Call_on_Mobile.jpg'
-  teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/Interviews_-_Phone_Call_on_Mobile.jpg'
+  cloudinaryPublicId: "chrisjmears.com/blog/Interviews_-_Phone_Call_on_Mobile.jpg"
+  teaser: "https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/Interviews_-_Phone_Call_on_Mobile.jpg"
 ---
 
 ![man on mobile phone video chat](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1584053386/chrisjmears.com/blog/Interviews_-_Phone_Call_on_Mobile.jpg)

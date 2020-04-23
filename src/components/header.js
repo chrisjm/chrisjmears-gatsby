@@ -82,13 +82,13 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
 Header.propTypes = {
   backgroundColor: PropTypes.string,
   mobileMenuTextColor: PropTypes.string,
-  textColor: PropTypes.string
+  textColor: PropTypes.string,
 }
 
 Header.defaultProps = {
   backgroundColor: "blue-700",
   mobileMenuTextColor: "blue-700",
-  textColor: "white"
+  textColor: "white",
 }
 
 export default Header

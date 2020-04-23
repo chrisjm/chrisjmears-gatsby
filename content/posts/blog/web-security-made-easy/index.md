@@ -4,10 +4,10 @@ date: "2018-11-29"
 title: "Don't Get Caught With Your Security Pants Down! 👖 Web Security Made Easy! 🔐"
 description: "Shopping on the Internet is like wandering around a crowded bazaar or farmer's market. While you can install these security certificates for no cost, there are certain situations where you might want to pay a small fee and do some extra paperwork to gain your customers' trust."
 categories: technology
-tags: ['hiring']
+tags: ["hiring"]
 header:
   cloudinaryPublicId: chrisjmears.com/blog/marcos-mayer-735961-unsplash.jpg
-  teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/marcos-mayer-735961-unsplash.jpg'
+  teaser: "https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/marcos-mayer-735961-unsplash.jpg"
 ---
 
 ![padlocks in steel cable](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1543511037/chrisjmears.com/blog/marcos-mayer-735961-unsplash.jpg)
@@ -42,21 +42,21 @@ The type of SSL is based on the validation level. This is the extent to which th
 
 Here's a rundown of the validation levels:
 
-* **Domain Validation (DV)**
-    * Instant access
-    * No paperwork
-    * This is what Let's Encrypt provides for no cost
-    * Expect to pay: Free up to $30 per year
-* **Organization Validation (OV)**
-    * Available in days to weeks
-    * Paperwork needed to verify business
-    * Site seal to show validation
-    * Expect to pay: $40-80 per year
-* **Extended Validation (EV)**
-    * Available in days to weeks
-    * Paperwork needed  to verify business (perhaps more than OV)
-    * Site seal, plus green bar (though browsers seem to be phasing the green bar out 😕)
-    * Expect to pay: $80-250 per year
+- **Domain Validation (DV)**
+  - Instant access
+  - No paperwork
+  - This is what Let's Encrypt provides for no cost
+  - Expect to pay: Free up to \$30 per year
+- **Organization Validation (OV)**
+  - Available in days to weeks
+  - Paperwork needed to verify business
+  - Site seal to show validation
+  - Expect to pay: \$40-80 per year
+- **Extended Validation (EV)**
+  - Available in days to weeks
+  - Paperwork needed to verify business (perhaps more than OV)
+  - Site seal, plus green bar (though browsers seem to be phasing the green bar out 😕)
+  - Expect to pay: \$80-250 per year
 
 For more information see [Trusted SSL Certificates - Namecheap.com](https://www.namecheap.com/security/ssl-certificates/)
 
@@ -74,17 +74,17 @@ Basically, if you sell things online, you should consider a warranty-based SSL c
 
 However, if you:
 
-* Don't sell things, or
-* Utilize a platform such as Squarespace or Etsy, or
-* Have already gathered a bunch trust via testimonials
+- Don't sell things, or
+- Utilize a platform such as Squarespace or Etsy, or
+- Have already gathered a bunch trust via testimonials
 
 Then you can save some money and hassle by sticking with free SSL/TLS certificates.
 
 ## Appendix: What does it all mean!?
 
-* **HTTPS or HyperText Transfer Protocol Secure** - This is the `https://` in a web address. Basically, it means to use the secure method of connecting rather than the unsecured method (i.e., `http://`). HTTPS uses either SSL or TLS.
-*  **SSL or Secure Socket Layer** - You might be surprised to know that SSL is actually old and busted. However, we still use it conversationally when we actually mean TLS.
-* **TLS or Transport Layer Security** - The new version of security that essentially replaces SSL. However, note that TLS v1.0 is BAD. TLS v1.1 and above are GREAT!
+- **HTTPS or HyperText Transfer Protocol Secure** - This is the `https://` in a web address. Basically, it means to use the secure method of connecting rather than the unsecured method (i.e., `http://`). HTTPS uses either SSL or TLS.
+- **SSL or Secure Socket Layer** - You might be surprised to know that SSL is actually old and busted. However, we still use it conversationally when we actually mean TLS.
+- **TLS or Transport Layer Security** - The new version of security that essentially replaces SSL. However, note that TLS v1.0 is BAD. TLS v1.1 and above are GREAT!
 
 <div class="text-center mt-10 border bg-gray-100 p-6">
   <p>

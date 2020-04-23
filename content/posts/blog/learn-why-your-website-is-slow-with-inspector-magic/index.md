@@ -1,12 +1,12 @@
 ---
 layout: post
-date: '2018-11-06'
-title: 'Learn why your site is slow with some Inspector Magic ✨'
-description: 'I made a 4-minute video describing a method you can use to determine if and why a website is slow using Google Chrome, Lighthouse, and a little Inspector Magic ✨.'
+date: "2018-11-06"
+title: "Learn why your site is slow with some Inspector Magic ✨"
+description: "I made a 4-minute video describing a method you can use to determine if and why a website is slow using Google Chrome, Lighthouse, and a little Inspector Magic ✨."
 categories: technology
-tags: ['coding', 'tools']
+tags: ["coding", "tools"]
 header:
-  teaser: 'https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/paulius-dragunas-615325-unsplash.jpg'
+  teaser: "https://res.cloudinary.com/wanderingleafstudios/image/upload/b_auto,c_pad,g_center,h_630,w_1200/v1537890988/chrisjmears.com/blog/paulius-dragunas-615325-unsplash.jpg"
 ---
 
 ![lighthouse near body of water](https://res.cloudinary.com/wanderingleafstudios/image/upload/v1542138192/chrisjmears.com/blog/paulius-dragunas-615325-unsplash.jpg)
