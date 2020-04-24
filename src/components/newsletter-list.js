@@ -9,15 +9,18 @@ function NewsletterList({ posts }) {
         const title = node.frontmatter.title || node.fields.slug
 
         return (
-          <li key={node.fields.slug}>
+          <li className="mt-6" key={node.fields.slug}>
             <Link
               className="underline hover:text-black text-blue-500"
               to={node.fields.slug}
             >
               <h3 className="text-lg md:text-xl">{title}</h3>
             </Link>
-            <div className="mt-2 block text-sm text-gray-700">
+            <div className="mt-1 text-sm text-gray-500">
               {node.frontmatter.date}
+            </div>
+            <div className="mt-1 text-gray-700">
+              {node.frontmatter.description}
             </div>
           </li>
         )
