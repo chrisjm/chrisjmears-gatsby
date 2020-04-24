@@ -6,15 +6,15 @@ function NewsletterSignup() {
   const [email, setEmail] = useState("")
   const [honeypot, setHoneypot] = useState("")
 
-  const handleNameChange = (event) => {
+  const handleNameChange = event => {
     setName(event.currentTarget.value)
   }
 
-  const handleEmailChange = (event) => {
+  const handleEmailChange = event => {
     setEmail(event.currentTarget.value)
   }
 
-  const handleHoneypotChange = (event) => {
+  const handleHoneypotChange = event => {
     setHoneypot(event.currentTarget.value)
   }
 
@@ -23,7 +23,7 @@ function NewsletterSignup() {
       <div className="content" id="newsletter">
         <div className="mb-6 text-center">
           <h2 className="text-4xl font-bold">
-            Sign up for the Weekly Data Nerd Newletter.
+            Sign up for the Data Nerd Newsletter.
           </h2>
         </div>
         <div className="md:max-w-2xl md:mx-auto">
@@ -35,8 +35,8 @@ function NewsletterSignup() {
             name="mc-embedded-subscribe-form"
           >
             <p className="mb-4">
-              Sign up for a concisely curated newsletter with fun, interesting,
-              data-related articles. All data. No spam.
+              Sign up for a concisely curated weekly newsletter with fun and
+              interesting data-related articles. All data. No spam.
             </p>
             <div className="flex justify-between flex-col md:flex-row">
               <div className="flex-1 md:mr-5">

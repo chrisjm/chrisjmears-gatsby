@@ -10,13 +10,16 @@ import NewsletterSignup from "../components/newsletter-signup"
 function DataNerdNewsletterIndex(props) {
   const { data } = props
   const siteTitle = data.site.siteMetadata.title
-  const newsletterPosts = data.allMarkdownRemark.edges.filter((post) => {
+  const newsletterPosts = data.allMarkdownRemark.edges.filter(post => {
     return /^\/data-nerd-newsletter/.test(post.node.fields.slug)
   })
 
   return (
     <Layout location={props.location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO
+        title="All posts"
+        image="https://res.cloudinary.com/wanderingleafstudios/image/upload/v1587682706/chrisjmears.com/data-nerd-newsletter-og.jpg"
+      />
       <NewsletterSignup />
       <Section>
         <h1 className="text-4xl mb-6">Data Nerd Newsletter Archive</h1>
