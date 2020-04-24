@@ -11,7 +11,8 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
         <div className="flex flex-row justify-between items-center">
           <div className="flex-1 text-3xl md:text-4xl font-black">
             <Link to="/" className="no-underline antialiased">
-              Chris J Mears
+              <span className="hidden md:inline lg:hidden">CJM</span>
+              <span className="inline md:hidden lg:inline">Chris J Mears</span>
             </Link>
           </div>
           <div className="md:text-right">
@@ -59,7 +60,8 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
                     className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`}
                     to="/data-nerd-newsletter"
                   >
-                    Data Nerd Newsletter
+                    <span className="lg:hidden">Newsletter</span>
+                    <span className="hidden lg:inline">Data Nerd Newsletter</span>
                   </Link>
                 </li>
                 <li className="md:inline-block md:mr-2 mb-0">
