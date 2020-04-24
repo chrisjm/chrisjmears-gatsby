@@ -17,7 +17,7 @@ function DataNerdNewsletterIndex(props) {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
-        title="All posts"
+        title="Data Nerd Newsletter Archive"
         image="https://res.cloudinary.com/wanderingleafstudios/image/upload/v1587682706/chrisjmears.com/data-nerd-newsletter-og.jpg"
       />
       <NewsletterSignup />

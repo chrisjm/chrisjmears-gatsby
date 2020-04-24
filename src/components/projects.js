@@ -16,15 +16,16 @@ const projects = [
     linkUrl: "https://www.openbrewerydb.org",
   },
   {
-    id: "website-therapist",
-    title: "Website Therapist",
+    id: "data-nerd-newsletter",
+    title: "Data Nerd Newsletter",
     description:
-      "A passion project to help non-technical solopreneurs feel more comfortable with their technology options so they can focus on their real passion.",
-    tags: ["customer-service", "consulting", "google-analytics"],
+      "A weekly newsletter for...you guessed it, data nerds! It includes links to the most interesting data-related articles, tutorials, and dashboards.",
+    tags: ["data-science", "newsletter"],
     imageUrl:
-      "https://images.squarespace-cdn.com/content/v1/5cb8d535e8ba44f36ae56baa/1555983091204-F94YQTDAGZ9SQ4X76IBC/ke17ZwdGBToddI8pDm48kIUn3NNSoNR7UgtxyXSfIfp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuW2-d_MTffR-bSzQ7fk-I35SpC23Zv5D0i2JpZaoBOfKQ/monkey-shouting-cave-asa-rodger-unsplash.jpg",
-    imageAlt: "Frustrated monkey in a zoo",
-    linkUrl: "https://website-therapist.com",
+      "https://res.cloudinary.com/wanderingleafstudios/image/upload/v1587682706/chrisjmears.com/data-nerd-newsletter-og.jpg",
+    imageAlt: "Data Nerd Newsletter",
+    ctaText: "View Archives",
+    linkUrl: "/data-nerd-newsletter",
   },
   {
     id: "tea-quiz",

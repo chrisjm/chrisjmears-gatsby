@@ -24,9 +24,7 @@ function IndexPage(props) {
           `data engineer`,
           `data analysis`,
           `data science`,
-          `technical support`,
-          `technical support engineer`,
-          `technical project manager`,
+          `data visualization`,
           `distributed team`,
           `remote team`,
           `full-stack web developer`,
@@ -48,6 +46,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2
       sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fields: { slug: { regex: "//blog/" } } }
     ) {
       nodes {
         id
