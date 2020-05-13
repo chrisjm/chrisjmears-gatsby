@@ -28,6 +28,18 @@ const projects = [
     linkUrl: "/data-nerd-newsletter",
   },
   {
+    id: "springboard-london-boroughs",
+    title: "Data Analysis - London Boroughs",
+    description:
+      "Exploratory Data Analysis (EDA) to determine the most expensive London borough based on the housing prices of the last two decades",
+    tags: ["python", "pandas", "jupyter notebook", "data cleaning"],
+    imageUrl:
+      "https://res.cloudinary.com/wanderingleafstudios/image/upload/v1589346010/chrisjmears.com/most-expensive-london-boroughs.png",
+    imageAlt: "Most expensive London boroughs graph",
+    ctaText: "View Notebook",
+    linkUrl: "https://github.com/chrisjm/chrisjmears-gatsby/blob/master/content/notebooks/london-borough-housing-prices-eda.ipynb",
+  },
+  {
     id: "tea-quiz",
     title: "Tea Quiz",
     description:
