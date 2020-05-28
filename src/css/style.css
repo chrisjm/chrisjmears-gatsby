@@ -123,6 +123,11 @@ a {
   padding-left: 0.5rem;
 }
 
+.post-content hr {
+  margin: 2rem 0;
+  height: 1px;
+}
+
 .post-content h1 {
   margin-bottom: 2rem;
   margin-top: 2rem;
