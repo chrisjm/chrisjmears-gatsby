@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Section from "../components/section"
 import BlogList from "../components/blog-list"
+import NewsletterSignup from "../components/newsletter-signup"
 
 function BlogIndex(props) {
   const { data } = props
@@ -20,6 +21,7 @@ function BlogIndex(props) {
         <h1 className="text-4xl mb-6">Blog</h1>
         <BlogList posts={blogPosts} />
       </Section>
+      <NewsletterSignup />
     </Layout>
   )
 }
