@@ -3,9 +3,8 @@ const resume = {
     name: "Chris J Mears",
     email: "chris.mears@gmail.com",
     objective:
-      "Iʼm a Data Engineer with a focus on Google Cloud Platform (GCP) and Amazon Web Services (AWS).",
+      "I'm a Data Scientist / Data Engineer with experience in Python, Machine Learning, SQL, and Tableau.",
     interests: [
-      "Remote & distributed team evangelist 🏠",
       "Rescue dog owner 🐶",
       "Tea, coffee, and craft beer enthusiast 🍵☕️🍺",
     ],
@@ -21,48 +20,55 @@ const resume = {
       location: "Athens, OH",
       degree: "Bachelor of Science, Communication Systems Management",
     },
+    {
+      school: "Springboard",
+      location: "Online",
+      degree: "Data Science Career Track, Data Science (April 2020 cohort)",
+      description:
+        "550+ hours of hands-on curriculum, with 1:1 industry expert mentor oversight, and completion of 2 in-depth capstone projects. Mastering skills in Python, SQL, data analysis, data visualization, hypothesis testing, and machine learning.",
+    },
   ],
   experience: [
     {
       company: "Wandering Leaf Studios, LLC",
-      position: "Owner",
-      location: "San Diego, CA / Remote",
+      position: "Owner (Data Analyst, Data Engineer)",
+      location: "San Diego, CA",
       startDate: "May 2018",
       endDate: "Present",
       accomplishments: [
+        "Advise clients on strategies for web analytics and technology that fit their target KPIs and budget requirements.",
+        "Architect custom and secure data pipelines and APIs using cloud services Amazon Web Services (AWS) and Google Cloud Platform (GCP).",
+        "Communicate with clients through multiple support channels (Slack, JIRA, Trello) and debug issues via email, screen-sharing, recording videos, and documentation.",
         "Advise clients with varying technical skill on technology strategies which fit their goals and budgets through process-oriented workflows.",
-        "Deliver websites, applications, and cloud infrastructure solutions, including serverless APIs, eCommerce implementations, internal tools, CI/CD, DevOps, and deployment automation.",
-        "Support clients via process-oriented workflows to reproduce, troubleshoot, and solve technology issues by email, screen-sharing, videos, and documentation.",
       ],
     },
     {
       company: "Goodreads",
-      position: "Web Development Engineer II",
+      position: "Web Development Engineer II (Full-Stack Web Developer)",
       location: "San Francisco, CA",
       startDate: "February 2013",
       endDate: "May 2014",
       accomplishments: [
-        "Developed the ground-up redesign of the cross-browser and cross-device compliant mobile website which had ~17.6 million monthly unique visitors.",
-        "Mentored junior co-workers on front-end (HTML & CSS) conventions and best practices.",
-        "Assisted the Android Kindle product team to quickly integrate a prototype search feature.",
+        "Worked with Ruby on Rails and JavaScript to build the cross-browser and cross-device compliant mobile web app, which had ~17.6 million monthly unique visitors.",
+        "Mentored co-workers on front-end conventions and best practices.",
       ],
     },
     {
       company: "Canned Banners",
-      position: "Technical Co-founder",
+      position: "Technical Co-Founder (Data Engineer)",
       location: "San Francisco, CA",
       startDate: "January 2009",
       endDate: "February 2013",
       accomplishments: [
-        "Designed and built a scalable display ad creation SaaS platform using Ruby on Rails and Amazon Web Services (AWS) cloud services (including EC2, RDS, SQS, and S3).",
-        "Developed a scalable and easily deployable PHP-based dynamic display ad framework.",
-        "Created a JavaScript embeddable display ad editor, which utilized the ad creation API.",
-        "Performed a variety of roles including software developer, systems administrator, database administrator, DevOps, solutions architect, and customer support.",
+        "Performed a variety of roles including software developer, systems administrator, database administrator, software architect, and cloud services administrator.",
+        "Designed and built a scalable display ad creation SaaS platform using Ruby on Rails and Amazon Web Services (AWS) cloud computing services (including EC2, RDS, SQS, and S3).",
+        "Developed a scalable and easily deployable PHP-based dynamic display ad framework with necessary data pipelines.",
+        "Created an embeddable display ad editor jQuery plugin, which utilized the ad creation API.",
       ],
     },
     {
       company: "Cisco Systems",
-      position: "Software Engineer III",
+      position: "Software Engineer III (Full-Stack Web Developer)",
       location: "San Francisco, CA",
       startDate: "February 2011",
       endDate: "June 2011",
@@ -72,13 +78,13 @@ const resume = {
     },
     {
       company: "Cisco Systems",
-      position: "Contract Web Developer",
+      position: "Contract Web Developer (Full-Stack Web Developer)",
       location: "San Francisco, CA",
       startDate: "January 2010",
       endDate: "August 2010",
       accomplishments: [
-        "Coordinated the front-end internationalization (i18n) effort, which included documenting more than 300 strings.",
-        "Communicated with Java and PHP developers to implement custom text replacement functionality.",
+        "Coordinated the front-end internationalization (i18n) effort, which included cataloging more than 300 strings.",
+        "Communicated with other development teams to implement custom text replacement functionality.",
       ],
     },
     {
@@ -88,12 +94,12 @@ const resume = {
       startDate: "September 2008",
       endDate: "August 2009",
       accomplishments: [
-        "Led standards-driven front-end development for food social media start-up.",
+        "Controlled standards-driven front-end development on a small team for food social media start-up.",
       ],
     },
     {
       company: "Wine Institute",
-      position: "Web and IT Manager",
+      position: "Information Technology Manager",
       location: "San Francisco, CA",
       startDate: "June 2005",
       endDate: "September 2008",
@@ -104,12 +110,12 @@ const resume = {
     },
     {
       company: "Progressive Insurance",
-      position: "Telecom Specialist II",
+      position: "Telecom Specialist II (Technical Customer Support)",
       location: "Cleveland, OH",
       startDate: "June 2003",
       endDate: "March 2005",
       accomplishments: [
-        "Provided Tier 2 network support for all United States remote offices, including daily interaction with phone carriers such as AT&T and MCI Worldcom.",
+        "Tier 2 network support advisor for all United States remote offices, including daily interaction with phone carriers such as AT&T and MCI Worldcom.",
       ],
     },
     {
@@ -124,7 +130,7 @@ const resume = {
     },
     {
       company: "BAE Systems",
-      position: "Intranet Applications Development (Intern)",
+      position: "Web Developer (Intern)",
       location: "Alexandria, VA",
       startDate: "June 2000",
       endDate: "August 2001",
@@ -134,46 +140,34 @@ const resume = {
     },
   ],
   skills: {
-    tools: {
-      database: [
-        "GraphQL",
-        "PostgreSQL",
-        "MySQL",
-        "MariaDB",
-        "DynamoDB",
-        "MongoDB",
-        "Redis",
-      ],
-      ecommerce: [
-        "Stripe",
-        "Braintree",
-        "Big Commerce",
-        "Shopify",
-        "Squarespace",
-      ],
-      services: [
-        "Amazon Web Services (AWS)",
-        "Google Cloud Platform (GCP)",
-        "Git / Github",
-        "Heroku",
-        "Now / Zeit",
-        "DigitalOcean",
-      ],
-      projectManagement: ["Jira", "Trello", "Github Issues", "Notion"],
-    },
+    database: [
+      "SQL",
+      "NoSQL",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "GraphQL",
+      "Redis",
+    ],
+    tools: ["bash", "VS Code", "git", "Jira", "Github Issues", "vim"],
+    cloudServices: ["Amazon Web Services (AWS)", "Google Cloud Platform (GCP)"],
+    devops: [
+      "Github",
+      "Github Actions",
+      "TravisCI",
+      "CircleCI",
+      "Gitlab",
+      "Heroku",
+    ],
     programmingLanguages: [
+      "Python 3",
+      "SQL",
       "JavaScript",
-      "Ruby",
-      "PHP",
       "Python",
       "HTML",
       "CSS",
     ],
-    frameworks: {
-      javascript: ["Node.js", "React", "Express", "Serverless", "jQuery"],
-      ruby: ["Ruby on Rails", "Jekyll"],
-      php: ["WordPress"],
-    },
+    libraries: ["pandas", "numpy", "scipy", "sklearn"],
   },
   supplemental: {
     certifications: [
@@ -182,10 +176,6 @@ const resume = {
           "Data Engineering, Big Data, and Machine Learning on GCP Specialization (5-Courses)",
         details:
           "https://www.coursera.org/account/accomplishments/specialization/77F6S8V7QERX",
-      },
-      {
-        name: "Google Analytics IQ",
-        details: "https://skillshop.exceedlms.com/student/award/45121842",
       },
       {
         name: "Professional Scrum Master I",

@@ -4,6 +4,7 @@ import Section from "../components/section"
 import SEO from "../components/seo"
 import resume from "../utils/resume"
 import OutsideLink from "../components/outside-link"
+import NewsletterSignup from "../components/newsletter-signup"
 import { Link } from "gatsby"
 
 function Resume() {
@@ -12,9 +13,19 @@ function Resume() {
       <SEO title="Chris J Mears's Resume" />
       <Section sectionClasses="container mx-auto max-w-4xl">
         <h1 className="text-5xl text-center">{resume.personal.name}</h1>
-        <div className="mt-10 border-2 rounded p-10 mt-10 border-blue-100 p-10 bg-blue-500 text-white">
+
+        <div className="text-center mt-10 border-8 rounded p-8 mt-10 border-blue-500 bg-blue-700 text-white border-radius rounded-lg">
+          <div className="flex justify-center">
+            <div>
+              <img
+                className="w-48 h-48 rounded-full shadow-lg border-4 border-white"
+                src="https://res.cloudinary.com/wanderingleafstudios/image/upload/c_scale,w_512/v1543031975/chrisjmears.com/chris-mears-profile-2018.jpg"
+                alt="Chris J Mears"
+              />
+            </div>
+          </div>
           <h2 className="text-2xl">{resume.personal.objective}</h2>
-          <div className="text-center mt-5">
+          <div className="text-center mt-6">
             <Link
               to="/contact"
               className="js-event-track bg-blue-900 border-2 border-white hover:bg-blue-500 text-white font-semibold py-2 px-3 rounded shadow-md hover:shadow-none inline-block no-underline text-xl"
@@ -23,77 +34,77 @@ function Resume() {
             </Link>
           </div>
         </div>
-        <div className="personal-experience mt-10">
-          <h2 className="text-2xl mb-4">Experience</h2>
-          {resume.experience.map((experience) => (
-            <div className="experience">
+
+        <div className="education mt-10">
+          <h2 className="text-2xl">Education</h2>
+          <ul className="education-list">
+            {resume.education.map(education => (
+              <li className="education-item mt-3">
+                <div className="degree font-bold">{education.degree}</div>
+                <div>
+                  {education.school}, {education.location}
+                </div>
+                <div className="description text-sm pl-6 mt-1">
+                  {education.description}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="skills mt-6">
+          <h2 className="text-2xl">Technical Skills</h2>
+          <div className="tools mt-3">
+            <ul className="list-disc pl-6">
+              <li className="mb-1">
+                <em>Programming Languages</em> ‒{" "}
+                {resume.skills.programmingLanguages.join(", ")}
+              </li>
+              <li className="mb-1">
+                <em>Database</em> ‒ {resume.skills.database.join(", ")}
+              </li>
+              <li className="mb-1">
+                <em>Cloud Services</em> ‒{" "}
+                {resume.skills.cloudServices.join(", ")}
+              </li>
+              <li className="mb-1">
+                <em>Libraries</em> ‒ {resume.skills.libraries.join(", ")}
+              </li>
+              <li className="mb-1">
+                <em>DevOps</em> ‒ {resume.skills.devops.join(", ")}
+              </li>
+              <li className="mb-1">
+                <em>Tools</em> ‒ {resume.skills.tools.join(", ")}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="personal-experience mt-6">
+          <h2 className="text-2xl">Experience</h2>
+          {resume.experience.map(experience => (
+            <div className="experience mt-4">
               <h3 className="text-xl font-bold">
                 {experience.position}, {experience.company}
               </h3>
-              <div className="location-date mb-3">
+              <div className="location-date mt-1">
                 {experience.location} ‒ {experience.startDate} to{" "}
                 {experience.endDate}
               </div>
-              <ul className="accomplishments-list list-disc pl-6 mb-6">
-                {experience.accomplishments.map((accomplishment) => (
+              <ul className="accomplishments-list list-disc pl-6 mt-1">
+                {experience.accomplishments.map(accomplishment => (
                   <li className="accomplishment mb-1">{accomplishment}</li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
-        <div className="education mb-6">
-          <h2 className="text-2xl mb-4">Education</h2>
-          <ul className="education-list">
-            {resume.education.map((education) => (
-              <li className="education-item mb-3">
-                <div>
-                  {education.school}, {education.location}
-                </div>
-                <div className="degree">{education.degree}</div>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="skills mb-6">
-          <h2 className="text-2xl mb-6">Technical Skills</h2>
-          <div className="programming-languages mb-6">
-            <h3 className="text-xl mb-6">Programming Languages</h3>
-            <div className="mb-3">
-              {resume.skills.programmingLanguages.join(", ")}
-            </div>
-          </div>
-          <div className="tools mb-6">
-            <h3 className="text-xl mb-6">Tools &amp; Services</h3>
-            <ul className="list-disc pl-6 mb-3">
-              <li className="mb-1">
-                <em>Database &amp; Caching</em> ‒{" "}
-                {resume.skills.tools.database.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>eCommerce</em> ‒ {resume.skills.tools.ecommerce.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>Services</em> ‒ {resume.skills.tools.services.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>Project Management</em> ‒{" "}
-                {resume.skills.tools.projectManagement.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>Frameworks</em> ‒{" "}
-                {resume.skills.frameworks.javascript.join(", ")},{" "}
-                {resume.skills.frameworks.ruby.join(", ")},{" "}
-                {resume.skills.frameworks.php.join(", ")}
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="certification mb-6">
-          <h2 className="text-2xl mb-3">Certifications</h2>
-          <ul className="certificaton-list">
-            {resume.supplemental.certifications.map((certification) => (
-              <li className="certification-item mb-3">
+
+        <div className="certification mt-6">
+          <h2 className="text-2xl">Certifications</h2>
+          <ul className="certificaton-list mt-3">
+            {resume.supplemental.certifications.map(certification => (
+              <li className="certification-item mb-1">
                 <OutsideLink to={certification.details}>
                   {certification.name}
                 </OutsideLink>
@@ -101,11 +112,11 @@ function Resume() {
             ))}
           </ul>
         </div>
-        <div className="publication mb-6">
-          <h2 className="text-2xl mb-3">Publications</h2>
-          <ul className="certificaton-list">
-            {resume.supplemental.publications.map((publication) => (
-              <li className="publication-item mb-3">
+        <div className="publication mt-6">
+          <h2 className="text-2xl">Publications</h2>
+          <ul className="certificaton-list mt-3">
+            {resume.supplemental.publications.map(publication => (
+              <li className="publication-item mb-1">
                 <OutsideLink
                   to={`https://duckduckgo.com/?q=isbn+${publication.isbn}`}
                 >
@@ -122,28 +133,29 @@ function Resume() {
             ))}
           </ul>
         </div>
-        <div className="projects mb-6">
-          <h2 className="text-2xl mb-3">Projects</h2>
+        <div className="projects mt-6">
+          <h2 className="text-2xl">Projects</h2>
           <ul className="projects-list">
-            {resume.supplemental.projects.map((project) => (
-              <li className="project-item mb-3">
+            {resume.supplemental.projects.map(project => (
+              <li className="project-item mt-3">
                 <h3 className="font-bold mb-1">
                   <OutsideLink to={project.url}>{project.name}</OutsideLink>
                 </h3>
-                <p className="mb-3">{project.description}</p>
+                <p className="mt-3">{project.description}</p>
               </li>
             ))}
           </ul>
         </div>
-        <div className="interests mb-6">
-          <h2 className="text-2xl mb-3">Interests</h2>
-          <ul className="interests-list">
-            {resume.personal.interests.map((interest) => (
-              <li className="interest-item mb-0">{interest}</li>
+        <div className="interests mt-6">
+          <h2 className="text-2xl">Interests</h2>
+          <ul className="interests-list mt-3">
+            {resume.personal.interests.map(interest => (
+              <li className="interest-item mb-1">{interest}</li>
             ))}
           </ul>
         </div>
       </Section>
+      <NewsletterSignup />
     </Layout>
   )
 }
