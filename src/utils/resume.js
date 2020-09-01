@@ -18,7 +18,7 @@ const resume = {
     {
       school: "Ohio University",
       location: "Athens, OH",
-      degree: "Bachelor of Science, Communication Systems Management",
+      degree: "Bachelor of Science, Communication Systems Management (2003)",
     },
     {
       school: "Springboard",
@@ -36,10 +36,10 @@ const resume = {
       startDate: "May 2018",
       endDate: "Present",
       accomplishments: [
-        "Advise clients on strategies for web analytics and technology that fit their target KPIs and budget requirements.",
-        "Architect custom and secure data pipelines and APIs using cloud services Amazon Web Services (AWS) and Google Cloud Platform (GCP).",
+        "Advise clients on data collection strategies and architect dashboard-driven analytics using Google Analytics and custom-built systems using Python and FastAPI.",
+        "Architect custom data pipelines, CI/CD implementations, and robust APIs using cloud services Amazon Web Services (AWS) and Google Cloud Platform (GCP).",
+        "Provide detailed exploratory data analysis (EDA) and data visualizations in various domains including eCommerce and federal and state legislative policy issues.",
         "Communicate with clients through multiple support channels (Slack, JIRA, Trello) and debug issues via email, screen-sharing, recording videos, and documentation.",
-        "Advise clients with varying technical skill on technology strategies which fit their goals and budgets through process-oriented workflows.",
       ],
     },
     {
@@ -49,8 +49,8 @@ const resume = {
       startDate: "February 2013",
       endDate: "May 2014",
       accomplishments: [
-        "Worked with Ruby on Rails and JavaScript to build the cross-browser and cross-device compliant mobile web app, which had ~17.6 million monthly unique visitors.",
-        "Mentored co-workers on front-end conventions and best practices.",
+        "Worked with Ruby on Rails and JavaScript to build the cross-browser and cross-device compliant mobile web app (17 million monthly unique visitors).",
+        "Mentored junior developers on front-end web development conventions and best practices.",
       ],
     },
     {
@@ -61,9 +61,7 @@ const resume = {
       endDate: "February 2013",
       accomplishments: [
         "Performed a variety of roles including software developer, systems administrator, database administrator, software architect, and cloud services administrator.",
-        "Designed and built a scalable display ad creation SaaS platform using Ruby on Rails and Amazon Web Services (AWS) cloud computing services (including EC2, RDS, SQS, and S3).",
-        "Developed a scalable and easily deployable PHP-based dynamic display ad framework with necessary data pipelines.",
-        "Created an embeddable display ad editor jQuery plugin, which utilized the ad creation API.",
+        "Designed and built a scalable display ad creation SaaS platform and data pipeline using Ruby on Rails and AWS cloud services including EC2, RDS, SQS, and S3.",
       ],
     },
     {
@@ -73,7 +71,7 @@ const resume = {
       startDate: "February 2011",
       endDate: "June 2011",
       accomplishments: [
-        "Oversaw the project in the Cisco Media Solutions Group (CMSG) to refactor the enterprise-level Cisco Eos media platform so that it would be more cross-browser compatible and usable on 100+ custom-designed websites.",
+        "Oversaw the project to refactor the enterprise-level Cisco Eos media platform, which optimized front-end delivery and cross-browser compatibility.",
       ],
     },
     {
@@ -83,8 +81,7 @@ const resume = {
       startDate: "January 2010",
       endDate: "August 2010",
       accomplishments: [
-        "Coordinated the front-end internationalization (i18n) effort, which included cataloging more than 300 strings.",
-        "Communicated with other development teams to implement custom text replacement functionality.",
+        "Coordinated the front-end internationalization (i18n) effort and worked with senior developers to implement custom text replacement in the Cisco Media Solutions Group.",
       ],
     },
     {
@@ -94,7 +91,7 @@ const resume = {
       startDate: "September 2008",
       endDate: "August 2009",
       accomplishments: [
-        "Controlled standards-driven front-end development on a small team for food social media start-up.",
+        "Led front-end web development for food social media start-up.",
       ],
     },
     {
@@ -104,8 +101,8 @@ const resume = {
       startDate: "June 2005",
       endDate: "September 2008",
       accomplishments: [
-        "Continuously improved non-profit organization with a minimal budget in the areas of the website, database, network, device and asset management, security, and documentation.",
-        "Triaged and supported non-technical co-workers to solve computer and network issues.",
+        "Continuously improved non-profit’s IT infrastructure with a minimal budget.",
+        "Migrated the main member database, rebranded and reorganized the website, and managed the network, asset management, security, and documentation.",
       ],
     },
     {
@@ -115,7 +112,7 @@ const resume = {
       startDate: "June 2003",
       endDate: "March 2005",
       accomplishments: [
-        "Tier 2 network support advisor for all United States remote offices, including daily interaction with phone carriers such as AT&T and MCI Worldcom.",
+        "Provided Tier 2 network support for all United States remote offices, including daily interaction with phone carriers such as AT&T and MCI Worldcom.",
       ],
     },
     {
@@ -125,7 +122,7 @@ const resume = {
       startDate: "June 2002",
       endDate: "August 2002",
       accomplishments: [
-        "Developed and managed projects involving the deployment of a remote access Internet Virtual Private Network (IVPN) solution.",
+        "Developed and managed projects involving the deployment of a remote access Internet Virtual Private Network (IVPN) solution for the company’s remote workers.",
       ],
     },
     {
@@ -139,36 +136,69 @@ const resume = {
       ],
     },
   ],
-  skills: {
-    database: [
-      "SQL",
-      "NoSQL",
-      "MySQL",
-      "PostgreSQL",
-      "MongoDB",
-      "GraphQL",
-      "Redis",
-    ],
-    tools: ["bash", "VS Code", "git", "Jira", "Github Issues", "vim"],
-    cloudServices: ["Amazon Web Services (AWS)", "Google Cloud Platform (GCP)"],
-    devops: [
-      "Github",
-      "Github Actions",
-      "TravisCI",
-      "CircleCI",
-      "Gitlab",
-      "Heroku",
-    ],
-    programmingLanguages: [
-      "Python 3",
-      "SQL",
-      "JavaScript",
-      "Python",
-      "HTML",
-      "CSS",
-    ],
-    libraries: ["pandas", "numpy", "scipy", "sklearn"],
-  },
+  skills: [
+    {
+      title: "Programming",
+      list: ["Python", "SQL", "JavaScript", "Ruby", "PHP", "HTML", "CSS"],
+    },
+    {
+      title: "Machine Learning",
+      list: ["PyTorch", "scikit-learn", "statsmodels", "XGBoost"],
+    },
+    {
+      title: "Database",
+      list: [
+        "Relational",
+        "NoSQL",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "GraphQL",
+        "Redis",
+      ],
+    },
+    {
+      title: "Cloud Services",
+      list: ["Amazon Web Services (AWS)", "Google Cloud Platform (GCP)"],
+    },
+    {
+      title: "DevOps",
+      list: [
+        "Docker",
+        "CircleCI",
+        "Github",
+        "Github Actions",
+        "Gitlab",
+        "Heroku",
+        "TravisCI",
+      ],
+    },
+    {
+      title: "Tools",
+      list: [
+        "bash script",
+        "git",
+        "Jira",
+        "Github Issues",
+        "numpy",
+        "pandas",
+        "scipy",
+        "Tableau",
+        "vim",
+        "VS Code",
+      ],
+    },
+    {
+      title: "Techniques",
+      list: [
+        "A/B Testing",
+        "EDA",
+        "ETL",
+        "Hypothesis Testing",
+        "Interactive Data Visualizations",
+      ],
+    },
+  ],
   supplemental: {
     certifications: [
       {
@@ -184,9 +214,15 @@ const resume = {
     ],
     projects: [
       {
+        name: "Data Nerd Newsletter",
+        description:
+          "Concisely curated weekly newsletter with data-related articles.",
+        url: "https://www.chrisjmears.com/data-nerd-newsletter",
+      },
+      {
         name: "Open Brewery DB",
         description:
-          "A free and open-source API for public information on breweries, cideries, brewpubs, and bottleshops.",
+          "Open source dataset and API of breweries.",
         url: "https://www.openbrewerydb.org/",
       },
     ],

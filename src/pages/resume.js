@@ -56,26 +56,12 @@ function Resume() {
           <h2 className="text-2xl">Technical Skills</h2>
           <div className="tools mt-3">
             <ul className="list-disc pl-6">
-              <li className="mb-1">
-                <em>Programming Languages</em> ‒{" "}
-                {resume.skills.programmingLanguages.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>Database</em> ‒ {resume.skills.database.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>Cloud Services</em> ‒{" "}
-                {resume.skills.cloudServices.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>Libraries</em> ‒ {resume.skills.libraries.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>DevOps</em> ‒ {resume.skills.devops.join(", ")}
-              </li>
-              <li className="mb-1">
-                <em>Tools</em> ‒ {resume.skills.tools.join(", ")}
-              </li>
+              {resume.skills.map(skill => (
+                <li className="mb-1">
+                  <em>{skill.title}</em> ‒{" "}
+                  {skill.list.join(", ")}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
