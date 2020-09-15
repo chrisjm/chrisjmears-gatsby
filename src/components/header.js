@@ -44,7 +44,7 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
                     className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`}
                     to="/about"
                   >
-                    About Me
+                    About
                   </Link>
                 </li>
                 <li className="md:inline-block md:mr-2 mb-0">
@@ -53,6 +53,14 @@ function Header({ backgroundColor, mobileMenuTextColor, textColor }) {
                     to="/blog"
                   >
                     Blog
+                  </Link>
+                </li>
+                <li className="md:inline-block md:mr-2 mb-0">
+                  <Link
+                    className={`no-underline antialiased px-5 py-3 block hover:bg-gray-200 active:bg-gray-300 md:hover:bg-transparent`}
+                    to="/resume"
+                  >
+                    Resume
                   </Link>
                 </li>
                 <li className="md:inline-block md:mr-2 mb-0">
