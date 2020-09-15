@@ -16,13 +16,14 @@ function Hero() {
         <div className="flex-1 antialiased">
           <h1 className="text-5xl font-bold mb-2">Hi! My name is Chris.</h1>
           <h2 className="text-2xl font-bold text-blue-200 mb-6">
-            I'm an aspiring{" "}
+            I'm a{" "}
             <strong className="text-white">
-              Data Scientist / Data Engineer
+              Data Scientist
             </strong>{" "}
             with experience in{" "}
             <strong className="text-white">
-              Python, Tableau, SQL, and JavaScript
+              Machine Learning, Deep Learning, Python, SQL, JavaScript and
+              Tableau
             </strong>
             .
           </h2>

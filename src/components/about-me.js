@@ -13,14 +13,14 @@ function AboutMe() {
           <img
             className="w-64 h-64 rounded-full shadow-lg inline"
             src="https://res.cloudinary.com/wanderingleafstudios/image/upload/c_scale,w_512/v1543031462/chrisjmears.com/Cooper_and_I_in_Julian.jpg"
-            alt="Cooper, the tiny black dog, and I in Julian, California"
+            alt="Me and Cooper, the tiny black dog."
           />
         </div>
         <div className="flex-1 mb-5 md:mr-5">
           <div>
             <ul className="text-lg mb-8">
               <li className="mb-4 leading-tight">
-                Iʼm a Data Engineer who tells stories through data.
+                I'm a Data Scientist with experience in Machine Learning, Deep Learning, Python, SQL, JavaScript and Tableau.
               </li>
               <li className="mb-4 leading-tight">
                 I currently own and operate a{" "}
@@ -32,15 +32,15 @@ function AboutMe() {
                 non-profits.
               </li>
               <li className="mb-4 leading-tight">
-                Iʼm a distributed team evangelist,{" "}
+                Iʼm an{" "}
                 <OutsideLink to="https://www.openbrewerydb.org/">
-                  open-source contributor
+                  open-source project maintainer
                 </OutsideLink>
                 , and rescue dog owner.
               </li>
               <li className="mb-4 leading-tight">
                 I'm currently seeking full-time opportunities at companies with
-                a healthy distributed team philosophy.
+                a healthy remote team philosophy.
                 <div>
                   <Link
                     to="/contact"
