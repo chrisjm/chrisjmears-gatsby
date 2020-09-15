@@ -1,4 +1,5 @@
 import React from "react"
+import Moment from "moment"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Section from "./section"
@@ -25,7 +26,7 @@ function BlogPostNavigation({ previous, next }) {
                 {next.frontmatter.title}
               </div>
             </Link>
-            <i className="block mt-2">{next.frontmatter.date}</i>
+            <i className="block mt-2">{Moment(next.frontmatter.date).fromNow()}</i>
           </li>
         )}
         {previous && (
@@ -47,7 +48,7 @@ function BlogPostNavigation({ previous, next }) {
                 {previous.frontmatter.title}
               </div>
             </Link>
-            <i className="block mt-2">{previous.frontmatter.date}</i>
+            <i className="block mt-2">{Moment(previous.frontmatter.date).fromNow()}</i>
           </li>
         )}
       </ul>
