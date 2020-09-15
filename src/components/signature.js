@@ -13,32 +13,25 @@ function Signature() {
       </span>
       <span>
         {" "}
-        I'm a <Link to="/resume">Data Engineer</Link> and{" "}
+        I'm a <Link to="/resume">Data Scientist</Link> and{" "}
         <OutsideLink to="https://www.wanderingleafstudios.com/">
-          data analytics consultant
+          consultant
         </OutsideLink>
-        .
+        .{" "}
         <span aria-label="geek face" role="img">
           🤓
         </span>
       </span>
       <span>
         {" "}
-        My mission is to tell stories with data with empathy and collaboration.{" "}
+        I have over 15 years of technical and software engineering experience in the software-as-a-service (SaaS) and digital marketing domains.{" "}
         <span aria-label="collaborative handshake" role="img">
-          🤝
+          💼
         </span>
       </span>
       <span>
         {" "}
-        I'm a remote and distributed team advocate.{" "}
-        <span aria-label="house" role="img">
-          🏠
-        </span>
-      </span>
-      <span>
-        {" "}
-        I maintain the{" "}
+        I created and maintain the{" "}
         <OutsideLink to="https://www.openbrewerydb.org/">
           Open Brewery DB
         </OutsideLink>{" "}
