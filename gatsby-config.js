@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Chris J Mears`,
-    description: `Iʼm a Data Engineer with a focus on Google Cloud Platform (GCP) and Amazon Web Services (AWS).`,
+    description: `I'm a Data Scientist with experience in Machine Learning, Deep Learning, Python, SQL, JavaScript and Tableau.`,
     author: `@chrisjm`,
   },
   plugins: [
