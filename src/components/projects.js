@@ -19,8 +19,8 @@ const projects = [
     id: "data-nerd-newsletter",
     title: "Data Nerd Newsletter",
     description:
-      "A weekly newsletter for...you guessed it, data nerds! It includes links to the most interesting data-related articles, tutorials, and dashboards.",
-    tags: ["data-science", "newsletter"],
+      "The archives for my weekly newsletter where I breakdown data and machine learning topics.",
+    tags: ["data-science", "machine-learning", "newsletter"],
     imageUrl:
       "https://res.cloudinary.com/wanderingleafstudios/image/upload/v1587682706/chrisjmears.com/data-nerd-newsletter-og.jpg",
     imageAlt: "Data Nerd Newsletter",
