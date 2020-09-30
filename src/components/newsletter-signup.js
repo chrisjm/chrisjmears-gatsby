@@ -35,8 +35,8 @@ function NewsletterSignup() {
             name="mc-embedded-subscribe-form"
           >
             <p className="mb-4">
-              Sign up for a concisely curated weekly newsletter with fun and
-              interesting data-related articles. All data. No spam.
+              Sign up for a weekly newsletter where I breakdown data and machine
+              learning topics. All data. No spam.
             </p>
             <div className="flex justify-between flex-col md:flex-row">
               <div className="flex-1 md:mr-5">
