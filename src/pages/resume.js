@@ -58,8 +58,7 @@ function Resume() {
             <ul className="list-disc pl-6">
               {resume.skills.map(skill => (
                 <li className="mb-1">
-                  <em>{skill.title}</em> ‒{" "}
-                  {skill.list.join(", ")}
+                  <em>{skill.title}</em> ‒ {skill.list.join(", ")}
                 </li>
               ))}
             </ul>
@@ -70,12 +69,10 @@ function Resume() {
           <h2 className="text-2xl">Experience</h2>
           {resume.experience.map(experience => (
             <div className="experience mt-4">
-              <h3 className="text-xl font-bold">
-                {experience.position}, {experience.company}
-              </h3>
+              <h3 className="text-xl font-bold">{experience.position}</h3>
               <div className="location-date mt-1">
-                {experience.location} ‒ {experience.startDate} to{" "}
-                {experience.endDate}
+                {experience.company} ‒ {experience.location} (
+                {experience.startDate} to {experience.endDate})
               </div>
               <ul className="accomplishments-list list-disc pl-6 mt-1">
                 {experience.accomplishments.map(accomplishment => (

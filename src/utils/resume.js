@@ -31,7 +31,7 @@ const resume = {
   experience: [
     {
       company: "Wandering Leaf Studios, LLC",
-      position: "Owner (Data Analyst, Data Engineer)",
+      position: "Data Engineer / Data Analyst (Founder)",
       location: "San Diego, CA",
       startDate: "May 2018",
       endDate: "Present",
@@ -44,7 +44,7 @@ const resume = {
     },
     {
       company: "Goodreads",
-      position: "Web Development Engineer II (Full-Stack Web Developer)",
+      position: "Web Development Engineer II",
       location: "San Francisco, CA",
       startDate: "February 2013",
       endDate: "May 2014",
@@ -66,7 +66,7 @@ const resume = {
     },
     {
       company: "Cisco Systems",
-      position: "Software Engineer III (Full-Stack Web Developer)",
+      position: "Software Engineer III",
       location: "San Francisco, CA",
       startDate: "February 2011",
       endDate: "June 2011",
@@ -76,7 +76,7 @@ const resume = {
     },
     {
       company: "Cisco Systems",
-      position: "Contract Web Developer (Full-Stack Web Developer)",
+      position: "Contract Web Developer",
       location: "San Francisco, CA",
       startDate: "January 2010",
       endDate: "August 2010",
@@ -107,7 +107,7 @@ const resume = {
     },
     {
       company: "Progressive Insurance",
-      position: "Telecom Specialist II (Technical Customer Support)",
+      position: "Telecom Specialist II",
       location: "Cleveland, OH",
       startDate: "June 2003",
       endDate: "March 2005",
@@ -117,7 +117,7 @@ const resume = {
     },
     {
       company: "NCR",
-      position: "Project Assistant, Global Network Services (Intern)",
+      position: "Project Assistant (Intern)",
       location: "Dayton, OH",
       startDate: "June 2002",
       endDate: "August 2002",
