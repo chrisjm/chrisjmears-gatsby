@@ -147,6 +147,12 @@ a {
   font-weight: bold;
 }
 
+.post-content blockquote {
+  border-left: 0.5rem solid #eee;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
 .hero {
   background-image: url("../images/icons/rain.svg");
   background-repeat: repeat;
