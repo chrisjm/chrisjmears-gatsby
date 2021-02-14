@@ -18,18 +18,14 @@ function Hero() {
           <h2 className="text-2xl font-bold text-blue-200 mb-6">
             I'm a{" "}
             <strong className="text-white">
-              Data Scientist
+              Data Visualization Engineer and Data Scientist
             </strong>{" "}
             with experience in{" "}
             <strong className="text-white">
-              Machine Learning, Deep Learning, Python, SQL, JavaScript and
-              Tableau
+              Machine Learning, NLP, Deep Learning, SQL, Python, and JavaScript
             </strong>
             .
           </h2>
-          <h3 className="text-xl font-bold text-white mb-6">
-            Currently seeking new opportunities.
-          </h3>
           <Link
             to="/contact"
             className="js-event-track bg-blue-900 border-2 border-white hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded shadow-md hover:shadow-none inline-block no-underline text-xl"

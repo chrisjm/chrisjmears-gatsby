@@ -11,7 +11,7 @@ function AboutMe() {
       <div className="flex flex-col lg:flex-row">
         <div className="mb-5 md:mr-5 text-center">
           <img
-            className="w-64 h-64 rounded-full shadow-lg inline"
+            className="w-48 h-48 rounded-full shadow-lg inline"
             src="https://res.cloudinary.com/wanderingleafstudios/image/upload/c_scale,w_512/v1543031462/chrisjmears.com/Cooper_and_I_in_Julian.jpg"
             alt="Me and Cooper, the tiny black dog."
           />
@@ -20,10 +20,19 @@ function AboutMe() {
           <div>
             <ul className="text-lg mb-8">
               <li className="mb-4 leading-tight">
-                I'm a Data Scientist with experience in Machine Learning, Deep Learning, Python, SQL, JavaScript and Tableau.
+                I'm Data Visualization Engineer and Data Scientist with
+                JavaScript and Python skills, a love for data analysis, and a
+                passion for machine learning.
               </li>
               <li className="mb-4 leading-tight">
-                I currently own and operate a{" "}
+                I'm currently employed as a Senior Engineer with{" "}
+                <OutsideLink to="https://www.carevoyance.com">
+                  Carevoyance
+                </OutsideLink>
+                , a healthcare business intelligence and sales platform.
+              </li>
+              <li className="mb-4 leading-tight">
+                I also own and operate a{" "}
                 <OutsideLink to="https://www.wanderingleafstudios.com">
                   data analytics consulting business
                 </OutsideLink>{" "}
@@ -32,24 +41,13 @@ function AboutMe() {
                 non-profits.
               </li>
               <li className="mb-4 leading-tight">
-                Iʼm an{" "}
+                Finally, Iʼm an open-source project maintainer,{" "}
                 <OutsideLink to="https://www.openbrewerydb.org/">
-                  open-source project maintainer
+                  Open Brewery DB
                 </OutsideLink>
                 , and rescue dog owner.
               </li>
-              <li className="mb-4 leading-tight">
-                I'm currently seeking full-time opportunities at companies with
-                a healthy remote team philosophy.
-                <div>
-                  <Link
-                    to="/contact"
-                    className="js-event-track bg-green-700 border-2 border-blue-100 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded shadow-lg hover:shadow-md inline-block no-underline text-xl mt-4"
-                  >
-                    <span className="text-white">Contact Me</span>
-                  </Link>
-                </div>
-              </li>
+              <li className="mb-4 leading-tight"></li>
             </ul>
           </div>
         </div>

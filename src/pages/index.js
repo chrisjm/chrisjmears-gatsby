@@ -25,16 +25,14 @@ function IndexPage(props) {
           `data analysis`,
           `data science`,
           `data visualization`,
-          `distributed team`,
-          `remote team`,
           `full-stack web developer`,
         ]}
       />
       <Hero />
-      <NewsletterSignup />
       <Projects />
       <MostRecentBlogPosts posts={posts} />
       <AboutMe />
+      <NewsletterSignup />
     </Layout>
   )
 }
