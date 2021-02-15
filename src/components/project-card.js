@@ -8,27 +8,21 @@ function ProjectCard({ project }) {
     tags,
     imageUrl,
     imageAlt,
-    linkUrl,
-    ctaText,
+    links
   } = project
 
   return (
     <div className="max-w-xl lg:max-w-xs rounded overflow-hidden shadow-lg hover:shadow-md mx-4 my-3">
-      <OutsideLink to={linkUrl}>
-        <img
-          className="w-full h-48 object-cover"
-          src={imageUrl}
-          alt={imageAlt}
-        />
-      </OutsideLink>
+      <img className="w-full h-48 object-cover" src={imageUrl} alt={imageAlt} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-gray-700 text-base mb-2">{description}</p>
-        <p className="font-bold text-base">
-          <OutsideLink to={linkUrl}>
-            {ctaText ? ctaText : "Visit Site"}
-          </OutsideLink>
-        </p>
+        {links &&
+          links.map(link => (
+            <p className="font-bold text-base">
+              <OutsideLink to={link.url}>{link.text}</OutsideLink>
+            </p>
+          ))}
       </div>
       <div className="px-6 py-4">
         {tags.map(tag => (
