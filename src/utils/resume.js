@@ -3,7 +3,7 @@ const resume = {
     name: "Chris J Mears",
     email: "chris.mears@gmail.com",
     objective:
-      "I'm a Data Scientist / Data Engineer with experience in Python, Machine Learning, SQL, and Tableau.",
+      "I'm a Data Visualization Engineer and Data Scientist with experience in Machine Learning, NLP, Deep Learning, SQL, Python, and JavaScript.",
     interests: [
       "Rescue dog owner 🐶",
       "Tea, coffee, and craft beer enthusiast 🍵☕️🍺",
@@ -25,21 +25,33 @@ const resume = {
       location: "Online",
       degree: "Data Science Career Track, Data Science (April 2020 cohort)",
       description:
-        "550+ hours of hands-on curriculum, with 1:1 industry expert mentor oversight, and completion of 2 in-depth capstone projects. Mastering skills in Python, SQL, data analysis, data visualization, hypothesis testing, and machine learning.",
+        "600+ hours of hands-on curriculum, with 1:1 industry expert mentor oversight, and completion of 2 in-depth capstone projects. Mastering skills in Python, SQL, data analysis, data visualization, hypothesis testing, and machine learning.",
     },
   ],
   experience: [
     {
+      company: "Carevoyance",
+      position: "Senior Engineer",
+      location: "Portland, OR (remote)",
+      startDate: "Feb 2021",
+      endDate: "Present",
+      accomplishments: [
+        "Modernized sales platform by converting from AngularJS to Svelte.",
+        "Increase customer success team's efficiency by developing client analytics dashboards using Google Data Studio.",
+      ],
+    },
+    {
       company: "Wandering Leaf Studios, LLC",
-      position: "Data Engineer / Data Analyst (Founder)",
+      position: "Consultant / Owner",
       location: "San Diego, CA",
       startDate: "May 2018",
       endDate: "Present",
       accomplishments: [
-        "Advise clients on data collection strategies and architect dashboard-driven analytics using Google Analytics and custom-built systems using Python and FastAPI.",
-        "Architect custom data pipelines, CI/CD implementations, and robust APIs using cloud services Amazon Web Services (AWS) and Google Cloud Platform (GCP).",
-        "Provide detailed exploratory data analysis (EDA) and data visualizations in various domains including eCommerce and federal and state legislative policy issues.",
-        "Communicate with clients through multiple support channels (Slack, JIRA, Trello) and debug issues via email, screen-sharing, recording videos, and documentation.",
+        "Increased online sales by over $200k in six months by enhancing the eCommerce solution, configuring data analytics to collect relevant customer data for email marketing, and collaborating on creative solutions for shipping and logistics problems.",
+        "Increased sales 50% over the previous year using data analysis, A/B testing, and geo-targeted segmentation with Google AdWords campaigns.",
+        "Automated advanced SQL queries and ETL techniques using Apache Airflow to reduce boring weekly administration tasks by over 50%.",
+        "Empowered sales, marketing, and executive teams to review core business analytics (KPIs) and discover insights without their engineering teams by architecting data pipelines, configuring cloud data storage systems, and creating custom dashboards.",
+        "Delivered understandable and well-written presentations and data story reports with effective data visualizations and clear conclusions.",
       ],
     },
     {
@@ -49,8 +61,8 @@ const resume = {
       startDate: "February 2013",
       endDate: "May 2014",
       accomplishments: [
-        "Worked with Ruby on Rails and JavaScript to build the cross-browser and cross-device compliant mobile web app (17 million monthly unique visitors).",
-        "Mentored junior developers on front-end web development conventions and best practices.",
+        "Collaborated in a small team to rebuild the cross-compatible mobile web app version of the website, which received 17-million monthly unique visitors.",
+        "Mentored junior team members on web development conventions and best practices.",
       ],
     },
     {
@@ -60,28 +72,21 @@ const resume = {
       startDate: "January 2009",
       endDate: "February 2013",
       accomplishments: [
-        "Performed a variety of roles including software developer, systems administrator, database administrator, software architect, and cloud services administrator.",
-        "Designed and built a scalable display ad creation SaaS platform and data pipeline using Ruby on Rails and AWS cloud services including EC2, RDS, SQS, and S3.",
+        "Technical co-founder of a small adTech startup, which was acquired in 2018.",
+        "Automated the backend for a dynamic ad creation product, which generated revenue for over 5 years with no maintenance.",
+        "Architected the PHP backend platform, automated reporting, and configured data pipelines and data storage for our products using AWS cloud services.",
+        "Assisted with bigger picture technical decisions and took the initiative to perform the duties of data engineer, lead software developer, systems administrator, database administrator, and cloud systems architect.",
       ],
     },
     {
       company: "Cisco Systems",
       position: "Software Engineer III",
       location: "San Francisco, CA",
-      startDate: "February 2011",
+      startDate: "January 2010",
       endDate: "June 2011",
       accomplishments: [
-        "Oversaw the project to refactor the enterprise-level Cisco Eos media platform, which optimized front-end delivery and cross-browser compatibility.",
-      ],
-    },
-    {
-      company: "Cisco Systems",
-      position: "Contract Web Developer",
-      location: "San Francisco, CA",
-      startDate: "January 2010",
-      endDate: "August 2010",
-      accomplishments: [
-        "Coordinated the front-end internationalization (i18n) effort and worked with senior developers to implement custom text replacement in the Cisco Media Solutions Group.",
+        "Optimized front-end code, which significantly reduced download times and improved browser compatibility for an enterprise-level media platform.",
+        "Influenced the internationalization (i18n) effort and worked with senior developers to implement custom text replacement in the Cisco Media Solutions Group.",
       ],
     },
     {
@@ -91,7 +96,7 @@ const resume = {
       startDate: "September 2008",
       endDate: "August 2009",
       accomplishments: [
-        "Led front-end web development for food social media start-up.",
+        "Established the front-end web development framework for a small startup and initiated team coding standards.",
       ],
     },
     {
@@ -143,18 +148,32 @@ const resume = {
     },
     {
       title: "Machine Learning",
-      list: ["PyTorch", "scikit-learn", "statsmodels", "XGBoost"],
+      list: [
+        "Deep Learning",
+        "Keras",
+        "neural networks",
+        "NLP",
+        "NLTK",
+        "PyTorch",
+        "scikit-learn",
+        "spaCy",
+        "statsmodels",
+        "TensorFlow",
+        "unsupervised and supervised modeling",
+      ],
     },
     {
-      title: "Database",
+      title: "Database & Data Storage",
       list: [
         "Relational",
         "NoSQL",
         "MySQL",
-        "PostgreSQL",
+        "Postgres",
         "MongoDB",
-        "GraphQL",
-        "Redis",
+        "Hadoop",
+        "S3",
+        "RDS",
+        "Google Cloud Storage (GCS)",
       ],
     },
     {
@@ -176,26 +195,39 @@ const resume = {
     {
       title: "Tools",
       list: [
-        "bash script",
+        "Anaconda",
+        "bash",
         "git",
+        "Github",
+        "Gitlab",
         "Jira",
-        "Github Issues",
-        "numpy",
+        "Linux server",
+        "NumPy",
         "pandas",
         "scipy",
-        "Tableau",
-        "vim",
+        "UNIX",
+        "Vim",
         "VS Code",
+        "Jupyter",
+        "Spark",
+        "PySpark",
+        "BigQuery",
       ],
     },
     {
-      title: "Techniques",
+      title: "Data Visualization & Deployment",
+      list: ["Tableau", "Seaborn", "Matplotlib", "Streamlit"],
+    },
+    {
+      title: "Research & Analysis",
       list: [
         "A/B Testing",
-        "EDA",
-        "ETL",
+        "Data Visualization",
+        "Exploratory Data Analysis (EDA)",
+        "Extract Transform Load (ETL)",
         "Hypothesis Testing",
-        "Interactive Data Visualizations",
+        "Data Mining",
+        "Data Management",
       ],
     },
   ],
@@ -214,15 +246,23 @@ const resume = {
     ],
     projects: [
       {
-        name: "Data Nerd Newsletter",
-        description:
-          "Concisely curated weekly newsletter with data-related articles.",
-        url: "https://www.chrisjmears.com/data-nerd-newsletter",
+        name: "Brewery Review Analysis with Natural Language Processing (NLP) and Named Entity Recognition (NER)",
+        description: "Springboard Data Science Career Track Capstone Project",
+        url: "https://chrisjm.co/brewery-nlp",
+      },
+      {
+        name: "Credit Card Fraud Analysis and Prediction",
+        description: "Springboard Data Science Career Track Capstone Project",
+        url: "https://chrisjm.co/cc-fraud-analysis",
+      },
+      {
+        name: "Data Science Mini-Projects",
+        description: "Projects completed during the Springboard Data Science Career Track curriculum",
+        url: "https://chrisjm.co/sb-projects",
       },
       {
         name: "Open Brewery DB",
-        description:
-          "Open source dataset and API of breweries.",
+        description: "Open source dataset and API of breweries.",
         url: "https://www.openbrewerydb.org/",
       },
     ],

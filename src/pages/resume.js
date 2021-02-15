@@ -35,24 +35,7 @@ function Resume() {
           </div>
         </div>
 
-        <div className="education mt-10">
-          <h2 className="text-2xl">Education</h2>
-          <ul className="education-list">
-            {resume.education.map(education => (
-              <li className="education-item mt-3">
-                <div className="degree font-bold">{education.degree}</div>
-                <div>
-                  {education.school}, {education.location}
-                </div>
-                <div className="description text-sm pl-6 mt-1">
-                  {education.description}
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="skills mt-6">
+        <div className="skills mt-10">
           <h2 className="text-2xl">Technical Skills</h2>
           <div className="tools mt-3">
             <ul className="list-disc pl-6">
@@ -65,7 +48,7 @@ function Resume() {
           </div>
         </div>
 
-        <div className="personal-experience mt-6">
+        <div className="personal-experience mt-10">
           <h2 className="text-2xl">Experience</h2>
           {resume.experience.map(experience => (
             <div className="experience mt-4">
@@ -83,7 +66,38 @@ function Resume() {
           ))}
         </div>
 
-        <div className="certification mt-6">
+        <div className="education mt-10">
+          <h2 className="text-2xl">Education</h2>
+          <ul className="education-list">
+            {resume.education.map(education => (
+              <li className="education-item mt-3">
+                <div className="degree font-bold">{education.degree}</div>
+                <div>
+                  {education.school}, {education.location}
+                </div>
+                <div className="description text-sm pl-6 mt-1">
+                  {education.description}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="projects mt-10">
+          <h2 className="text-2xl">Projects</h2>
+          <ul className="projects-list">
+            {resume.supplemental.projects.map(project => (
+              <li className="project-item mt-3">
+                <h3 className="font-bold mb-1">
+                  <OutsideLink to={project.url}>{project.name}</OutsideLink>
+                </h3>
+                <p className="mt-3">{project.description}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="certification mt-10">
           <h2 className="text-2xl">Certifications</h2>
           <ul className="certificaton-list mt-3">
             {resume.supplemental.certifications.map(certification => (
@@ -95,7 +109,7 @@ function Resume() {
             ))}
           </ul>
         </div>
-        <div className="publication mt-6">
+        <div className="publication mt-10">
           <h2 className="text-2xl">Publications</h2>
           <ul className="certificaton-list mt-3">
             {resume.supplemental.publications.map(publication => (
@@ -116,20 +130,7 @@ function Resume() {
             ))}
           </ul>
         </div>
-        <div className="projects mt-6">
-          <h2 className="text-2xl">Projects</h2>
-          <ul className="projects-list">
-            {resume.supplemental.projects.map(project => (
-              <li className="project-item mt-3">
-                <h3 className="font-bold mb-1">
-                  <OutsideLink to={project.url}>{project.name}</OutsideLink>
-                </h3>
-                <p className="mt-3">{project.description}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="interests mt-6">
+        <div className="interests mt-10">
           <h2 className="text-2xl">Interests</h2>
           <ul className="interests-list mt-3">
             {resume.personal.interests.map(interest => (
