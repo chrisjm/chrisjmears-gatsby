@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
 
 const defaultOpenGraphImage =
-  "https://res.cloudinary.com/wanderingleafstudios/image/upload/v1583880370/chrisjmears.com/cjm-og-20200310.jpg"
+  "https://res.cloudinary.com/wanderingleafstudios/image/upload/v1583880370/chrisjmears.com/cjm-og-20210214.jpg"
 
 function SEO({ description, lang, meta, keywords, title, image }) {
   return (

@@ -24,7 +24,8 @@ function Signature() {
       </span>
       <span>
         {" "}
-        I have over 15 years of technical and software engineering experience in the software-as-a-service (SaaS) and digital marketing domains.{" "}
+        I have over 15 years of technical and software engineering experience in
+        the software-as-a-service (SaaS) and digital marketing domains.{" "}
         <span aria-label="collaborative handshake" role="img">
           💼
         </span>
@@ -51,7 +52,6 @@ function Signature() {
         {" "}
         You can follow me on{" "}
         <OutsideLink to="https://github.com/chrisjm">Github</OutsideLink>,{" "}
-        <OutsideLink to="https://instagram.com/chrisjm">Instagram</OutsideLink>,{" "}
         <OutsideLink to="https://twitter.com/chrisjm">Twitter</OutsideLink>, and{" "}
         <OutsideLink to="https://www.linkedin.com/in/chrisjm80/">
           LinkedIn
