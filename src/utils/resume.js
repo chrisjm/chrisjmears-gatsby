@@ -38,6 +38,19 @@ const resume = {
   ],
   experience: [
     {
+      company: "Wandering Leaf Studios, LLC",
+      position: "Owner / Software Engineer / Data Engineer / Data Analyst",
+      location: "San Diego, CA",
+      startDate: "May 2018",
+      endDate: "Present",
+      accomplishments: [
+        "Advised clients on data collection strategies and built dashboard-driven analytics solutions using Python and FastAPI.",
+        "Developed custom data pipelines and APIs on AWS and GCP, reducing data processing time by 40%.",
+        "Conducted in-depth exploratory data analysis (EDA) and created data visualizations in various domains.",
+        "Effectively communicated with clients through multiple support channels and provided debugging support.",
+      ],
+    },
+    {
       company: "Definitive Healthcare (Carevoyance)",
       position: "Senior Engineer",
       location: "San Diego, CA (remote)",
@@ -55,19 +68,6 @@ const resume = {
         "Worked within an enterprise-level, monolithic platform, emphasizing monolithic data architecture and system design architecture.",
         "Gained knowledge in data analysis, data engineering, and API development.",
         "Managed Elasticsearch operations and oversaw operations with AWS, Google Cloud Services, BigQuery, S3, and Google Cloud Storage.",
-      ],
-    },
-    {
-      company: "Wandering Leaf Studios, LLC",
-      position: "Owner / Software Engineer / Data Engineer / Data Analyst",
-      location: "San Diego, CA",
-      startDate: "May 2018",
-      endDate: "Present",
-      accomplishments: [
-        "Advised clients on data collection strategies and built dashboard-driven analytics solutions using Python and FastAPI.",
-        "Developed custom data pipelines and APIs on AWS and GCP, reducing data processing time by 40%.",
-        "Conducted in-depth exploratory data analysis (EDA) and created data visualizations in various domains.",
-        "Effectively communicated with clients through multiple support channels and provided debugging support.",
       ],
     },
     {
