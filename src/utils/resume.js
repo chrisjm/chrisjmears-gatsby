@@ -3,7 +3,7 @@ const resume = {
     name: "Chris J Mears",
     email: "chris.mears@gmail.com",
     objective:
-      "I'm a Data Visualization Engineer and Data Scientist with experience in Machine Learning, NLP, Deep Learning, SQL, Python, and JavaScript.",
+      "Experienced senior software engineer with a strong foundation in software development and a passion for data engineering, data analytics, machine learning, and AI. Skilled in TypeScript, Node.js, Python, and SQL. Seeking to leverage technical expertise to contribute to data-driven solutions and drive innovation in a new role.",
     interests: [
       "Rescue dog owner 🐶",
       "Tea, coffee, and craft beer enthusiast 🍵☕️🍺",
@@ -27,31 +27,47 @@ const resume = {
       description:
         "600+ hours of hands-on curriculum, with 1:1 industry expert mentor oversight, and completion of 2 in-depth capstone projects. Mastering skills in Python, SQL, data analysis, data visualization, hypothesis testing, and machine learning.",
     },
+    {
+      school: "Georgia Institute of Technology",
+      location: "Online",
+      degree:
+        "Online Masters of Science in Analytics (OMSA) Computation Track (Fall 2024 - Spring 2028)",
+      description:
+        "Courses: Computing for Data Analysis (Python, Pandas, SQL), Accounting, Supply Chain, Financing, Marketing, Strategy",
+    },
   ],
   experience: [
     {
-      company: "Carevoyance",
+      company: "Definitive Healthcare (Carevoyance)",
       position: "Senior Engineer",
-      location: "Portland, OR (remote)",
+      location: "San Diego, CA (remote)",
       startDate: "Feb 2021",
-      endDate: "Present",
+      endDate: "Jul 2024",
       accomplishments: [
-        "Modernized sales platform by converting from AngularJS to Svelte.",
-        "Increase customer success team's efficiency by developing client analytics dashboards using Google Data Studio.",
+        "Initially served as a UI Architect, Data Visualization Architect, and Front-End Engineer, contributing to various projects using AngularJS and Svelte as an early hire.",
+        "Created dynamic and informative Google Data Studio dashboards for data visualization.",
+        "Utilized PostgreSQL and Elasticsearch for efficient database indexing and management.",
+        "Gained experience in TypeScript and combined it with JavaScript while working with Svelte and AngularJS.",
+        "Led efforts in data pipeline creation, extracting data from BigQuery databases, and loading it into PostgreSQL databases through APIs.",
+        "Continued development of a robust system for PowerPoint generation with dynamic variable input and dynamic chart generation using Python and JavaScript. Additionally supported sales integration for a reactive system used to calculate ROI based on existing business models, effectively turning a spreadsheet into a web UI.",
+        "Acquired proficiency in the graph knowledge database used for procedure referrals within the healthcare industry using Medicare and commercial claims data.",
+        "Enhanced understanding of healthcare business requirements and med device sales by generating business-related reports, including Total ROI, Case Loss, Procedure Treatment Destinations, and Readmissions Analysis.",
+        "Worked within an enterprise-level, monolithic platform, emphasizing monolithic data architecture and system design architecture.",
+        "Gained knowledge in data analysis, data engineering, and API development.",
+        "Managed Elasticsearch operations and oversaw operations with AWS, Google Cloud Services, BigQuery, S3, and Google Cloud Storage.",
       ],
     },
     {
       company: "Wandering Leaf Studios, LLC",
-      position: "Consultant / Owner",
+      position: "Owner / Software Engineer / Data Engineer / Data Analyst",
       location: "San Diego, CA",
       startDate: "May 2018",
       endDate: "Present",
       accomplishments: [
-        "Increased online sales by over $200k in six months by enhancing the eCommerce solution, configuring data analytics to collect relevant customer data for email marketing, and collaborating on creative solutions for shipping and logistics problems.",
-        "Increased sales 50% over the previous year using data analysis, A/B testing, and geo-targeted segmentation with Google AdWords campaigns.",
-        "Automated advanced SQL queries and ETL techniques using Apache Airflow to reduce boring weekly administration tasks by over 50%.",
-        "Empowered sales, marketing, and executive teams to review core business analytics (KPIs) and discover insights without their engineering teams by architecting data pipelines, configuring cloud data storage systems, and creating custom dashboards.",
-        "Delivered understandable and well-written presentations and data story reports with effective data visualizations and clear conclusions.",
+        "Advised clients on data collection strategies and built dashboard-driven analytics solutions using Python and FastAPI.",
+        "Developed custom data pipelines and APIs on AWS and GCP, reducing data processing time by 40%.",
+        "Conducted in-depth exploratory data analysis (EDA) and created data visualizations in various domains.",
+        "Effectively communicated with clients through multiple support channels and provided debugging support.",
       ],
     },
     {
@@ -61,7 +77,7 @@ const resume = {
       startDate: "February 2013",
       endDate: "May 2014",
       accomplishments: [
-        "Collaborated in a small team to rebuild the cross-compatible mobile web app version of the website, which received 17-million monthly unique visitors.",
+        "Built cross-browser and cross-device compliant mobile web app using Ruby on Rails and JavaScript.",
         "Mentored junior team members on web development conventions and best practices.",
       ],
     },
@@ -144,21 +160,27 @@ const resume = {
   skills: [
     {
       title: "Programming",
-      list: ["Python", "SQL", "JavaScript", "Ruby", "PHP", "HTML", "CSS"],
+      list: [
+        "Python",
+        "SQL",
+        "JavaScript",
+        "TypeScript",
+        "Ruby",
+        "PHP",
+        "HTML",
+        "CSS",
+      ],
     },
     {
       title: "Machine Learning",
       list: [
         "Deep Learning",
-        "Keras",
         "neural networks",
         "NLP",
-        "NLTK",
         "PyTorch",
         "scikit-learn",
         "spaCy",
         "statsmodels",
-        "TensorFlow",
         "unsupervised and supervised modeling",
       ],
     },
@@ -170,10 +192,10 @@ const resume = {
         "MySQL",
         "Postgres",
         "MongoDB",
-        "Hadoop",
         "S3",
         "RDS",
         "Google Cloud Storage (GCS)",
+        "Databricks",
       ],
     },
     {
@@ -182,26 +204,16 @@ const resume = {
     },
     {
       title: "DevOps",
-      list: [
-        "Docker",
-        "CircleCI",
-        "Github",
-        "Github Actions",
-        "Gitlab",
-        "Heroku",
-        "TravisCI",
-      ],
+      list: ["Docker", "Github", "Github Actions"],
     },
     {
       title: "Tools",
       list: [
-        "Anaconda",
         "bash",
         "git",
         "Github",
-        "Gitlab",
         "Jira",
-        "Linux server",
+        "Linux",
         "NumPy",
         "pandas",
         "scipy",
@@ -246,7 +258,8 @@ const resume = {
     ],
     projects: [
       {
-        name: "Brewery Review Analysis with Natural Language Processing (NLP) and Named Entity Recognition (NER)",
+        name:
+          "Brewery Review Analysis with Natural Language Processing (NLP) and Named Entity Recognition (NER)",
         description: "Springboard Data Science Career Track Capstone Project",
         url: "https://chrisjm.co/brewery-nlp",
       },
@@ -257,7 +270,8 @@ const resume = {
       },
       {
         name: "Data Science Mini-Projects",
-        description: "Projects completed during the Springboard Data Science Career Track curriculum",
+        description:
+          "Projects completed during the Springboard Data Science Career Track curriculum",
         url: "https://chrisjm.co/sb-projects",
       },
       {
