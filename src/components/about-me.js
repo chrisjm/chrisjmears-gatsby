@@ -2,7 +2,6 @@ import React from "react"
 import Section from "./section"
 import Heading2 from "./heading2"
 import OutsideLink from "./outside-link"
-import { Link } from "gatsby"
 
 function AboutMe() {
   return (
@@ -20,19 +19,10 @@ function AboutMe() {
           <div>
             <ul className="text-lg mb-8">
               <li className="mb-4 leading-tight">
-                I'm Data Visualization Engineer and Data Scientist with
-                JavaScript and Python skills, a love for data analysis, and a
-                passion for machine learning.
+                As an accomplished Senior Software Engineer transitioning into Data Engineering, I bring a strong foundation in JavaScript and Python, complemented by my expertise in data analysis and statistics. My passion for machine learning and artificial intelligence fuels my commitment to harnessing data to drive actionable insights and innovative solutions.
               </li>
               <li className="mb-4 leading-tight">
-                I'm currently employed as a Senior Engineer with{" "}
-                <OutsideLink to="https://www.carevoyance.com">
-                  Carevoyance
-                </OutsideLink>
-                , a healthcare business intelligence and sales platform.
-              </li>
-              <li className="mb-4 leading-tight">
-                I also own and operate a{" "}
+                I own and operate a{" "}
                 <OutsideLink to="https://www.wanderingleafstudios.com">
                   data analytics consulting business
                 </OutsideLink>{" "}
@@ -45,7 +35,7 @@ function AboutMe() {
                 <OutsideLink to="https://www.openbrewerydb.org/">
                   Open Brewery DB
                 </OutsideLink>
-                , and rescue dog owner.
+                , and proud rescue dog owner.
               </li>
               <li className="mb-4 leading-tight"></li>
             </ul>

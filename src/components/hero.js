@@ -18,11 +18,12 @@ function Hero() {
           <h2 className="text-2xl font-bold text-blue-200 mb-6">
             I'm a{" "}
             <strong className="text-white">
-              Data Visualization Engineer and Data Scientist
+              Senior-level Software Engineer and Data Engineer
             </strong>{" "}
             with experience in{" "}
             <strong className="text-white">
-              Machine Learning, NLP, Deep Learning, SQL, Python, and JavaScript
+              Python, SQL, JavaScript/TypeScript, Data Analysis, Machine
+              Learning, and AI
             </strong>
             .
           </h2>
